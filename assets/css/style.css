@@ -9781,3 +9781,11 @@ h6,
   margin: 80px 0;
   font-size: xx-large;
 }
+
+div.blog-item.py-2 div.position-relative img {
+  margin: 0 auto;
+}
+
+.gambar-single {
+  display: flex;
+}

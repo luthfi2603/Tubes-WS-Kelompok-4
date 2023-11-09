@@ -14,24 +14,27 @@
 <!-- Header End -->
 
 <!-- Blog Start -->
-<div class="container-fluid py-5">
-    <div class="container py-5">
+<div class="container-fluid py-3">
+    <div class="container py-3">
         <div class="row">
             <div class="col-lg-12">
                 <!-- Blog Detail Start -->
                 <div class="pb-3">
-                    <div class="blog-item">
-                        <div class="position-relative">
-                            <img class="img-fluid w-80" src="./assets/img/blog-1.jpg" alt="">
-                        </div>
-                    </div>
+
                     <div class="bg-white mb-3" style="padding: 30px;">
                         <div class="d-flex mb-3">
-                            <a class="text-primary text-uppercase text-decoration-none" href="#">Danau Toba</a>
+                            <a class="text-primary text-uppercase text-decoration-none" href="">Danau Toba</a>
                             <span class="text-primary px-2">|</span>
-                            <a class="text-primary text-uppercase text-decoration-none" href="#">Wisata Alam</a>
+                            <a class="text-primary text-uppercase text-decoration-none" href="">Wisata Alam</a>
                         </div>
-                        <h2 class="mb-3">Dolor justo sea kasd lorem clita justo diam amet</h2>
+                        <div class="blog-item py-2">
+                            <div class="position-relative gambar-single">
+                                <img class="img-fluid w-80" src="./assets/img/blog-1.jpg" alt="">
+                            </div>
+                        </div>
+
+
+                        <h2 class="mb-3 mt-4">Dolor justo sea kasd lorem clita justo diam amet</h2>
                         <p>Sadipscing labore amet rebum est et justo gubergren. Et eirmod ipsum sit diam ut
                             magna lorem. Nonumy vero labore lorem sanctus rebum et lorem magna kasd, stet
                             amet magna accusam consetetur eirmod. Kasd accusam sit ipsum sadipscing et at at
@@ -51,6 +54,5 @@
             </div>
         </div>
     </div>
-</div>
 </div>
 <!-- Blog End -->
