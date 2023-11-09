@@ -1,4 +1,4 @@
-<div class="container-fluid bg-dark text-white-50 py-5 px-sm-3 px-lg-5" style="margin-top: 90px;">
+<div class="container-fluid bg-dark text-white-50 py-5 px-sm-3 px-lg-5 mt-5">
     <div class="row pt-">
         <div class="col-lg-12 col-md-12 mb-12">
             <a href="" class="navbar-brand pb-2">
