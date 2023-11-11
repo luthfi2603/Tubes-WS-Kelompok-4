@@ -1,3 +1,12 @@
+<?php
+    $query = "
+        SELECT DISTINCT ?kategori WHERE {
+            ?d a destinesia:wisata;
+                 destinesia:kategori  ?kategori .
+        }
+    ";
+    $result = $sparqlJena->query($query);
+?>
 <!-- Carousel Start -->
 <div class="container-fluid p-0">
     <div id="header-carousel" class="carousel slide" data-ride="carousel">
@@ -35,82 +44,6 @@
 </div>
 <!-- Carousel End -->
 
-<!-- Destination Island Start -->
-<!-- <div class="container-fluid py-0">
-        <div class="container pt-5 pb-3">
-            <div class="text-center mb-3 pb-3">
-                <h6 class="text-primary text-uppercase" style="letter-spacing: 5px;">Destinesia</h6>
-                <h1>Jelajahi Kekayaan Indonesia</h1>
-            </div>
-            <div class="row justify-content-center">
-                <div class="col-lg-3 col-md-6 mb-3">
-                    <div class="destination-item position-relative overflow-hidden mb-2">
-                        <img class="img-fluid" src="./assets/img/destination-1.jpg" alt="">
-                        <a class="destination-overlay text-white text-decoration-none" href="">
-                            <h3 class="text-white" style="font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">Sumatera</h3>
-                            <span>100 Cities</span>
-                        </a>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 mb-3">
-                    <div class="destination-item position-relative overflow-hidden mb-2">
-                        <img class="img-fluid" src="./assets/img/destination-2.jpg" alt="">
-                        <a class="destination-overlay text-white text-decoration-none" href="">
-                            <h3 class="text-white" style="font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">Jawa</h3>
-                            <span>100 Cities</span>
-                        </a>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 mb-3">
-                    <div class="destination-item position-relative overflow-hidden mb-2">
-                        <img class="img-fluid" src="./assets/img/destination-3.jpg" alt="">
-                        <a class="destination-overlay text-white text-decoration-none" href="">
-                            <h3 class="text-white" style="font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">Sulawesi</h3>
-                            <span>100 Cities</span>
-                        </a>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 mb-3">
-                    <div class="destination-item position-relative overflow-hidden mb-2">
-                        <img class="img-fluid" src="./assets/img/destination-4.jpg" alt="">
-                        <a class="destination-overlay text-white text-decoration-none" href="">
-                            <h3 class="text-white" style="font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">Kalimantan</h3>
-                            <span>100 Cities</span>
-                        </a>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 mb-3">
-                    <div class="destination-item position-relative overflow-hidden mb-2">
-                        <img class="img-fluid" src="./assets/img/destination-5.jpg" alt="">
-                        <a class="destination-overlay text-white text-decoration-none" href="">
-                            <h3 class="text-white" style="font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">Nusa Tenggara</h3>
-                            <span>100 Cities</span>
-                        </a>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 mb-3">
-                    <div class="destination-item position-relative overflow-hidden mb-2">
-                        <img class="img-fluid" src="./assets/img/destination-6.jpg" alt="">
-                        <a class="destination-overlay text-white text-decoration-none" href="">
-                            <h3 class="text-white" style="font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">Maluku</h3>
-                            <span>100 Cities</span>
-                        </a>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 mb-3">
-                    <div class="destination-item position-relative overflow-hidden mb-2">
-                        <img class="img-fluid" src="./assets/img/destination-6.jpg" alt="">
-                        <a class="destination-overlay text-white text-decoration-none" href="">
-                            <h3 class="text-white" style="font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">Papua</h3>
-                            <span>100 Cities</span>
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div> -->
-<!-- Destination Island End -->
-
 <!-- Destination Category Start -->
 <div class="container-fluid py-0">
     <div class="container pt-5 pb-3">
@@ -119,54 +52,16 @@
             <h1>Kategori Wisata Indonesia</h1>
         </div>
         <div class="row justify-content-center">
-            <div class="col-lg-4 col-md-6 mb-4">
-                <div class="destination-item position-relative overflow-hidden mb-2">
-                    <img class="img-fluid" src="./assets/img/destination-1.jpg" alt="">
-                    <a class="destination-overlay text-white text-decoration-none" href="?p=category">
-                        <h3 class="text-white" style="font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">Wisata Alam</h3>
-                    </a>
+            <?php foreach($result as $data) : ?>
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="destination-item position-relative overflow-hidden mb-2">
+                        <img class="img-fluid" src="https://source.unsplash.com/350x219?<?= $data->kategori ?>" alt="">
+                        <a class="destination-overlay text-white text-decoration-none" href="?p=category&keyword=<?= $data->kategori ?>">
+                            <h3 class="text-white" style="font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;"><?= $data->kategori ?></h3>
+                        </a>
+                    </div>
                 </div>
-            </div>
-            <div class="col-lg-4 col-md-6 mb-4">
-                <div class="destination-item position-relative overflow-hidden mb-2">
-                    <img class="img-fluid" src="./assets/img/destination-2.jpg" alt="">
-                    <a class="destination-overlay text-white text-decoration-none" href="?p=category">
-                        <h3 class="text-white" style="font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">Wisata Rekreasi</h3>
-                    </a>
-                </div>
-            </div>
-            <div class="col-lg-4 col-md-6 mb-4">
-                <div class="destination-item position-relative overflow-hidden mb-2">
-                    <img class="img-fluid" src="./assets/img/destination-3.jpg" alt="">
-                    <a class="destination-overlay text-white text-decoration-none" href="?p=category">
-                        <h3 class="text-white" style="font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">Wisata Kesenian</h3>
-                    </a>
-                </div>
-            </div>
-            <div class="col-lg-4 col-md-6 mb-4">
-                <div class="destination-item position-relative overflow-hidden mb-2">
-                    <img class="img-fluid" src="./assets/img/destination-4.jpg" alt="">
-                    <a class="destination-overlay text-white text-decoration-none" href="?p=category">
-                        <h3 class="text-white" style="font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">Wisata Sejarah</h3>
-                    </a>
-                </div>
-            </div>
-            <div class="col-lg-4 col-md-6 mb-4">
-                <div class="destination-item position-relative overflow-hidden mb-2">
-                    <img class="img-fluid" src="./assets/img/destination-5.jpg" alt="">
-                    <a class="destination-overlay text-white text-decoration-none" href="?p=category">
-                        <h3 class="text-white" style="font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">Wisata Religi</h3>
-                    </a>
-                </div>
-            </div>
-            <div class="col-lg-4 col-md-6 mb-4">
-                <div class="destination-item position-relative overflow-hidden mb-2">
-                    <img class="img-fluid" src="./assets/img/destination-6.jpg" alt="">
-                    <a class="destination-overlay text-white text-decoration-none" href="?p=category">
-                        <h3 class="text-white" style="font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">Wisata Edukasi</h3>
-                    </a>
-                </div>
-            </div>
+            <?php endforeach ?>
         </div>
     </div>
 </div>
