@@ -1,3 +1,31 @@
+<?php
+    if(isset($_POST["cari"])){
+        $keyword = $_POST["keyword"];
+
+        $query = "
+            SELECT DISTINCT * WHERE {
+                ?d a destinesia:wisata;
+                     rdfs:label           ?nama;
+                     destinesia:kategori  ?kategori;
+                     destinesia:thumbnail ?thumbnail .
+                FILTER REGEX (?nama, '$keyword', 'i') .
+            }
+        ";
+
+        $result = $sparqlJena->query($query);
+    }else{
+        $query = "
+            SELECT DISTINCT * WHERE {
+                ?d a destinesia:wisata;
+                     rdfs:label           ?nama;
+                     destinesia:kategori  ?kategori;
+                     destinesia:thumbnail ?thumbnail .
+            }
+        ";
+
+        $result = $sparqlJena->query($query);
+    }
+?>
 <!-- Header Start -->
 <div class="container-fluid page-header">
         <div class="container">
@@ -16,39 +44,26 @@
 <div class="container-fluid booking mt-5 pb-5">
     <div class="container pb-5">
         <div class="bg-light shadow" style="padding: 30px;">
-            <div class="row align-items-center" style="min-height: 60px;">
-                <div class="col-md-10">
-                    <div class="row">
-                        <div class="col-md-3">
-                            <div class="mb-3 mb-md-0">
-                                <select class="custom-select px-4" style="height: 47px;">
-                                    <option selected>Kategori Wisata</option>
-                                    <option value="1">Wisata Alam</option>
-                                    <option value="2">Wisata Rekreasi</option>
-                                    <option value="3">Wisata Kesenian</option>
-                                    <option value="4">Wisata Sejarah</option>
-                                    <option value="5">Wisata Religi</option>
-                                    <option value="6">Wisata Edukasi</option>
-                                </select>
-                            </div>
-                        </div>
-                        <div class="col-md-9">
-                            <div class="mb-3 mb-md-0">
-                                <div class="" id="" data-target-input="nearest">
-                                    <div class="input-group">
-                                        <input type="text" class="form-control p-4 datetimepicker-input" placeholder="Cari Destinasi Wisata" />
-                                        <span class="input-group-text"><i class="fas fa-search"></i></span>
+            <form method="POST">
+                <div class="row align-items-center" style="min-height: 60px;">
+                    <div class="col-md-10">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="mb-3 mb-md-0">
+                                    <div class="" id="" data-target-input="nearest">
+                                        <div class="input-group">
+                                            <input name="keyword" type="text" class="form-control p-4 datetimepicker-input" placeholder="Cari Destinasi Wisata" />
+                                        </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
-
+                    </div>
+                    <div class="col-md-2">
+                        <button name="cari" class="btn btn-primary btn-block" type="submit" style="height: 47px; margin-top: -2px;">Search</button>
                     </div>
                 </div>
-                <div class="col-md-2">
-                    <button class="btn btn-primary btn-block" type="submit" style="height: 47px; margin-top: -2px;">Search</button>
-                </div>
-            </div>
+            </form>
         </div>
     </div>
 </div>
@@ -61,110 +76,25 @@
         <div class="row">
             <div class="col-lg-12">
                 <div class="row pb-3">
-                    <div class="col-lg-4 md-4 mb-4 pb-2">
-                        <div class="blog-item">
-                            <div class="position-relative">
-                                <img class="img-fluid w-100" src="./assets/img/blog-1.jpg" alt="">
-                            </div>
-                            <div class="bg-white p-4">
-                                <div class="d-flex mb-2">
-                                    <a class="text-primary text-uppercase text-decoration-none" href="?p=category">Wisata Alam</a>
+                    <?php if(!isset($result->current()->nama)) : ?>
+                        <p>Capek</p>
+                    <?php else : ?>
+                        <?php foreach($result as $data) : ?>
+                            <div class="col-lg-4 md-4 mb-4 pb-2">
+                                <div class="blog-item">
+                                    <div class="position-relative">
+                                        <img class="img-fluid w-100" src="<?= $data->thumbnail ?>" alt="">
+                                    </div>
+                                    <div class="bg-white p-4">
+                                        <div class="d-flex mb-2">
+                                            <a class="text-primary text-uppercase text-decoration-none" href="?p=category&keyword=<?= $data->kategori ?>"><?= $data->kategori ?></a>
+                                        </div>
+                                        <a class="h5 m-0 text-decoration-none" href="?p=single&keyword=<?= $data->nama ?>"><?= $data->nama ?></a>
+                                    </div>
                                 </div>
-                                <a class="h5 m-0 text-decoration-none" href="?p=single">Danau Toba</a>
                             </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 md-4 mb-4 pb-2">
-                        <div class="blog-item">
-                            <div class="position-relative">
-                                <img class="img-fluid w-100" src="./assets/img/blog-2.jpg" alt="">
-                            </div>
-                            <div class="bg-white p-4">
-                                <div class="d-flex mb-2">
-                                    <a class="text-primary text-uppercase text-decoration-none" href="?p=category">Wisata Alam</a>
-                                </div>
-                                <a class="h5 m-0 text-decoration-none" href="?p=single">Danau Toba</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 md-4 mb-4 pb-2">
-                        <div class="blog-item">
-                            <div class="position-relative">
-                                <img class="img-fluid w-100" src="./assets/img/blog-3.jpg" alt="">
-                            </div>
-                            <div class="bg-white p-4">
-                                <div class="d-flex mb-2">
-                                    <a class="text-primary text-uppercase text-decoration-none" href="?p=category">Wisata Alam</a>
-                                </div>
-                                <a class="h5 m-0 text-decoration-none" href="?p=single">Danau Toba</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 md-4 mb-4 pb-2">
-                        <div class="blog-item">
-                            <div class="position-relative">
-                                <img class="img-fluid w-100" src="./assets/img/blog-1.jpg" alt="">
-                            </div>
-                            <div class="bg-white p-4">
-                                <div class="d-flex mb-2">
-                                    <a class="text-primary text-uppercase text-decoration-none" href="?p=category">Wisata Alam</a>
-                                </div>
-                                <a class="h5 m-0 text-decoration-none" href="?p=single">Danau Toba</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 md-4 mb-4 pb-2">
-                        <div class="blog-item">
-                            <div class="position-relative">
-                                <img class="img-fluid w-100" src="./assets/img/blog-2.jpg" alt="">
-                            </div>
-                            <div class="bg-white p-4">
-                                <div class="d-flex mb-2">
-                                    <a class="text-primary text-uppercase text-decoration-none" href="?p=category">Wisata Alam</a>
-                                </div>
-                                <a class="h5 m-0 text-decoration-none" href="?p=single">Danau Toba</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 md-4 mb-4 pb-2">
-                        <div class="blog-item">
-                            <div class="position-relative">
-                                <img class="img-fluid w-100" src="./assets/img/blog-3.jpg" alt="">
-                            </div>
-                            <div class="bg-white p-4">
-                                <div class="d-flex mb-2">
-                                    <a class="text-primary text-uppercase text-decoration-none" href="?p=category">Wisata Alam</a>
-                                </div>
-                                <a class="h5 m-0 text-decoration-none" href="?p=single">Danau Toba</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 md-4 mb-4 pb-2">
-                        <div class="blog-item">
-                            <div class="position-relative">
-                                <img class="img-fluid w-100" src="./assets/img/blog-1.jpg" alt="">
-                            </div>
-                            <div class="bg-white p-4">
-                                <div class="d-flex mb-2">
-                                    <a class="text-primary text-uppercase text-decoration-none" href="?p=category">Wisata Alam</a>
-                                </div>
-                                <a class="h5 m-0 text-decoration-none" href="?p=single">Danau Toba</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 md-4 mb-4 pb-2">
-                        <div class="blog-item">
-                            <div class="position-relative">
-                                <img class="img-fluid w-100" src="./assets/img/blog-2.jpg" alt="">
-                            </div>
-                            <div class="bg-white p-4">
-                                <div class="d-flex mb-2">
-                                    <a class="text-primary text-uppercase text-decoration-none" href="?p=category">Wisata Alam</a>
-                                </div>
-                                <a class="h5 m-0 text-decoration-none" href="?p=single">Danau Toba</a>
-                            </div>
-                        </div>
-                    </div>
+                        <?php endforeach ?>
+                    <?php endif ?>
                     <div class="col-12">
                         <nav aria-label="Page navigation">
                             <ul class="pagination pagination-lg justify-content-center bg-white mb-0" style="padding: 30px;">
