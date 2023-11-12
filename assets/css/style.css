@@ -9782,6 +9782,13 @@ h6,
   font-size: xx-large;
 }
 
+.not-found-2 {
+  width: 100%;
+  text-align: center;
+  margin: 0 0 60px 0;
+  font-size: xx-large;
+}
+
 div.blog-item.py-2 div.position-relative img {
   margin: 0 auto;
 }

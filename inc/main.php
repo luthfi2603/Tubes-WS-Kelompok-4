@@ -16,7 +16,7 @@ if ($_GET) {
             break;
         default:
             echo "
-                <div class='not-found'>404 Not Found</div>
+                <div class='not-found'>404 Page Not Found</div>
             ";
             break;
     }

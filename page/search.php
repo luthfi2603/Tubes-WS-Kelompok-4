@@ -3,24 +3,34 @@
         $keyword = $_POST["keyword"];
 
         $query = "
-            SELECT DISTINCT * WHERE {
+            SELECT DISTINCT ?nama ?kategori ?thumbnail ?pulau WHERE {
                 ?d a destinesia:wisata;
                      rdfs:label           ?nama;
+                     destinesia:provinsi  ?provinsi;
+                     destinesia:kota      ?kota;
                      destinesia:kategori  ?kategori;
-                     destinesia:thumbnail ?thumbnail .
-                FILTER REGEX (?nama, '$keyword', 'i') .
+                     destinesia:thumbnail ?thumbnail;
+                     destinesia:pulau     ?pulau .
+                FILTER ( REGEX (?nama, '$keyword', 'i') ||
+                         REGEX (?provinsi, '$keyword', 'i') ||
+                         REGEX (?kota, '$keyword', 'i') ||
+                         REGEX (?kategori, '$keyword', 'i') ||
+                         REGEX (?pulau, '$keyword', 'i')) .
             }
+            ORDER BY ?nama
         ";
 
         $result = $sparqlJena->query($query);
     }else{
         $query = "
-            SELECT DISTINCT * WHERE {
+            SELECT DISTINCT ?nama ?kategori ?thumbnail ?pulau WHERE {
                 ?d a destinesia:wisata;
                      rdfs:label           ?nama;
                      destinesia:kategori  ?kategori;
-                     destinesia:thumbnail ?thumbnail .
+                     destinesia:thumbnail ?thumbnail;
+                     destinesia:pulau ?pulau .
             }
+            ORDER BY ?nama
         ";
 
         $result = $sparqlJena->query($query);
@@ -41,7 +51,7 @@
     </div>
 <!-- Header End -->
 <!-- Search Start -->
-<div class="container-fluid booking mt-5 pb-5">
+<div class="container-fluid booking mt-5">
     <div class="container pb-5">
         <div class="bg-light shadow" style="padding: 30px;">
             <form method="POST">
@@ -77,7 +87,7 @@
             <div class="col-lg-12">
                 <div class="row pb-3">
                     <?php if(!isset($result->current()->nama)) : ?>
-                        <p>Capek</p>
+                        <div class="not-found-2">Data tidak ditemukan!</div>
                     <?php else : ?>
                         <?php foreach($result as $data) : ?>
                             <div class="col-lg-4 md-4 mb-4 pb-2">
@@ -88,6 +98,8 @@
                                     <div class="bg-white p-4">
                                         <div class="d-flex mb-2">
                                             <a class="text-primary text-uppercase text-decoration-none" href="?p=category&keyword=<?= $data->kategori ?>"><?= $data->kategori ?></a>
+                                            <span class="text-primary px-2">|</span>
+                                            <span class="text-primary text-uppercase text-decoration-none"><?= $data->pulau ?></span>
                                         </div>
                                         <a class="h5 m-0 text-decoration-none" href="?p=single&keyword=<?= $data->nama ?>"><?= $data->nama ?></a>
                                     </div>

@@ -2,11 +2,12 @@
     $keyword = $_GET['keyword'];
 
     $query = "
-        SELECT DISTINCT * WHERE {
+        SELECT DISTINCT ?nama ?kategori ?thumbnail ?pulau WHERE {
             ?d a destinesia:wisata;
                  rdfs:label           ?nama;
                  destinesia:kategori  ?kategori;
-                 destinesia:thumbnail ?thumbnail .
+                 destinesia:thumbnail ?thumbnail;
+                 destinesia:pulau ?pulau .
             FILTER(?kategori = '$keyword') .
         }
     ";
@@ -42,7 +43,7 @@
                                 </div>
                                 <div class="bg-white p-4">
                                     <div class="d-flex mb-2">
-                                        <a class="text-primary text-uppercase text-decoration-none" href="">Pulau</a>
+                                        <span class="text-primary text-uppercase text-decoration-none"><?= $data->pulau ?></span>
                                     </div>
                                     <a class="h5 m-0 text-decoration-none" href="?p=single&keyword=<?= $data->nama ?>"><?= $data->nama ?></a>
                                 </div>
