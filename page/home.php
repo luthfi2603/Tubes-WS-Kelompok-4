@@ -4,6 +4,7 @@
             ?d a destinesia:wisata;
                  destinesia:kategori  ?kategori .
         }
+        ORDER BY ?kategori
     ";
     $result = $sparqlJena->query($query);
 ?>

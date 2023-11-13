@@ -7,8 +7,8 @@
     xmlns:dc="http://purl.org/dc/terms/"
     xmlns:destinesia="https://example.org/schema/destinesia">
 
+    <!-- Wisata Alam -->
     <destinesia:wisata rdf:about="https://dbpedia.org/page/Lake_Toba">
-        <destinesia:id>1</destinesia:id>
         <rdfs:label>Danau Toba</rdfs:label>
         <destinesia:abstract>Danau Toba adalah sebuah danau vulkanik dengan ukuran panjang 100
             kilometer dan lebar 30 kilometer yang terletak di Provinsi Sumatera Utara, Indonesia.
@@ -16,6 +16,7 @@
             terdapat sebuah pulau vulkanik bernama Pulau Samosir. Danau Toba sejak lama menjadi
             daerah tujuan wisata penting di Sumatera Utara selain Bukit Lawang, Berastagi dan Nias,
             menarik wisatawan domestik maupun mancanegara.</destinesia:abstract>
+        <destinesia:pulau>Sumatera</destinesia:pulau>
         <destinesia:provinsi>Sumatera Utara</destinesia:provinsi>
         <destinesia:kota>Simalungun, Tobasa (Toba Samosir), Tapanuli Utara, Humbang Hasundutan,
             Dairi, Karo, dan Samosir</destinesia:kota>
@@ -25,8 +26,354 @@
         <foaf:homepage rdf:resource="https://id.wikipedia.org/wiki/Danau_Toba" />
     </destinesia:wisata>
 
+    <destinesia:wisata rdf:about="https://dbpedia.org/page/Danau_Maninjau">
+        <rdfs:label>Danau Maninjau</rdfs:label>
+        <destinesia:abstract>Danau Maninjau adalah sebuah danau di kecamatan Tanjung Raya, Kabupaten
+            Agam, provinsi Sumatera Barat, Indonesia. Danau ini terletak sekitar 140 kilometer
+            sebelah utara Kota Padang, ibukota Sumatera Barat. Danau Maninjau adalah danau vulkanik
+            yang berada di ketinggian 461,50 meter di atas permukaan laut. Luas Danau Maninjau
+            sekitar 99,5 kilometer persegi dan memiliki kedalaman maksimum 495 meter. Danau Maninjau
+            dikenal dengan cekungan terbentuk akibat letusan gunung yang disebut Sitinjau, menurut
+            legenda setempat. Danau ini merupakan sumber air untuk sungai bernama Batang Sri
+            Antokan. Di sekitar Danau Maninjau terdapat fasilitas wisata, seperti hotel dan
+            penginapan.</destinesia:abstract>
+        <destinesia:pulau>Sumatera</destinesia:pulau>
+        <destinesia:provinsi>Sumatera Barat</destinesia:provinsi>
+        <destinesia:kota>Bukittinggi</destinesia:kota>
+        <destinesia:kategori>Wisata Alam</destinesia:kategori>
+        <destinesia:thumbnail>http://commons.wikimedia.org/wiki/Special:FilePath/Maninjau.jpg</destinesia:thumbnail>
+        <foaf:homepage rdf:resource="https://id.wikipedia.org/wiki/Danau_Maninjau" />
+    </destinesia:wisata>
+
+    <destinesia:wisata rdf:about="https://dbpedia.org/page/Komodo_National_Park">
+        <rdfs:label>Taman Nasional Komodo</rdfs:label>
+        <destinesia:abstract> Taman Nasional Komodo terletak di antara provinsi Nusa Tenggara Timur
+            dan Nusa Tenggara Barat. Taman nasional ini terdiri atas tiga pulau besar: Pulau Komodo,
+            Pulau Rinca, dan Pulau Padar, serta beberapa pulau kecil. Wilayah darat taman nasional
+            ini mencakup 603 km², dan wilayah totalnya adalah 1.817 km². Taman nasional ini
+            didirikan pada tahun 1980 untuk melindungi komodo dan habitatnya. Di sini terdapat 277
+            spesies hewan yang merupakan perpaduan hewan dari Asia dan Australia, termasuk 32
+            spesies mamalia, 128 spesies burung, dan 37 spesies reptilia. Selain komodo, setidaknya
+            25 spesies hewan darat dan burung termasuk hewan yang dilindungi karena jumlahnya
+            terbatas. Selain itu, di kawasan ini terdapat terumbu karang dengan sekitar 253 spesies
+            karang pembentuk terumbu dan sekitar 1.000 spesies ikan. Keindahan terumbu ini menarik
+            minat wisatawan asing untuk berenang atau menyelam di perairan ini. Pulau-pulau ini
+            aslinya adalah pulau vulkanis. Jumlah penduduk di wilayah ini kurang lebih adalah 4.000
+            jiwa. Pada tahun 1986 taman nasional ini diterima sebagai Situs Warisan Dunia UNESCO.
+            Pada tanggal 11 November 2011, New 7 Wonders telah mengumumkan pemenang sementara, dan
+            Taman Nasional Komodo masuk kedalam jajaran pemenang tersebut bersama dengan, Hutan
+            Amazon, Teluk Halong, Air Terjun Iguazu, Pulau Jeju, Sungai Bawah Tanah Puerto Princesa,
+            dan Table Mountain. Taman Nasional Komodo mendapatkan suara terbanyak.</destinesia:abstract>
+        <destinesia:pulau>Bali dan Nusa Tenggara</destinesia:pulau>
+        <destinesia:provinsi>Nusa Tenggara Timur</destinesia:provinsi>
+        <destinesia:kota>Manggarai</destinesia:kota>
+        <destinesia:kategori>Wisata Alam</destinesia:kategori>
+        <destinesia:thumbnail>
+            http://commons.wikimedia.org/wiki/Special:FilePath/Komodo_dragon_at_Komodo_National_Park.jpg</destinesia:thumbnail>
+        <foaf:homepage rdf:resource="https://id.wikipedia.org/wiki/Taman_Nasional_Komodo" />
+    </destinesia:wisata>
+
+    <destinesia:wisata rdf:about="https://dbpedia.org/page/Mount_Rinjani_National_Park">
+        <rdfs:label>Taman Nasional Gunung Rinjani</rdfs:label>
+        <destinesia:abstract>Taman Nasional Gunung Rinjani (TNGR) adalah salah satu ekosistem dengan
+            tipe hutan hujan pegunungan dan savana yang terletak di Pulau Lombok, Nusa Tenggara
+            Barat. TNGR ditetapkan sebagai kawasan Taman Nasional melalui Surat Keputusan Menteri
+            Kehutanan No.280/Kpts-II/1997 dengan luas 40.000hA walaupun dilapangan luasnya lebih
+            dari 41,000hA.</destinesia:abstract>
+        <destinesia:pulau>Bali dan Nusa Tenggara</destinesia:pulau>
+        <destinesia:provinsi>Nusa Tenggara Barat</destinesia:provinsi>
+        <destinesia:kota>Lombok</destinesia:kota>
+        <destinesia:kategori>Wisata Alam</destinesia:kategori>
+        <destinesia:thumbnail>http://commons.wikimedia.org/wiki/Special:FilePath/Rinjani_Caldera.jpg</destinesia:thumbnail>
+        <foaf:homepage rdf:resource="https://id.wikipedia.org/wiki/Taman_Nasional_Gunung_Rinjani" />
+    </destinesia:wisata>
+
+    <destinesia:wisata rdf:about="https://dbpedia.org/page/Betung_Kerihun_National_Park">
+        <rdfs:label>Taman Nasional Betung Kerihun</rdfs:label>
+        <destinesia:abstract> Taman Nasional Betung Kerihun (sebelumnya Gunung Bentuang) adalah
+            taman nasional yang terletak di provinsi Kalimantan Barat, Indonesia. Taman nasional ini
+            didirikan pada tahun 1992, dan memiliki wilayah seluas 8.000 km² (3.100 mil²). Bersama
+            dengan Lanjak Entimau di Malaysia, taman nasional ini telah diusulkan menjadi Situs
+            Warisan Dunia UNESCO. </destinesia:abstract>
+        <destinesia:pulau>Kalimantan</destinesia:pulau>
+        <destinesia:provinsi>Kalimantan Barat</destinesia:provinsi>
+        <destinesia:kota>Kapuas Hulu</destinesia:kota>
+        <destinesia:kategori>Wisata Alam</destinesia:kategori>
+        <destinesia:thumbnail>
+            https://upload.wikimedia.org/wikipedia/commons/a/a6/Orangutan_Pongo_pygmeus_pygmeus.jpg</destinesia:thumbnail>
+        <foaf:homepage rdf:resource="https://id.wikipedia.org/wiki/Taman_Nasional_Betung_Kerihun" />
+    </destinesia:wisata>
+
+    <destinesia:wisata rdf:about="https://dbpedia.org/page/Lake_Poso">
+        <rdfs:label>Danau Poso</rdfs:label>
+        <destinesia:abstract>Danau Poso merupakan sebuah danau yang terletak di provinsi Sulawesi
+            Tengah, Indonesia. Tepatnya di Kabupaten Poso. Danau ini merupakan danau terbesar ketiga
+            di Indonesia dengan memiliki panjang 32 km dan lebar 16 km. Danau ini terletak pada
+            ketinggian 657 m. Danau Poso merupakan salah satu Danau terindah di dunia dengan Pasir
+            putih yang terdapat pada tepi sampai di Dasar Danau. Danau poso terletak di Kecamatan
+            Pamona Utara dengan ibu kota Tentena. Ada beberapa keunikan Danau ini yang dapat
+            dinikmati oleh para Visitor antara lain: Ikan Mujair, Nilam, Lele, Ikan Mas dsb. Tetapi
+            yang paling unik adalah Ikan Sugili yang sekarang populasinya hampir punah yang
+            disebabkan oleh semakin bertambahnya penduduk dan mungkin juga disebabkan karena
+            dibangunnya Mega proyek PLTA Sulewana yang berperan sangat besar dalam memutuskan Mata
+            Rantai perkembangbiakan jenis Ikan langka ini. Menurut kisah bahwa pada saat-saat ikan
+            ini akan berkembangbiak, mereka akan melakukan Migrasi ke muara sungai yang bertemu
+            dengan air laut dan selanjutnya ketika anak-anak sugili menanjak dewasa, mereka akan
+            kembali ke danau. Tetapi ketika Mega Proyek PLTA dibangun diantara Poso dan Tentena maka
+            secara otomatis sistem perkembangbiakan populasi Sugili yang hanya dapat terjadi secara
+            alamaiah inipun mengalami masalah besar, sehingga keberlangsungan populasi ikan ini
+            dalam waktu dekat diprediksi akan mengalami stop atau mengalami kepunahan seperti
+            populasi ikan bungu populasi khas Danau Poso yang tidak lagi dapat dijumpai. Disamping
+            itu terdapat fenomena alam yang berbau mistis yaitu Lampu Danau yang merupakan salah
+            satu keunikan juga sewaktu-waktu dapat disaksikan pada waktu malam hari.</destinesia:abstract>
+        <destinesia:pulau>Sulawesi</destinesia:pulau>
+        <destinesia:provinsi>Sulawesi Tengah</destinesia:provinsi>
+        <destinesia:kota>Poso</destinesia:kota>
+        <destinesia:kategori>Wisata Alam</destinesia:kategori>
+        <destinesia:thumbnail>
+            https://upload.wikimedia.org/wikipedia/commons/5/5c/Poso_Lake_from_Padamarari.jpg</destinesia:thumbnail>
+        <foaf:homepage rdf:resource="https://id.wikipedia.org/wiki/Danau_Poso" />
+    </destinesia:wisata>
+
+    <destinesia:wisata rdf:about="https://dbpedia.org/page/Lorentz_National_Park">
+        <rdfs:label>Taman Nasional Lorentz</rdfs:label>
+        <destinesia:abstract>Taman Nasional Lorentz adalah sebuah taman nasional yang terletak di
+            Provinsi Papua, Indonesia. Dengan luas wilayah sebesar 25.000 km², Lorentz adalah taman
+            nasional terbesar di Asia Tenggara. Wilayah taman ini masih belum sepenuhnya dipetakan
+            dan dieksplorasi, sehingga banyak terdapat tanaman, hewan, dan budaya asli yang belum
+            terungkap. Pada tahun 1999, Taman Nasional Lorentz diakui sebagai Situs Warisan Dunia
+            oleh UNESCO. Di sekitar wilayah taman nasional ini juga terdapat sumber daya mineral,
+            dan operasi pertambangan berskala besar juga aktif di sekitar taman nasional ini. Ada
+            juga Proyek Konservasi Taman Nasional Lorentz yang merupakan inisiatif masyarakat untuk
+            melestarikan warisan komunal dan ekologi di sekitar Taman Nasional Lorentz. Nama taman
+            nasional ini diambil dari seorang penjelajah asal Belanda, Hendrikus Albertus Lorentz,
+            yang menjelajahi daerah tersebut pada tahun 1909. Lorentz adalah taman nasional yang
+            unik dengan kekayaan alam dan budaya yang tak ternilai.</destinesia:abstract>
+        <destinesia:pulau>Papua</destinesia:pulau>
+        <destinesia:provinsi>Papua</destinesia:provinsi>
+        <destinesia:kota> Kabupaten Jayawijaya, Kabupaten Mimika, Kabupaten Asmat, Kabupaten
+            Yahukimo, dan Kabupaten Puncak Jaya</destinesia:kota>
+        <destinesia:kategori>Wisata Alam</destinesia:kategori>
+        <destinesia:thumbnail>
+            https://upload.wikimedia.org/wikipedia/commons/2/23/Taman_Nasional_Lorentz.jpg</destinesia:thumbnail>
+        <foaf:homepage rdf:resource="https://id.wikipedia.org/wiki/Taman_Nasional_Lorentz" />
+    </destinesia:wisata>
+
+    <destinesia:wisata rdf:about="https://dbpedia.org/page/Manusela_National_Park">
+        <rdfs:label>Taman Nasional Manusela</rdfs:label>
+        <destinesia:abstract>Taman Nasional Manusela adalah taman nasional yang terletak di
+            Kepulauan Maluku, Indonesia. , dengan ketinggian 3.027 meter, merupakan gunung tertinggi
+            di taman ini. Terdapat sekitar 117 spesies burung, 14 di antaranya endemik, seperti Nuri
+            Bayan, , Kakatua Maluku, , , Philemon subcorniculatus dan Alisterus amboinensis. Taman
+            Nasional Manusela merupakan perwakilan tipe ekosistem pantai, hutan rawa, hutan hujan
+            dataran rendah dan hutan hujan pegunungan di Maluku. Tipe vegetasi yang terdapat di
+            taman nasional ini yaitu mangrove, pantai, hutan rawa, tebing sungai, hutan hujan
+            tropika pamah, hutan pegunungan, dan hutan sub-alpin.</destinesia:abstract>
+        <destinesia:pulau>Maluku</destinesia:pulau>
+        <destinesia:provinsi>Maluku</destinesia:provinsi>
+        <destinesia:kota>Ambon, Maluku</destinesia:kota>
+        <destinesia:kategori>Wisata Alam</destinesia:kategori>
+        <destinesia:thumbnail>
+            https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/The_jungle_of_Manusela_Nationalpark.jpg/1280px-The_jungle_of_Manusela_Nationalpark.jpg</destinesia:thumbnail>
+        <foaf:homepage rdf:resource="https://id.wikipedia.org/wiki/Taman_Nasional_Manusela" />
+    </destinesia:wisata>
+
+    <destinesia:wisata rdf:about="https://dbpedia.org/page/Aketajawe-Lolobata_National_Park">
+        <rdfs:label>Taman Nasional Aketajawe-Lolobata</rdfs:label>
+        <destinesia:abstract>Taman Nasional Aketajawe-Lolobata adalah taman nasional yang terletak
+            di Halmahera, Maluku Utara, Indonesia. Taman ini dianggap penting bagi keselamatan 23
+            spesies burung endemik oleh BirdLife International. Aketajawe-Lolobata, yang merupakan
+            wilayah seluas 167.300 hektare, dinyatakan sebagai taman nasional pada tahun 2004.</destinesia:abstract>
+        <destinesia:pulau>Maluku</destinesia:pulau>
+        <destinesia:provinsi>Maluku Utara</destinesia:provinsi>
+        <destinesia:kota>Halmahera Timur, Maluku Utara</destinesia:kota>
+        <destinesia:kategori>Wisata Alam</destinesia:kategori>
+        <destinesia:thumbnail>
+            https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/Edge_of_Aketajawe-Lolobata_National_Park.jpg/300px-Edge_of_Aketajawe-Lolobata_National_Park.jpg</destinesia:thumbnail>
+        <foaf:homepage
+            rdf:resource="https://id.wikipedia.org/wiki/Taman_Nasional_Aketajawe-Lolobata" />
+    </destinesia:wisata>
+
+    <destinesia:wisata rdf:about="https://dbpedia.org/page/Raja_Ampat_Islands">
+        <rdfs:label>Raja Ampat</rdfs:label>
+        <destinesia:abstract>Kepulauan Raja Ampat adalah gugusan kepulauan yang berlokasi di barat
+            bagian Semenanjung Kepala Burung (Vogelkoop) Pulau Papua. Secara administrasi, gugusan
+            ini berada di bawah Kabupaten Raja Ampat dan Kota Sorong, Provinsi Papua Barat Daya.
+            Kepulauan ini sekarang menjadi tujuan para penyelam yang tertarik akan keindahan
+            pemandangan bawah lautnya. Empat gugusan pulau yang menjadi anggotanya dinamakan menurut
+            empat pulau terbesarnya, yaitu Pulau Waigeo, Pulau Misool, Pulau Salawati, dan Pulau
+            Batanta.</destinesia:abstract>
+        <destinesia:pulau>Papua</destinesia:pulau>
+        <destinesia:provinsi>Papua Barat Daya</destinesia:provinsi>
+        <destinesia:kota>Sorong, Papua Barat Daya</destinesia:kota>
+        <destinesia:kategori>Wisata Alam</destinesia:kategori>
+        <destinesia:thumbnail>
+            https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Raja_Ampat_Islands_-_journal.pbio.1001457.g001.png/300px-Raja_Ampat_Islands_-_journal.pbio.1001457.g001.png</destinesia:thumbnail>
+        <foaf:homepage rdf:resource="https://id.wikipedia.org/wiki/Kepulauan_Raja_Ampat" />
+    </destinesia:wisata>
+
+    <destinesia:wisata rdf:about="https://dbpedia.org/page/Teluk_Cenderawasih_National_Park">
+        <rdfs:label>Taman Nasional Teluk Cenderawasih</rdfs:label>
+        <destinesia:abstract>Taman Nasional Teluk Cenderawasih (disingkat TNTC) merupakan taman
+            nasional perairan laut terluas di Indonesia, terdiri dari daratan dan pesisir pantai
+            (0,9%), daratan pulau-pulau (3,8%), terumbu karang (5,5%), dan perairan lautan (89,8%).
+            Taman nasional ini terletak di Teluk Cenderawasih, Provinsi Papua Barat. Taman Nasional
+            Teluk Cenderawasih meliputi pulau Mioswaar, Nusrowi, Roon, Rumberpon dan Yoop.</destinesia:abstract>
+        <destinesia:pulau>Papua</destinesia:pulau>
+        <destinesia:provinsi>Papua Barat</destinesia:provinsi>
+        <destinesia:kota>Manokwari, Papua Barat</destinesia:kota>
+        <destinesia:kategori>Wisata Alam</destinesia:kategori>
+        <destinesia:thumbnail>
+            https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/Aku_dan_Alamku.jpg/375px-Aku_dan_Alamku.jpg</destinesia:thumbnail>
+        <foaf:homepage
+            rdf:resource="https://id.wikipedia.org/wiki/Taman_Nasional_Teluk_Cenderawasih" />
+    </destinesia:wisata>
+
+    <destinesia:wisata
+        rdf:about="https://dbpedia.org/page/Bantimurung%E2%80%93Bulusaraung_National_Park">
+        <rdfs:label>Taman Nasional Bantimurung-Bulusaraung</rdfs:label>
+        <destinesia:abstract>Taman Nasional Bantimurung-Bulusaraung (disingkat TN Babul) adalah
+            sebuah taman nasional yang ditunjuk menjadi kawasan konservasi berdasarkan Surat
+            Keputusan Menteri Kehutanan RI Nomor SK 398/Menhut-II/2004 tanggal 18 Oktober 2004. TN
+            Babul merupakan hasil merger lima unit kawasan konservasi yang sebelumnya sudah ada pada
+            era 1970-1980, yaitu Taman Wisata Alam Bantimurung, Taman Wisata Alam Gua Pattunuang,
+            Cagar Alam Bantimurung, Cagar Alam Karaenta, dan . Selain itu terdapat kawasan hutan
+            seluas 31.843,10 ha dengan rincian Hutan Lindung seluas 21.343,10 ha, Hutan Produksi
+            Terbatas seluas 145 ha, dan Hutan Produksi Tetap seluas 10.355 ha. Taman nasional ini
+            merupakan taman nasional yang kedua setelah Taman Nasional Taka Bonerate yang ada di
+            Sulawesi Selatan hingga saat ini. Taman nasional ini telah menjadi satu-satunya taman
+            nasional berupa kawasan karst di Indonesia. Sebagai salah satu kawasan konservasi, TN
+            Babul memegang peranan penting dalam mendukung implementasi arah kebijakan dan strategi
+            pembangunan nasional pada Rencana Pembangunan Jangka Menengah Nasional (RPJMN) yang
+            dititikberatkan pada Pembangunan Lingkungan Hidup dan Pengelolaan Bencana. Fokus
+            prioritas pembangunan tersebut diarahkan pada upaya-upaya yang berkaitan dengan
+            konservasi sumber daya hutan dalam mendukung pertumbuhan ekonomi dan kesejahteraan yang
+            berkelanjutan, dan pelaksanaan pembangunan lintas bidang, yaitu terkait mitigasi dan
+            adaptasi perubahan iklim.</destinesia:abstract>
+        <destinesia:pulau>Sulawesi</destinesia:pulau>
+        <destinesia:provinsi>Sulawesi Selatan</destinesia:provinsi>
+        <destinesia:kota>Maros, Pangkep, dan Bone, Sulawesi Selatan</destinesia:kota>
+        <destinesia:kategori>Wisata Alam</destinesia:kategori>
+        <destinesia:thumbnail>
+            https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Bantimurung-Bulusauraung_National_Park.jpg/300px-Bantimurung-Bulusauraung_National_Park.jpg</destinesia:thumbnail>
+        <foaf:homepage
+            rdf:resource="https://id.wikipedia.org/wiki/Taman_Nasional_Bantimurung-Bulusaraung" />
+    </destinesia:wisata>
+
+    <destinesia:wisata rdf:about="https://dbpedia.org/page/Mount_Palung_National_Park">
+        <rdfs:label>Taman Nasional Gunung Palung</rdfs:label>
+        <destinesia:abstract> Taman Nasional Gunung Palung (TNGP) adalah sebuah taman nasional yang
+            terletak di Kabupaten Ketapang, Kalimantan Barat, sekitar 30 menit penerbangan dari
+            Pontianak. Luas taman nasional ini adalah 90.000 hektar, yang terbentang di Kecamatan
+            Matan Hilir Utara, Sukadana, Simpang Hilir, Nanga Tayap, dan Sandai. TNGP mempunyai
+            ekosistem yang dikatakan sebagai yang terlengkap di antara taman-taman nasional di
+            Indonesia. Di kawasannya terdapat Gunung Palung yang mempunyai ketinggian 1.116 meter.
+            Selain itu, TNGP juga adalah habitat bagi sekira 2.200 ekor orangutan. Bekantan adalah
+            mamalia dengan jumlah terbesar di TNGP.</destinesia:abstract>
+        <destinesia:pulau>Kalimantan</destinesia:pulau>
+        <destinesia:provinsi>Kalimantan Barat</destinesia:provinsi>
+        <destinesia:kota>Kayong Utara dan Ketapang</destinesia:kota>
+        <destinesia:kategori>Wisata Alam</destinesia:kategori>
+        <destinesia:thumbnail>
+            http://commons.wikimedia.org/wiki/Special:FilePath/Gunung_Palung_Jungle.jpg</destinesia:thumbnail>
+        <foaf:homepage rdf:resource="https://id.wikipedia.org/wiki/Taman_Nasional_Gunung_Palung" />
+    </destinesia:wisata>
+
+    <destinesia:wisata rdf:about="https://dbpedia.org/page/Bunaken_National_Park">
+        <rdfs:label>Taman Nasional Bunaken</rdfs:label>
+        <destinesia:abstract>Taman Nasional Bunaken adalah taman laut yang terletak di Sulawesi
+            Utara, Indonesia. Taman ini terletak di Segitiga Terumbu Karang yang menjadi habitat
+            bagi 390 spesies terumbu karang dan juga berbagai spesies ikan, moluska, reptil, dan
+            mamalia laut. Taman Nasional Bunaken merupakan perwakilan ekosistem laut Indonesia,
+            meliputi padang rumput laut, terumbu karang, dan ekosistem pantai. Taman nasional ini
+            didirikan pada tahun 1991 dan meliputi wilayah seluas 890.65 km². 97% dari taman
+            nasional ini merupakan habitat laut, sementara 3% sisanya merupakan daratan, meliputi
+            lima pulau: Bunaken, Manado Tua, Mantehage, Naen, dan Siladen. Taman Nasional Bunaken
+            memiliki ekosistem terumbu karang yang sangat kaya. Terdapat sekitar 390 spesies terumbu
+            karang di wilayah ini. Spesies alga yang dapat ditemui di Taman Nasional Bunaken adalah
+            Caulerpa, Halimeda, dan Padina, sementara spesies rumput laut yang banyak ditemui adalah
+            Thalassia hemprichii, Enhallus acoroides, dan Thalassaodendron ciliatum. Taman Nasional
+            Bunaken juga memiliki berbagai spesies ikan, mamalia laut, reptil, burung, moluska dan
+            mangrove. Sekitar 90 spesies ikan tinggal di perairan wilayah ini.</destinesia:abstract>
+        <destinesia:pulau>Sulawesi</destinesia:pulau>
+        <destinesia:provinsi>Sulawesi Utara</destinesia:provinsi>
+        <destinesia:kota>Manado</destinesia:kota>
+        <destinesia:kategori>Wisata Alam</destinesia:kategori>
+        <destinesia:thumbnail>
+            https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/Bunaken_Marine_Park.JPG/330px-Bunaken_Marine_Park.JPG</destinesia:thumbnail>
+        <foaf:homepage rdf:resource="https://id.wikipedia.org/wiki/Taman_Nasional_Bunaken" />
+    </destinesia:wisata>
+
+    <destinesia:wisata rdf:about="https://dbpedia.org/page/Kuta">
+        <rdfs:label>Pantai Kuta</rdfs:label>
+        <destinesia:abstract>Pantai Kuta adalah sebuah tempat pariwisata yang terletak di sebelah
+            selatan Denpasar, ibu kota Bali, Indonesia. Kuta terletak di Kabupaten Badung. Daerah
+            ini merupakan sebuah tujuan wisata turis mancanegara, dan telah menjadi objek wisata
+            andalan Pulau Bali sejak awal 70-an. Pantai Kuta sering pula disebut sebagai pantai
+            matahari terbenam (sunset beach) sebagai lawan dari pantai Sanur. Sebelum menjadi objek
+            wisata, Kuta merupakan sebuah pelabuhan dagang. Di mana produk dari lokal diperdagangkan
+            kepada pembeli dari luar Bali. Pada abad ke-19, Mads Lange, seorang pedagang Denmark,
+            datang ke Bali dan mendirikan basis perdagangan di Kuta. Keahliannya dalam bernegosiasi,
+            membuat Mads Lange sebagai pedagang yang terkenal antara raja-raja Bali dengan Belanda.
+            Hugh Mahbett juga telah menerbitkan sebuah buku berjudul “Praise to Kuta” yang berisi
+            ajakan kepada masyarakat setempat untuk menyiapkan fasilitas akomodasi wisata. Tujuannya
+            untuk mengantisipasi ledakan wisatawan yang berkunjung ke Bali. Buku itu kemudian
+            menginspirasi banyak orang untuk membangun fasilitas wisata seperti penginapan, restoran
+            dan tempat hiburan. Di Kuta terdapat banyak pertokoan, restoran dan tempat permandian
+            serta menjemur diri. Selain keindahan pantainya, pantai Kuta juga menawarkan berbagai
+            macam jenis hiburan lain misalnya bar dan restoran di sepanjang pantai menuju pantai
+            Legian. Rosovivo, Ocean Beach Club, Kamasutra, adalah beberapa club paling ramai di
+            sepanjang pantai Kuta. Pantai ini juga memiliki ombak yang cukup bagus untuk olahraga
+            selancar (surfing), terutama bagi peselancar pemula. Lapangan Udara I Gusti Ngurah Rai
+            terletak tidak jajauh dari Kuta.</destinesia:abstract>
+        <destinesia:pulau>Bali dan Nusa Tenggara</destinesia:pulau>
+        <destinesia:provinsi>Bali</destinesia:provinsi>
+        <destinesia:kota>Badung</destinesia:kota>
+        <destinesia:kategori>Wisata Alam</destinesia:kategori>
+        <destinesia:thumbnail>
+            http://commons.wikimedia.org/wiki/Special:FilePath/Kuta_Beach_(6924448550).jpg</destinesia:thumbnail>
+        <foaf:homepage rdf:resource="https://id.wikipedia.org/wiki/Pantai_Kuta" />
+    </destinesia:wisata>
+
+    <!-- Wisata Religi -->
+    <destinesia:wisata rdf:about="https://dbpedia.org/page/Grand_Mosque_of_Medan">
+        <rdfs:label>Masjid Raya Al-Mashum Medan</rdfs:label>
+        <destinesia:abstract>Masjid Raya Al-Mashun (bahasa Arab: مسجد جامع المشون) atau yang lebih
+            dikenal Masjid Raya Medan (abjad Jawi: مسجد رايا ميدان) (bahasa Arab: مسجد الجامع ميدان)
+            adalah sebuah masjid yang berada di Kota Medan, Provinsi Sumatera Utara, Indonesia.
+            Masjid ini dibangun pada tahun 1906 dan selesai pada tahun 1909. Pada awal pendiriannya,
+            masjid ini merupakan bagian dari kompleks Istana Maimun. Gaya arsitekturnya memadukan
+            unsur Timur Tengah, India, dan Spanyol. Masjid ini berbentuk segi delapan dan memiliki
+            sayap di bagian selatan, timur, utara, dan barat.</destinesia:abstract>
+        <destinesia:pulau>Sumatera</destinesia:pulau>
+        <destinesia:provinsi>Sumatera Utara</destinesia:provinsi>
+        <destinesia:kota>Medan</destinesia:kota>
+        <destinesia:kategori>Wisata Religi</destinesia:kategori>
+        <destinesia:thumbnail>
+            http://commons.wikimedia.org/wiki/Special:FilePath/Great_mosque_in_Medan_cropped.jpg</destinesia:thumbnail>
+        <foaf:homepage rdf:resource="https://id.wikipedia.org/wiki/Masjid_Raya_Al-Mashun" />
+    </destinesia:wisata>
+
+    <destinesia:wisata rdf:about="https://en.wikipedia.org/wiki/Maha_Vihara_Maitreya">
+        <rdfs:label>Vihara Maha Maitreya</rdfs:label>
+        <destinesia:abstract>Maha Vihara Maitreya adalah sebuah candi Budha di Medan , Sumatera
+            Utara , yang diklaim sebagai candi Budha modern terbesar di Indonesia . Sering disebut
+            Vihara Cemara Asri karena letaknya di komplek perumahan Cemara Asri. Candi ini dibangun
+            pada tahun 1991 di atas lahan seluas 4,5 hektar dan diresmikan pada tanggal 21 Agustus
+            2008. Maha Vihara Maitreya dibangun sebagai tempat ibadah bagi umat Buddha di Medan pada
+            khususnya, dan Sumatera Utara pada umumnya, mengingat banyaknya etnis Tionghoa yang
+            tinggal di kota tersebut. Sesuai dengan namanya, Maitreya, kuil ini kental dengan ajaran
+            Buddha Maitreya.</destinesia:abstract>
+        <destinesia:pulau>Sumatera</destinesia:pulau>
+        <destinesia:provinsi>Sumatera Utara</destinesia:provinsi>
+        <destinesia:kota>Medan</destinesia:kota>
+        <destinesia:kategori>Wisata Religi</destinesia:kategori>
+        <destinesia:thumbnail>
+            https://upload.wikimedia.org/wikipedia/commons/5/5f/Vihara_Maitreya.jpg</destinesia:thumbnail>
+        <foaf:homepage rdf:resource="https://en.wikipedia.org/wiki/Maha_Vihara_Maitreya" />
+    </destinesia:wisata>
+
     <destinesia:wisata rdf:about="https://dbpedia.org/page/Graha_Maria_Annai_Velangkanni">
-        <destinesia:id>2</destinesia:id>
         <rdfs:label>Graha Maria Anai Velangkanni</rdfs:label>
         <destinesia:abstract>Graha Maria Annai Velangkanni adalah gereja Katolik bergaya
             India-Mughal yang dibuka pada tahun 2005 di kota Medan, Indonesia. Peresmian bangunan
@@ -43,109 +390,16 @@
             perwakilan Raja Gopuram (kubah raja) dalam arsitektur Hindu.Di atas bangunan gereja ini
             juga terdapat tiga kubah yang dibangun dengan gaya arsitektur Mughal dan merupakan
             lambang Tritunggal.</destinesia:abstract>
+        <destinesia:pulau>Sumatera</destinesia:pulau>
         <destinesia:provinsi>Sumatera Utara</destinesia:provinsi>
         <destinesia:kota>Medan</destinesia:kota>
         <destinesia:kategori>Wisata Religi</destinesia:kategori>
         <destinesia:thumbnail>
             https://upload.wikimedia.org/wikipedia/commons/2/2e/Gereja_Velangkani_Medan.jpg</destinesia:thumbnail>
-        <foaf:homepage rdf:resource="https://id.wikipedia.org/wiki/Graha_Maria_Anai_Velangkani" />
-    </destinesia:wisata>
-
-    <destinesia:wisata rdf:about="https://dbpedia.org/page/Grand_Mosque_of_Medan">
-        <destinesia:id>16</destinesia:id>
-        <rdfs:label>Masjid Raya Al-Mashum Medan</rdfs:label>
-        <destinesia:abstract>Masjid Raya Al-Mashun (bahasa Arab: مسجد جامع المشون) atau yang lebih
-            dikenal Masjid Raya Medan (abjad Jawi: مسجد رايا ميدان) (bahasa Arab: مسجد الجامع ميدان)
-            adalah sebuah masjid yang berada di Kota Medan, Provinsi Sumatera Utara, Indonesia.
-            Masjid ini dibangun pada tahun 1906 dan selesai pada tahun 1909. Pada awal pendiriannya,
-            masjid ini merupakan bagian dari kompleks Istana Maimun. Gaya arsitekturnya memadukan
-            unsur Timur Tengah, India, dan Spanyol. Masjid ini berbentuk segi delapan dan memiliki
-            sayap di bagian selatan, timur, utara, dan barat.</destinesia:abstract>
-        <destinesia:provinsi>Sumatera Utara</destinesia:provinsi>
-        <destinesia:kota>Medan</destinesia:kota>
-        <destinesia:kategori>Wisata Religi</destinesia:kategori>
-        <destinesia:thumbnail>
-            http://commons.wikimedia.org/wiki/Special:FilePath/Great_mosque_in_Medan_cropped.jpg</destinesia:thumbnail>
-        <foaf:homepage rdf:resource="https://id.wikipedia.org/wiki/Masjid_Raya_Al-Mashun" />
-    </destinesia:wisata>
-
-    <destinesia:wisata rdf:about="https://dbpedia.org/page/Maimun_Palace">
-        <destinesia:id>3</destinesia:id>
-        <rdfs:label>Istana Maimun</rdfs:label>
-        <destinesia:abstract>Istana Maimun adalah salah satu ikon kota Medan, Sumatera Utara. Istana
-            ini terletak di kelurahan Sukaraja, kecamatan Medan Maimun. Didesain oleh arsitek Italia
-            dan dibangun oleh Sultan Deli, Makmun Al Rasyid Perkasa Alamsyah pada tahun 1888. Istana
-            Maimun memiliki luas sebesar 2.772 meter persegi dan 30 ruangan. Desain interior Istana
-            Maimun unik, menggabungkan unsur-unsur warisan kebudayaan Melayu dengan gaya Islam,
-            Spanyol, India, dan Italia. Namun, sayangnya, saat ini kondisi istana kurang terurus.
-            Pengunjung dapat menikmati pemandangan anak-anak bermain sepak bola di halaman istana
-            pada sore hari.</destinesia:abstract>
-        <destinesia:provinsi>Sumatera Utara</destinesia:provinsi>
-        <destinesia:kota>Medan</destinesia:kota>
-        <destinesia:kategori>Wisata Sejarah</destinesia:kategori>
-        <destinesia:thumbnail>http://commons.wikimedia.org/wiki/Special:FilePath/Istana_Maimoon.jpg</destinesia:thumbnail>
-        <foaf:homepage rdf:resource="https://id.wikipedia.org/wiki/Istana_Maimun" />
-    </destinesia:wisata>
-
-    <destinesia:wisata rdf:about="https://en.wikipedia.org/wiki/Maha_Vihara_Maitreya">
-        <destinesia:id>4</destinesia:id>
-        <rdfs:label>Vihara Maha Maitreya</rdfs:label>
-        <destinesia:abstract>Maha Vihara Maitreya adalah sebuah candi Budha di Medan , Sumatera
-            Utara , yang diklaim sebagai candi Budha modern terbesar di Indonesia . Sering disebut
-            Vihara Cemara Asri karena letaknya di komplek perumahan Cemara Asri. Candi ini dibangun
-            pada tahun 1991 di atas lahan seluas 4,5 hektar dan diresmikan pada tanggal 21 Agustus
-            2008. Maha Vihara Maitreya dibangun sebagai tempat ibadah bagi umat Buddha di Medan pada
-            khususnya, dan Sumatera Utara pada umumnya, mengingat banyaknya etnis Tionghoa yang
-            tinggal di kota tersebut. Sesuai dengan namanya, Maitreya, kuil ini kental dengan ajaran
-            Buddha Maitreya.</destinesia:abstract>
-        <destinesia:provinsi>Sumatera Utara</destinesia:provinsi>
-        <destinesia:kota>Medan</destinesia:kota>
-        <destinesia:kategori>Wisata Religi</destinesia:kategori>
-        <destinesia:thumbnail>
-            https://upload.wikimedia.org/wikipedia/commons/5/5f/Vihara_Maitreya.jpg</destinesia:thumbnail>
-        <foaf:homepage rdf:resource="https://en.wikipedia.org/wiki/Maha_Vihara_Maitreya" />
-    </destinesia:wisata>
-
-    <destinesia:wisata rdf:about="https://dbpedia.org/page/Jam_Gadang">
-        <destinesia:id>17</destinesia:id>
-        <rdfs:label>Jam Gadang</rdfs:label>
-        <destinesia:abstract>Jam Gadang adalah nama untuk menara jam yang terletak di pusat kota
-            Bukittinggi, Sumatera Barat, Indonesia. Menara jam ini memiliki jam dengan ukuran besar
-            di empat sisinya sehingga dinamakan Jam Gadang, sebutan bahasa Minangkabau yang berarti
-            "jam besar". Selain sebagai pusat penanda kota Bukittinggi, Jam Gadang juga telah
-            dijadikan sebagai objek wisata dengan diperluasnya taman di sekitar menara jam ini.
-            Taman tersebut menjadi ruang interaksi masyarakat baik di hari kerja maupun di hari
-            libur. Acara-acara yang sifatnya umum biasanya diselenggarakan di sekitar taman dekat
-            menara jam ini.</destinesia:abstract>
-        <destinesia:provinsi>Sumatera Barat</destinesia:provinsi>
-        <destinesia:kota>Bukittinggi</destinesia:kota>
-        <destinesia:kategori>Wisata Sejarah</destinesia:kategori>
-        <destinesia:thumbnail>
-            http://commons.wikimedia.org/wiki/Special:FilePath/Jam_Gadang,_Bukittinggi,_2016-02-12_01.jpg</destinesia:thumbnail>
-        <foaf:homepage rdf:resource="https://id.wikipedia.org/wiki/Jam_Gadang" />
-    </destinesia:wisata>
-
-    <destinesia:wisata rdf:about="https://dbpedia.org/page/Danau_Maninjau">
-        <destinesia:id>5</destinesia:id>
-        <rdfs:label>Danau Maninjau</rdfs:label>
-        <destinesia:abstract>Danau Maninjau adalah sebuah danau di kecamatan Tanjung Raya, Kabupaten
-            Agam, provinsi Sumatera Barat, Indonesia. Danau ini terletak sekitar 140 kilometer
-            sebelah utara Kota Padang, ibukota Sumatera Barat. Danau Maninjau adalah danau vulkanik
-            yang berada di ketinggian 461,50 meter di atas permukaan laut. Luas Danau Maninjau
-            sekitar 99,5 kilometer persegi dan memiliki kedalaman maksimum 495 meter. Danau Maninjau
-            dikenal dengan cekungan terbentuk akibat letusan gunung yang disebut Sitinjau, menurut
-            legenda setempat. Danau ini merupakan sumber air untuk sungai bernama Batang Sri
-            Antokan. Di sekitar Danau Maninjau terdapat fasilitas wisata, seperti hotel dan
-            penginapan.</destinesia:abstract>
-        <destinesia:provinsi>Sumatera Barat</destinesia:provinsi>
-        <destinesia:kota>Bukittinggi</destinesia:kota>
-        <destinesia:kategori>Wisata Alam</destinesia:kategori>
-        <destinesia:thumbnail>http://commons.wikimedia.org/wiki/Special:FilePath/Maninjau.jpg</destinesia:thumbnail>
-        <foaf:homepage rdf:resource="https://id.wikipedia.org/wiki/Danau_Maninjau" />
+        <foaf:homepage rdf:resource="https://id.wikipedia.org/wiki/Graha_Maria_Annai_Velangkanni" />
     </destinesia:wisata>
 
     <destinesia:wisata rdf:about="https://dbpedia.org/page/Baiturrahman_Grand_Mosque">
-        <destinesia:id>6</destinesia:id>
         <rdfs:label>Masjid Raya Baiturrahman</rdfs:label>
         <destinesia:abstract>Masjid Baiturrahman Banda Aceh (bahasa Arab: مسجد بيت الرحمن في باندا
             آتشيه) (bahasa Aceh: Meuseujid Bayturrahman Koeta Radja) atau yang lebih dikenal dengan
@@ -155,6 +409,7 @@
             simbol agama, budaya, semangat, kekuatan, perjuangan dan nasionalisme rakyat Aceh.
             Kemudian masjid ini adalah landmark Kota Banda Aceh sejak era Kesultanan Aceh dan
             selamat dari amukan bencana gempa dan tsunami 26 Desember 2004 silam.</destinesia:abstract>
+        <destinesia:pulau>Sumatera</destinesia:pulau>
         <destinesia:provinsi>Aceh</destinesia:provinsi>
         <destinesia:kota>Aceh</destinesia:kota>
         <destinesia:kategori>Wisata Religi</destinesia:kategori>
@@ -163,8 +418,207 @@
         <foaf:homepage rdf:resource="https://id.wikipedia.org/wiki/Masjid_Raya_Baiturrahman" />
     </destinesia:wisata>
 
+    <destinesia:wisata rdf:about="https://dbpedia.org/page/Tanah_Lot">
+        <rdfs:label>Tanah Lot</rdfs:label>
+        <destinesia:abstract>Pura Tanah Lot (aksara Bali: ᬧᬸᬭ​ᬢᬦᬄᬮᭀᬢ᭄) adalah salah satu Pura
+            (Tempat Ibadah Umat Hindu) yang sangat disucikan di Bali, Indonesia. Di sini ada dua
+            Pura yang terletak di atas batu besar. Satu terletak di atas bongkahan batu dan satunya
+            terletak di atas tebing mirip dengan Pura Uluwatu. Pura Tanah Lot ini merupakan bagian
+            dari Pura Dang Kahyangan. Pura Tanah Lot merupakan Pura laut tempat pemujaan dewa-dewa
+            penjaga laut. Tanah Lot terkenal sebagai tempat yang indah untuk melihat matahari
+            terbenam.</destinesia:abstract>
+        <destinesia:pulau>Bali dan Nusa Tenggara</destinesia:pulau>
+        <destinesia:provinsi>Bali</destinesia:provinsi>
+        <destinesia:kota>Tabanan</destinesia:kota>
+        <destinesia:kategori>Wisata Religi</destinesia:kategori>
+        <destinesia:thumbnail>
+            http://commons.wikimedia.org/wiki/Special:FilePath/Pura_tanah_lot_sunset_no3.jpg</destinesia:thumbnail>
+        <foaf:homepage rdf:resource="https://id.wikipedia.org/wiki/Tanah_Lot" />
+    </destinesia:wisata>
+
+    <destinesia:wisata rdf:about="https://dbpedia.org/page/Sam_Poo_Kong">
+        <rdfs:label>Kelenteng Gedung Kuno Sam Poo Kong</rdfs:label>
+        <destinesia:abstract>Kelenteng Gedung Kuno Sam Poo Kong (Hanzi: 三保洞, memiliki makna "gua Sam
+            Poo") yaitu bekas tempat persinggahan dan pendaratan pertama seorang Laksamana Tiongkok
+            beragama Islam yang bernama Zheng He/Cheng Ho, yang juga dikenal dengan nama Sam Poo
+            (三保). Tidak semua anak buah kapal beragama Islam. Kompleks Sam Poo Kong berada di daerah
+            Simongan, sebelah barat daya Kota Semarang. Tanda yang menunjukan sebagai bekas
+            petilasan yang berciri keislaman dengan ditemukannya tulisan berbunyi "Marilah kita
+            mengheningkan cipta dengan mendengarkan bacaan Al Qur'an". Kelenteng ini disebut Gedung
+            Batu karena bentuknya merupakan gua batu besar yang berada di sebuah bukit batu. Untuk
+            mengenang Cheng Ho, masyarakat Indonesia keturunan Tionghoa membangun sebuah kelenteng.
+            Sekarang tempat ini dijadikan tempat peringatan dan pemujaan atau bersembahyang serta
+            tempat untuk berziarah. Untuk keperluan tersebut, di dalam gua batu itu diletakkan
+            sebuah altar serta patung-patung Sam Po Tay Djien. Meskipun Laksamana Cheng Ho adalah
+            seorang Muslim, tetapi masyarakat menganggapnya sebagai dewa. Hal ini dapat dimaklumi
+            mengingat agama Konghucu atau Taoisme menganggap orang yang sudah meninggal dapat
+            memberikan pertolongan kepada mereka.</destinesia:abstract>
+        <destinesia:pulau>Jawa</destinesia:pulau>
+        <destinesia:provinsi>Jawa Tengah</destinesia:provinsi>
+        <destinesia:kota>Semarang</destinesia:kota>
+        <destinesia:kategori>Wisata Religi</destinesia:kategori>
+        <destinesia:thumbnail>
+            http://commons.wikimedia.org/wiki/Special:FilePath/Sam_Po_Kong_Temple_Semarang_Indonesia.jpg</destinesia:thumbnail>
+        <foaf:homepage rdf:resource="https://id.wikipedia.org/wiki/Kelenteng_Sam_Poo_Kong" />
+    </destinesia:wisata>
+
+    <destinesia:wisata rdf:about="https://dbpedia.org/page/Samarinda_Islamic_Center_Mosque">
+        <rdfs:label>Masjid Islamic Center Samarinda</rdfs:label>
+        <destinesia:abstract>Masjid Samarinda Islamic Center (bahasa Indonesia: Masjid Pusat Islam
+            Samarinda) atau yang lebih dikenal dengan nama resminya Masjid Baitul Muttaqien (bahasa
+            Arab adalah masjid yang terletak di Teluk Lerong Ulu, Kota Samarinda, Provinsi
+            Kalimantan Timur, Indonesia, yang merupakan salah satu masjid terbesar di Asia Tenggara.
+            Masjid ini terletak di latar depan Sungai Mahakam, dan memiliki tujuh minaret dan satu
+            kubah besar. Masjid ini memiliki luas bangunan 43.500 meter persegi, dengan luas
+            bangunan pendukung 7.115 meter persegi, dan luas lantai basemen 10.235 meter persegi.
+            Lantai dasar masjid memiliki luas 10.270 meter persegi dan lantai utama memiliki luas
+            8.185 meter persegi. Luas lantai balkon masjid ini adalah 5.290 meter persegi. Lokasi
+            ini dulunya merupakan area penggergajian kayu milik PT Inhutani I yang kemudian
+            dihibahkan kepada Pemerintah Provinsi Kalimantan Timur.</destinesia:abstract>
+        <destinesia:pulau>Kalimantan</destinesia:pulau>
+        <destinesia:provinsi>Kalimantan Barat</destinesia:provinsi>
+        <destinesia:kota>Samarinda, Kalimantan Barat</destinesia:kota>
+        <destinesia:kategori>Wisata Religi</destinesia:kategori>
+        <destinesia:thumbnail>
+            https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Islamic_Centre_Samarinda_by_bloesafir_-_panoramio.jpg/450px-Islamic_Centre_Samarinda_by_bloesafir_-_panoramio.jpg</destinesia:thumbnail>
+        <foaf:homepage rdf:resource="https://id.wikipedia.org/wiki/Masjid_Islamic_Center_Samarinda" />
+    </destinesia:wisata>
+
+    <destinesia:wisata rdf:about="https://dbpedia.org/page/Tirta_Empul">
+        <rdfs:label>Tirta Empul</rdfs:label>
+        <destinesia:abstract>Pura Tirta Empul adalah pura Hindu di tengah pulau Bali, Indonesia,
+            tepatnya di Desa Manukaya, Kecamatan Tampaksiring, Kabupaten Gianyar yang terkenal
+            dengan air sucinya di mana orang Hindu Bali mencari penyucian.</destinesia:abstract>
+        <destinesia:pulau>Bali dan Nusa Tenggara</destinesia:pulau>
+        <destinesia:provinsi>Bali</destinesia:provinsi>
+        <destinesia:kota>Gianyar, Bali</destinesia:kota>
+        <destinesia:kategori>Wisata Religi</destinesia:kategori>
+        <destinesia:thumbnail>
+            https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Around_Ubud%2C_Pura_Tirta_Empul_%286985858921%29.jpg/300px-Around_Ubud%2C_Pura_Tirta_Empul_%286985858921%29.jpg</destinesia:thumbnail>
+        <foaf:homepage rdf:resource="https://id.wikipedia.org/wiki/Pura_Tirta_Empul" />
+    </destinesia:wisata>
+
+    <!-- Wisata Sejarah -->
+    <destinesia:wisata rdf:about="https://dbpedia.org/page/Maimun_Palace">
+        <rdfs:label>Istana Maimun</rdfs:label>
+        <destinesia:abstract>Istana Maimun adalah salah satu ikon kota Medan, Sumatera Utara. Istana
+            ini terletak di kelurahan Sukaraja, kecamatan Medan Maimun. Didesain oleh arsitek Italia
+            dan dibangun oleh Sultan Deli, Makmun Al Rasyid Perkasa Alamsyah pada tahun 1888. Istana
+            Maimun memiliki luas sebesar 2.772 meter persegi dan 30 ruangan. Desain interior Istana
+            Maimun unik, menggabungkan unsur-unsur warisan kebudayaan Melayu dengan gaya Islam,
+            Spanyol, India, dan Italia. Namun, sayangnya, saat ini kondisi istana kurang terurus.
+            Pengunjung dapat menikmati pemandangan anak-anak bermain sepak bola di halaman istana
+            pada sore hari.</destinesia:abstract>
+        <destinesia:pulau>Sumatera</destinesia:pulau>
+        <destinesia:provinsi>Sumatera Utara</destinesia:provinsi>
+        <destinesia:kota>Medan</destinesia:kota>
+        <destinesia:kategori>Wisata Sejarah</destinesia:kategori>
+        <destinesia:thumbnail>http://commons.wikimedia.org/wiki/Special:FilePath/Istana_Maimoon.jpg</destinesia:thumbnail>
+        <foaf:homepage rdf:resource="https://id.wikipedia.org/wiki/Istana_Maimun" />
+    </destinesia:wisata>
+
+    <destinesia:wisata rdf:about="https://dbpedia.org/page/Jam_Gadang">
+        <rdfs:label>Jam Gadang</rdfs:label>
+        <destinesia:abstract>Jam Gadang adalah nama untuk menara jam yang terletak di pusat kota
+            Bukittinggi, Sumatera Barat, Indonesia. Menara jam ini memiliki jam dengan ukuran besar
+            di empat sisinya sehingga dinamakan Jam Gadang, sebutan bahasa Minangkabau yang berarti
+            "jam besar". Selain sebagai pusat penanda kota Bukittinggi, Jam Gadang juga telah
+            dijadikan sebagai objek wisata dengan diperluasnya taman di sekitar menara jam ini.
+            Taman tersebut menjadi ruang interaksi masyarakat baik di hari kerja maupun di hari
+            libur. Acara-acara yang sifatnya umum biasanya diselenggarakan di sekitar taman dekat
+            menara jam ini.</destinesia:abstract>
+        <destinesia:pulau>Sumatera</destinesia:pulau>
+        <destinesia:provinsi>Sumatera Barat</destinesia:provinsi>
+        <destinesia:kota>Bukittinggi</destinesia:kota>
+        <destinesia:kategori>Wisata Sejarah</destinesia:kategori>
+        <destinesia:thumbnail>
+            http://commons.wikimedia.org/wiki/Special:FilePath/Jam_Gadang,_Bukittinggi,_2016-02-12_01.jpg</destinesia:thumbnail>
+        <foaf:homepage rdf:resource="https://id.wikipedia.org/wiki/Jam_Gadang" />
+    </destinesia:wisata>
+
+    <destinesia:wisata rdf:about="https://dbpedia.org/page/Muara_Takus">
+        <rdfs:label>Candi Muara Takus</rdfs:label>
+        <destinesia:abstract>Situs Candi Muara Takus adalah sebuah situs candi Buddha yang terletak
+            di desa Muara Takus, Kecamatan XIII Koto, Kabupaten Kampar, Riau, Indonesia. Situs ini
+            memiliki tembok berukuran 74 x 74 meter yang terbuat dari batu putih dan berjarak
+            sekitar 2 meter, yang mengelilingi kompleks candi. Candi ini adalah salah satu
+            peninggalan agama Buddha dari zaman kerajaan Sriwijaya dan diperkirakan berusia sekitar
+            1.000 tahun. Candi Muara Takus menjadi bukti sejarah perjalanan agama Buddha di
+            Indonesia.</destinesia:abstract>
+        <destinesia:pulau>Sumatera</destinesia:pulau>
+        <destinesia:provinsi>Riau</destinesia:provinsi>
+        <destinesia:kota>Kampar</destinesia:kota>
+        <destinesia:kategori>Wisata Sejarah</destinesia:kategori>
+        <destinesia:thumbnail>
+            http://commons.wikimedia.org/wiki/Special:FilePath/003_Site_from_South-West_(38244920665).jpg</destinesia:thumbnail>
+        <foaf:homepage rdf:resource="https://id.wikipedia.org/wiki/Candi_Muara_Takus" />
+    </destinesia:wisata>
+
+    <destinesia:wisata rdf:about="https://dbpedia.org/page/Kota_Tua_Jakarta">
+        <rdfs:label>Kota Tua Jakarta</rdfs:label>
+        <destinesia:abstract>Tahun 1972, Gubernur Jakarta, Ali Sadikin, mengeluarkan dekret yang
+            resmi menjadikan Kota Tua sebagai situs warisan. Keputusan gubernur ini ditujukan untuk
+            melindungi sejarah arsitektur kota — atau setidaknya bangunan yang masih tersisa di
+            sana. Meski dekret Gubernur dikeluarkan, Kota Tua tetap terabaikan. Banyak warga yang
+            menyambut hangat dekret ini, tetapi tidak banyak yang dilakukan untuk melindungi warisan
+            era kolonial Belanda.</destinesia:abstract>
+        <destinesia:pulau>Jawa</destinesia:pulau>
+        <destinesia:provinsi>DKI Jakarta</destinesia:provinsi>
+        <destinesia:kota>Jakarta Barat</destinesia:kota>
+        <destinesia:kategori>Wisata Sejarah</destinesia:kategori>
+        <destinesia:thumbnail>
+            http://commons.wikimedia.org/wiki/Special:FilePath/Jakarta_Indonesia_Jakarta-History-Museum-01.jpg</destinesia:thumbnail>
+        <foaf:homepage rdf:resource="https://id.wikipedia.org/wiki/Kota_Tua_Jakarta" />
+    </destinesia:wisata>
+
+    <destinesia:wisata rdf:about="https://dbpedia.org/page/Lambung_Mangkurat_Museum">
+        <rdfs:label>Museum Lambung Mangkurat</rdfs:label>
+        <destinesia:abstract> Museum Lambung Mangkurat adalah sebuah museum provinsi Kalimantan
+            Selatan yang terletak di kota Banjarbaru, Kalimantan Selatan. Alamat museum ini di Jalan
+            Jenderal Ahmad Yani km 36 Kota Banjarbaru.</destinesia:abstract>
+        <destinesia:pulau>Kalimantan</destinesia:pulau>
+        <destinesia:provinsi>Kalimantan Selatan</destinesia:provinsi>
+        <destinesia:kota>Banjar Baru</destinesia:kota>
+        <destinesia:kategori>Wisata Sejarah</destinesia:kategori>
+        <destinesia:thumbnail>
+            http://commons.wikimedia.org/wiki/Special:FilePath/Museum_Lambung_Mangkurat.jpg</destinesia:thumbnail>
+        <foaf:homepage rdf:resource="https://id.wikipedia.org/wiki/Museum_Lambung_Mangkurat" />
+    </destinesia:wisata>
+
+    <destinesia:wisata rdf:about="https://dbpedia.org/page/Fort_Rotterdam">
+        <rdfs:label>Fort Rotterdam</rdfs:label>
+        <destinesia:abstract>Fort Rotterdam atau Benteng Ujung Pandang (Jum Pandang) adalah sebuah
+            benteng peninggalan Kerajaan Gowa-Tallo. Letak benteng ini berada di pinggir pantai
+            sebelah barat Kota Makassar, Sulawesi Selatan. Benteng ini dibangun pada tahun 1545 oleh
+            Raja Gowa ke-9 yang bernama I manrigau Daeng Bonto Karaeng Lakiung Tumapa'risi'
+            kallonna. Awalnya benteng ini berbahan dasar tanah liat, namun pada masa pemerintahan
+            Raja Gowa ke-14 Sultan Alauddin konstruksi benteng ini diganti menjadi batu padas yang
+            bersumber dari Pegunungan Karst yang ada di daerah Maros. Benteng Ujung Pandang ini
+            berbentuk seperti seekor penyu yang hendak merangkak turun ke lautan. Dari segi
+            bentuknya sangat jelas filosofi Kerajaan Gowa, bahwa penyu dapat hidup di darat maupun
+            di laut. Begitu pun dengan Kerajaan Gowa yang berjaya di daratan maupun di lautan. Nama
+            asli benteng ini adalah Benteng Ujung Pandang, biasa juga orang Gowa-Makassar menyebut
+            benteng ini dengan sebutan Benteng Panyyua yang merupakan markas pasukan katak Kerajaan
+            Gowa. Kerajaan Gowa-Tallo akhirnya menandatangani perjanjian Bungayya yang salah satu
+            pasalnya mewajibkan Kerajaan Gowa untuk menyerahkan benteng ini kepada Belanda. Pada
+            saat Belanda menempati benteng ini, nama Benteng Ujung Pandang diubah menjadi Fort
+            Rotterdam. Cornelis Speelman sengaja memilih nama Fort Rotterdam untuk mengenang daerah
+            kelahirannya di Belanda. Benteng ini kemudian digunakan oleh Belanda sebagai pusat
+            penampungan rempah-rempah di Indonesia bagian timur. Di kompleks Benteng Ujung Pandang
+            kini terdapat Museum La Galigo yang di dalamnya terdapat banyak referensi mengenai
+            sejarah kebesaran Makassar (Gowa-Tallo) dan daerah-daerah lainnya yang ada di Sulawesi
+            Selatan. Sebagian besar gedung benteng ini masih utuh dan menjadi salah satu objek
+            wisata di Kota Makassar.</destinesia:abstract>
+        <destinesia:pulau>Sulawesi</destinesia:pulau>
+        <destinesia:provinsi>Sulawesi Selatan</destinesia:provinsi>
+        <destinesia:kota>Makassar</destinesia:kota>
+        <destinesia:kategori>Wisata Sejarah</destinesia:kategori>
+        <destinesia:thumbnail>
+            http://commons.wikimedia.org/wiki/Special:FilePath/Fort_Rotterdam,_Makassar,_Indonesia_-_20100227-02.jpg</destinesia:thumbnail>
+        <foaf:homepage rdf:resource="https://id.wikipedia.org/wiki/Fort_Rotterdam" />
+    </destinesia:wisata>
+
     <destinesia:wisata rdf:about="https://dbpedia.org/page/Pagaruyung_Palace">
-        <destinesia:id>7</destinesia:id>
         <rdfs:label>Istano Basa Pagaruyung</rdfs:label>
         <destinesia:abstract>Istano Basa, lebih terkenal dengan nama Istana Pagaruyung, adalah
             sebuah istana yang terletak di kecamatan Tanjung Emas, kota Batusangkar, kabupaten Tanah
@@ -177,6 +631,7 @@
             waktu itu, Harun Zain. Bangunan baru ini tidak didirikan di tapak istana lama, tetapi di
             lokasi baru di sebelah selatannya. Pada akhir 1970-an, istana ini telah bisa dikunjungi
             oleh umum.</destinesia:abstract>
+        <destinesia:pulau>Sumatera</destinesia:pulau>
         <destinesia:provinsi>Sumatera Barat</destinesia:provinsi>
         <destinesia:kota>Batu Sangkar</destinesia:kota>
         <destinesia:kategori>Wisata Sejarah</destinesia:kategori>
@@ -185,62 +640,99 @@
         <foaf:homepage rdf:resource="https://id.wikipedia.org/wiki/Istano_Basa" />
     </destinesia:wisata>
 
-    <destinesia:wisata rdf:about="https://dbpedia.org/page/Kerinci_Seblat_National_Park">
-        <destinesia:id>8</destinesia:id>
-        <rdfs:label>Taman Nasional Kerinci Seblat</rdfs:label>
-        <destinesia:abstract>Taman Nasional Kerinci Seblat adalah taman nasional terbesar di
-            Sumatera, Indonesia yang memiliki luas wilayah sebesar 13,750 kilometer persegi dan
-            membentang ke empat provinsi yaitu Sumatera Barat, Jambi, Bengkulu, dan Sumatera
-            Selatan. Taman nasional ini terdiri dari Pegunungan Bukit Barisan yang memiliki wilayah
-            dataran tertinggi di Sumatera, termasuk Gunung Kerinci (3.805 meter). Taman nasional ini
-            juga terdiri dari mata air panas, sungai-sungai beraliran deras, gua-gua, air terjun-air
-            terjun, dan danau kaldera tertinggi di Asia Tenggara, Gunung Tujuh. Taman nasional ini
-            juga memiliki beragam flora dan fauna, termasuk berbagai spesies tumbuhan dan hewan yang
-            unik.</destinesia:abstract>
-        <destinesia:provinsi>Sumatera Barat, Jambi, Bengkulu, Sumatera Selatan</destinesia:provinsi>
-        <destinesia:kota></destinesia:kota>
-        <destinesia:kategori>Wisata Edukasi</destinesia:kategori>
-        <foaf:homepage rdf:resource="https://id.wikipedia.org/wiki/Taman_Nasional_Kerinci_Seblat" />
-    </destinesia:wisata>
-
-    <destinesia:wisata rdf:about="https://dbpedia.org/page/Tesso_Nilo_National_Park">
-        <destinesia:id>9</destinesia:id>
-        <rdfs:label>Taman Nasional Tesso Nilo</rdfs:label>
-        <destinesia:abstract>Taman Nasional Tesso Nilo adalah sebuah taman nasional yang terletak di
-            provinsi Riau, Indonesia. Taman nasional ini diresmikan pada 19 Juli 2004 dan memiliki
-            luas sebesar 38,576 hektare. Kawasan taman nasional ini dulunya adalah kawasan bekas Hak
-            Pengusahaan Hutan (HPH) yang terletak di Kabupaten Pelalawan dan Indragiri Hulu. Taman
-            nasional ini memiliki beragam flora dan fauna, termasuk beberapa spesies langka dan
-            dilindungi. Kawasan ini juga merupakan tempat tinggal gajah Sumatera. Upaya pelestarian
-            taman nasional ini termasuk dalam rangka mengurangi kegiatan pembalakan liar (illegal
-            logging) yang merusak lingkungan.</destinesia:abstract>
-        <destinesia:provinsi>Riau</destinesia:provinsi>
-        <destinesia:kota>Pelalawan</destinesia:kota>
-        <destinesia:kategori>Wisata Alam</destinesia:kategori>
-        <destinesia:thumbnail>http://commons.wikimedia.org/wiki/Special:FilePath/Tesso_Nilo_2009.jpg</destinesia:thumbnail>
-        <foaf:homepage rdf:resource="https://id.wikipedia.org/wiki/Taman_Nasional_Tesso_Nilo" />
-    </destinesia:wisata>
-
-    <destinesia:wisata rdf:about="https://dbpedia.org/page/Muara_Takus">
-        <destinesia:id>10</destinesia:id>
-        <rdfs:label>Candi Muara Takus</rdfs:label>
-        <destinesia:abstract>Situs Candi Muara Takus adalah sebuah situs candi Buddha yang terletak
-            di desa Muara Takus, Kecamatan XIII Koto, Kabupaten Kampar, Riau, Indonesia. Situs ini
-            memiliki tembok berukuran 74 x 74 meter yang terbuat dari batu putih dan berjarak
-            sekitar 2 meter, yang mengelilingi kompleks candi. Candi ini adalah salah satu
-            peninggalan agama Buddha dari zaman kerajaan Sriwijaya dan diperkirakan berusia sekitar
-            1.000 tahun. Candi Muara Takus menjadi bukti sejarah perjalanan agama Buddha di
-            Indonesia.</destinesia:abstract>
-        <destinesia:provinsi>Riau</destinesia:provinsi>
-        <destinesia:kota>Kampar</destinesia:kota>
+    <destinesia:wisata rdf:about="https://dbpedia.org/page/Mendut">
+        <rdfs:label>Candi Mendut</rdfs:label>
+        <destinesia:abstract>Candi Mendut (Jawa: ꦕꦟ꧀ꦝꦶꦩꦼꦤ꧀ꦢꦸꦠ꧀, translit. Candhi Mendut) adalah
+            sebuah candi bercorak Buddha. Candi yang terletak di Desa Mendut, Jalan Mayor Kusen Kota
+            Mungkid, Kabupaten Magelang, Jawa Tengah ini, letaknya berada sekitar 3 kilometer dari
+            Candi Borobudur. Candi Mendut didirikan semasa pemerintahan Raja Indra dari dinasti
+            Syailendra. Di dalam prasasti Karangtengah yang bertarikh 824 Masehi, disebutkan bahwa
+            raja Indra telah membangun bangunan suci bernama wenuwana yang artinya adalah hutan
+            bambu. Oleh seorang ahli arkeologi Belanda bernama J.G. de Casparis, kata ini
+            dihubungkan dengan Candi Mendut.Bahan bangunan candi sebenarnya adalah batu bata yang
+            ditutupi dengan batu alam. Bangunan ini terletak pada sebuah basement yang tinggi,
+            sehingga tampak lebih anggun dan kokoh. Tangga naik dan pintu masuk menghadap ke
+            barat-daya. Di atas basement terdapat lorong yang mengelilingi tubuh candi. Atapnya
+            bertingkat tiga dan dihiasi dengan stupa-stupa kecil. Jumlah stupa-stupa kecil yang
+            terpasang sekarang adalah 48 buah. Tinggi bangunan adalah 26,4 meter.</destinesia:abstract>
+        <destinesia:pulau>Jawa</destinesia:pulau>
+        <destinesia:provinsi>Jawa Tengah</destinesia:provinsi>
+        <destinesia:kota>Magelang</destinesia:kota>
         <destinesia:kategori>Wisata Sejarah</destinesia:kategori>
         <destinesia:thumbnail>
-            http://commons.wikimedia.org/wiki/Special:FilePath/003_Site_from_South-West_(38244920665).jpg</destinesia:thumbnail>
-        <foaf:homepage rdf:resource="https://id.wikipedia.org/wiki/Candi_Muara_Takus" />
+            http://commons.wikimedia.org/wiki/Special:FilePath/Mendut_Temple_Afternoon.jpg</destinesia:thumbnail>
+        <foaf:homepage rdf:resource="https://id.wikipedia.org/wiki/Candi_Mendut" />
+    </destinesia:wisata>
+
+    <destinesia:wisata rdf:about="https://dbpedia.org/page/Borobudur">
+        <rdfs:label>Candi Borobudur</rdfs:label>
+        <destinesia:abstract>Candi Borobudur (Jawa: ꦕꦟ꧀ꦝꦶꦧꦫꦧꦸꦝꦸꦂ, translit. Candhi Båråbudhur)
+            adalah sebuah candi Buddha yang terletak di Borobudur, Magelang, Jawa Tengah, Indonesia.
+            Candi ini terletak kurang lebih 100 km di sebelah barat daya Semarang, 86 km di sebelah
+            barat Surakarta, dan 40 km di sebelah barat laut Yogyakarta. Candi dengan banyak stupa
+            ini didirikan oleh para penganut agama Buddha Mahayana sekitar tahun 800-an Masehi pada
+            masa pemerintahan wangsa Syailendra. Borobudur adalah candi atau kuil Buddha terbesar di
+            dunia, sekaligus salah satu monumen Buddha terbesar di dunia.</destinesia:abstract>
+        <destinesia:pulau>Jawa</destinesia:pulau>
+        <destinesia:provinsi>Jawa Tengah</destinesia:provinsi>
+        <destinesia:kota>Magelang, Jawa Tengah</destinesia:kota>
+        <destinesia:kategori>Wisata Sejarah</destinesia:kategori>
+        <destinesia:thumbnail>
+            https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Stupa_Borobudur.jpg/450px-Stupa_Borobudur.jpg</destinesia:thumbnail>
+        <foaf:homepage rdf:resource="https://id.wikipedia.org/wiki/Borobudur" />
+    </destinesia:wisata>
+
+    <destinesia:wisata rdf:about="https://dbpedia.org/page/Prambanan">
+        <rdfs:label>Candi Prambanan</rdfs:label>
+        <destinesia:abstract> Candi Prambanan atau Candi Rara Jonggrang adalah kompleks candi Hindu
+            terbesar di Indonesia yang dibangun pada abad ke-9 masehi. Candi ini dipersembahkan
+            untuk Trimurti, tiga dewa utama Hindu yaitu Brahma sebagai dewa pencipta, Wishnu sebagai
+            dewa pemelihara, dan Siwa sebagai dewa pemusnah. Berdasarkan prasasti Siwagrha nama asli
+            kompleks candi ini adalah Siwagrha (bahasa Sanskerta yang bermakna 'Rumah Siwa'), dan
+            memang di garbagriha (ruang utama) candi ini bersemayam arca Siwa Mahadewa setinggi tiga
+            meter yang menujukkan bahwa di candi ini dewa Siwa lebih diutamakan. Candi ini terletak
+            di desa Prambanan, pulau Jawa, kurang lebih 20 kilometer timur Yogyakarta, 40 kilometer
+            barat Surakarta dan 120 kilometer selatan Semarang, persis di perbatasan antara provinsi
+            Jawa Tengah dan Daerah Istimewa Yogyakarta. Candi Rara Jonggrang terletak di desa
+            Prambanan yang wilayahnya dibagi antara kabupaten Sleman dan Klaten. Candi ini adalah
+            termasuk Situs Warisan Dunia UNESCO, candi Hindu terbesar di Indonesia, sekaligus salah
+            satu candi terindah di Asia Tenggara. Arsitektur bangunan ini berbentuk tinggi dan
+            ramping sesuai dengan arsitektur Hindu pada umumnya dengan candi Siwa sebagai candi
+            utama memiliki ketinggian mencapai 47 meter menjulang di tengah kompleks gugusan
+            candi-candi yang lebih kecil. Sebagai salah satu candi termegah di Asia Tenggara, candi
+            Prambanan menjadi daya tarik kunjungan wisatawan dari seluruh dunia. Menurut prasasti
+            Siwagrha, candi ini mulai dibangun pada sekitar tahun 850 masehi oleh Rakai Pikatan, dan
+            terus dikembangkan dan diperluas oleh Balitung Maha Sambu, di masa kerajaan Medang
+            Mataram.</destinesia:abstract>
+        <destinesia:pulau>Jawa</destinesia:pulau>
+        <destinesia:provinsi>Daerah Istimewa Yogyakarta</destinesia:provinsi>
+        <destinesia:kota>Klaten</destinesia:kota>
+        <destinesia:kategori>Wisata Sejarah</destinesia:kategori>
+        <destinesia:thumbnail>
+            http://commons.wikimedia.org/wiki/Special:FilePath/Prambanan_Temple_Yogyakarta_Indonesia.jpg</destinesia:thumbnail>
+        <foaf:homepage rdf:resource="https://id.wikipedia.org/wiki/Candi_Prambanan" />
+    </destinesia:wisata>
+
+    <destinesia:wisata rdf:about="https://dbpedia.org/page/Fort_Vredeburg_Museum">
+        <rdfs:label>Museum Fort Vredeburg</rdfs:label>
+        <destinesia:abstract>Benteng Vredeburg (Jawa: ꦩꦸꦱꦶꦪꦸꦩ꧀​ꦧꦺꦠꦺꦁ​ꦮ꦳ꦽꦢꦼꦧꦸꦂꦒ꧀, translit. Musiyum
+            Bètèng Vredeburg) adalah sebuah bangunan kuil yang terletak di depan Gedung Agung dan
+            Kraton Kesultanan Yogyakarta. Sekarang, benteng ini menjadi sebuah museum. Di sejumlah
+            bangunan di dalam benteng ini terdapat diorama mengenai sejarah Indonesia. Benteng ini
+            dibangun sebagai pusat pemerintahan dan pertahanan residen Belanda kala itu, dengan
+            dikelilingi oleh sebuah parit (jagang) yang sebagian bekas-bekasnya telah direkonstruksi
+            dan dapat dilihat hingga sekarang. Benteng berbentuk persegi ini mempunyai bastion
+            (menara pantau) di keempat sudutnya.</destinesia:abstract>
+        <destinesia:pulau>Jawa</destinesia:pulau>
+        <destinesia:provinsi>Daerah Istimewa Yogyakarta</destinesia:provinsi>
+        <destinesia:kota>Yogyakarta</destinesia:kota>
+        <destinesia:kategori>Wisata Sejarah</destinesia:kategori>
+        <destinesia:thumbnail>
+            https://upload.wikimedia.org/wikipedia/commons/2/2d/Gerbang_depan_Museum_Vredeburg_Yogyakarta.jpg</destinesia:thumbnail>
+        <foaf:homepage rdf:resource="https://id.wikipedia.org/wiki/Benteng_Vredeburg" />
     </destinesia:wisata>
 
     <destinesia:wisata rdf:about="https://dbpedia.org/page/Ampera_Bridge">
-        <destinesia:id>11</destinesia:id>
         <rdfs:label>Jembatan Ampera</rdfs:label>
         <destinesia:abstract>Jembatan Ampera adalah sebuah jembatan yang terletak di Kota Palembang,
             Provinsi Sumatera Selatan, Indonesia. Jembatan Ampera, yang telah menjadi semacam
@@ -248,6 +740,7 @@
             Ulu dan Seberang Ilir yang dipisahkan oleh Sungai Musi. Jembatan ini memiliki makna
             penting dalam sejarah dan budaya kota Palembang dan merupakan landmark terkenal di
             daerah ini.</destinesia:abstract>
+        <destinesia:pulau>Sumatera</destinesia:pulau>
         <destinesia:provinsi>Sumatera Selatan</destinesia:provinsi>
         <destinesia:kota>Palembang</destinesia:kota>
         <destinesia:kategori>Wisata Sejarah</destinesia:kategori>
@@ -256,47 +749,132 @@
         <foaf:homepage rdf:resource="https://id.wikipedia.org/wiki/Jembatan_Ampera" />
     </destinesia:wisata>
 
-    <destinesia:wisata rdf:about="https://dbpedia.org/page/Lake_Kerinci">
-        <destinesia:id>12</destinesia:id>
-        <rdfs:label>Danau Kerinci</rdfs:label>
-        <destinesia:abstract>Danau Kerinci merupakan sebuah danau yang terletak di provinsi Jambi,
-            Indonesia. Tepatnya di Kabupaten Kerinci. Danau ini memiliki luas wilayah 5000 m persegi
-            dengan ketinggian 783 m. Danau yang terletak di kaki Gunung Raja ini merupakan danau
-            terbesar yang ada di Kabupaten Kerinci.</destinesia:abstract>
-        <destinesia:provinsi>Jambi</destinesia:provinsi>
-        <destinesia:kota>Kerinci</destinesia:kota>
-        <destinesia:kategori>Wisata Alam</destinesia:kategori>
+    <!-- Wisata Edukasi -->
+    <destinesia:wisata rdf:about="https://dbpedia.org/page/Taman_Mini_Indonesia_Indah">
+        <rdfs:label>Taman Mini Indonesia Indah</rdfs:label>
+        <destinesia:abstract>Taman Mini Indonesia Indah (TMII) adalah kawasan taman wisata bertema
+            budaya Indonesia di Jakarta Timur. Taman ini merupakan representasi kebudayaan dari
+            26 provinsi Indonesia yang mencakup berbagai aspek kehidupan sehari-hari masyarakat pada
+            tahun 1975. Taman ini menampilkan anjungan daerah berarsitektur tradisional, serta
+            menampilkan beragam busana, tarian, dan tradisi daerah. Di tengah-tengah TMII terdapat
+            danau yang menggambarkan miniatur kepulauan Indonesia, kereta gantung, berbagai museum,
+            Teater IMAX Keong Mas, dan Teater Tanah Airku. Selain itu, TMII juga memiliki berbagai
+            fasilitas rekreasi, seperti hotel, bungalow, restoran, lapangan tenis, dan berbagai
+            sarana rekreasi air, menjadikannya salah satu kawasan wisata terkemuka di ibu kota.</destinesia:abstract>
+        <destinesia:pulau>Jawa</destinesia:pulau>
+        <destinesia:provinsi>DKI Jakarta</destinesia:provinsi>
+        <destinesia:kota>Jakarta Timur</destinesia:kota>
+        <destinesia:kategori>Wisata Edukasi</destinesia:kategori>
         <destinesia:thumbnail>
-            https://upload.wikimedia.org/wikipedia/commons/2/2b/Danau_Kerinci_dari_Bukit_Kayangan.jpg</destinesia:thumbnail>
-        <foaf:homepage rdf:resource="https://id.wikipedia.org/wiki/Danau_Kerinci" />
+            https://upload.wikimedia.org/wikipedia/commons/0/00/Istana_Anak-anak_Indonesia%2C_Taman_Mini%2C_Jakarta.jpg</destinesia:thumbnail>
+        <foaf:homepage rdf:resource="https://id.wikipedia.org/wiki/Taman_Mini_Indonesia_Indah" />
     </destinesia:wisata>
 
-    <destinesia:wisata rdf:about="https://dbpedia.org/page/Lake_Ranau">
-        <destinesia:id>13</destinesia:id>
-        <rdfs:label>Danau Ranau</rdfs:label>
-        <destinesia:abstract>Danau Ranau adalah danau terbesar ke dua di Sumatera. Danau ini
-            terletak di perbatasan Kabupaten Lampung Barat Provinsi Lampung dan Kabupaten Ogan
-            Komering Ulu Selatan Provinsi Sumatera Selatan. Danau ini tercipta dari gempa besar dan
-            letusan vulkanik dari gunung berapi yang membuat cekungan besar. Terletak pada posisi
-            koordinat 4°51′45″LS,103°55′50″BT. Secara geografis topografi danau Ranau adalah
-            perbukitan yang berlembah hal ini praktis menjadikan danau Ranau memiliki cuaca yang
-            sejuk.</destinesia:abstract>
-        <destinesia:provinsi>Sumatera Selatan</destinesia:provinsi>
-        <destinesia:kota>Lampung</destinesia:kota>
-        <destinesia:kategori>Wisata Alam</destinesia:kategori>
-        <destinesia:thumbnail>
-            https://upload.wikimedia.org/wikipedia/commons/b/b1/Gunung_dan_Danau.jpg</destinesia:thumbnail>
-        <foaf:homepage rdf:resource="https://id.wikipedia.org/wiki/Danau_Ranau" />
+    <destinesia:wisata rdf:about="https://dbpedia.org/page/Bogor_Botanical_Gardens">
+        <rdfs:label>Kebun Raya Bogor</rdfs:label>
+        <destinesia:abstract>Kebun Raya Bogor, atau Kebun Botani Bogor, adalah sebuah kebun botani
+            besar yang terletak di Kota Bogor, Indonesia. Luasnya mencapai 87 hektare dan memiliki
+            koleksi sebanyak 15.000 jenis pohon dan tumbuhan. Saat ini, Kebun Raya Bogor menjadi
+            tempat wisata yang ramai dikunjungi, terutama pada hari Sabtu dan Minggu. Di sekitar
+            Kebun Raya Bogor terdapat pusat-pusat ilmuan seperti Herbarium Bogoriense, Museum
+            Zoologi Bogor, dan PUSTAKA.</destinesia:abstract>
+        <destinesia:pulau>Jawa</destinesia:pulau>
+        <destinesia:provinsi>Jawa Barat</destinesia:provinsi>
+        <destinesia:kota>Bogor</destinesia:kota>
+        <destinesia:kategori>Wisata Edukasi</destinesia:kategori>
+        <destinesia:thumbnail>http://commons.wikimedia.org/wiki/Special:FilePath/Bbg001.jpg</destinesia:thumbnail>
+        <foaf:homepage rdf:resource="https://id.wikipedia.org/wiki/Kebun_Raya_Bogor" />
     </destinesia:wisata>
 
+    <destinesia:wisata rdf:about="https://dbpedia.org/page/Bosscha_Observatory">
+        <rdfs:label>Observatorium Bosscha</rdfs:label>
+        <destinesia:abstract>Observatorium Bosscha adalah observatorium astronomi tertua di
+            Indonesia yang terletak di Lembang, Kabupaten Bandung Barat, Jawa Barat. Observatorium
+            Bosscha mengoperasikan sekitar 12 teleskop termasuk tiga buah teleskop radio dengan
+            Teleskop Refraktor Ganda Zeiss 0.6 meter sebagai teleskop terbesar yang dipasang di
+            kubah. Awalnya dibangun pada 01 Januari 1923 oleh Perhimpunan Bintang Hindia Belanda
+            (NISV) dengan dukungan dana dari Karel Albert Rudolf Bosscha, seorang pengusaha
+            perkebunan teh di Malabar, Observatorium Bosscha diserahkan kepada Pemerintah Indonesia
+            pada 1951 dan saat ini sepenuhnya dikelola oleh Institut Teknologi Bandung (ITB). Pada
+            2004, Observatorium Bosscha ditetapkan sebagai Benda Cagar Budaya. Pada 2008, Pemerintah
+            menetapkan Observatorium Bosscha sebagai salah satu Objek Vital Nasional. Selanjutnya,
+            Observatorium Bosscha ditetapkan sebagai Bangunan Cagar Budaya tingkat Nasional pada
+            2017 dan peringkat Kabupaten pada 2021.</destinesia:abstract>
+        <destinesia:pulau>Jawa</destinesia:pulau>
+        <destinesia:provinsi>Jawa Barat</destinesia:provinsi>
+        <destinesia:kota>Bandung</destinesia:kota>
+        <destinesia:kategori>Wisata Edukasi</destinesia:kategori>
+        <destinesia:thumbnail>https://upload.wikimedia.org/wikipedia/commons/7/7f/Bosscha_001.JPG</destinesia:thumbnail>
+        <foaf:homepage rdf:resource="https://id.wikipedia.org/wiki/Observatorium_Bosscha" />
+    </destinesia:wisata>
+
+    <destinesia:wisata rdf:about="https://dbpedia.org/page/Asmat_Museum_of_Culture_and_Progress">
+        <rdfs:label>Museum Kebudayaan dan Kemajuan Asmat</rdfs:label>
+        <destinesia:abstract>Museum Kebudayaan dan Kemajuan Asmat adalah sebuah museum yang terletak
+            di kota Agats, Provinsi Papua Selatan, Indonesia. Museum ini disusun oleh misionaris OSC
+            Frank Trenkenschuh pada tahun 1969 sebagai jalan untuk mempertahankan
+            kebudayaan-kebudayaan Asmat serta memberikan kontribusi ekonomi bagi orang-orang Asmat.
+            Museum ini dibangun oleh Keuskupan Agats-Asmat, yang juga memiliki museum tersebut
+            didukung oleh uskup Alphonse Sowada. Alphonse sendiri juga mendirikan museum Asmat di
+            St. Cloud, Minnesota di Universitas St. Thomas, Minnesota dengan American Museum of
+            Asmat Art, disingkat AMAA atau AMAA-UST.</destinesia:abstract>
+        <destinesia:pulau>Papua</destinesia:pulau>
+        <destinesia:provinsi>Papua Selatan</destinesia:provinsi>
+        <destinesia:kota>Agats, Papua Selatan</destinesia:kota>
+        <destinesia:kategori>Wisata Edukasi</destinesia:kategori>
+        <destinesia:thumbnail>
+            https://upload.wikimedia.org/wikipedia/commons/6/6d/Male_Crocodile_%2848290419611%29.jpg</destinesia:thumbnail>
+        <foaf:homepage
+            rdf:resource="https://id.wikipedia.org/wiki/Museum_Kebudayaan_dan_Kemajuan_Asmat" />
+    </destinesia:wisata>
+
+    <destinesia:wisata rdf:about="https://dbpedia.org/page/Taman_Pintar_Yogyakarta">
+        <rdfs:label>Taman Pintar Yogyakarta</rdfs:label>
+        <destinesia:abstract>Taman Pintar Yogyakarta (Jawa: ꦠꦩꦤ꧀​ꦥꦶꦤ꧀ꦠꦂ​ꦔꦪꦺꦴꦒꦾꦏꦂꦠ, translit. Taman
+            Pintar Ngayogyakarta) adalah wahana wisata yang terdapat di pusat Kota Yogyakarta,
+            tepatnya di Jalan Panembahan Senopati No. 1-3, Yogyakarta, di kawasan Benteng Vredeburg.
+            Taman ini memadukan tempat wisata rekreasi maupun edukasi dalam satu lokasi. Taman
+            Pintar memiliki arena bermain sekaligus sarana edukasi yang terbagi dalam beberapa zona.
+            Akses langsung kepada pusat buku eks Shopping Centre juga menambah nilai lebih Taman
+            Pintar. Tempat rekreasi ini sangat baik untuk anak-anak pada masa perkembangan. Beberapa
+            tahun ini Taman Pintar menjadi alternatif tempat berwisata bagi masyarakat Yogyakarta
+            maupun luar kota. Taman ini, khususnya pada wahana pendidikan anak usia dini dilengkapi
+            dengan teknologi interaktif digital serta pemetaan video yang akan memacu imajinasi anak
+            serta ketertarikan mereka terhadap teknologi. Pada saat ini ada 35 zona dan 3.500 alat
+            peraga permainan yang edukatif.</destinesia:abstract>
+        <destinesia:pulau>Jawa</destinesia:pulau>
+        <destinesia:provinsi>Daerah Istimewa Yogyakarta</destinesia:provinsi>
+        <destinesia:kota>Yogyakarta</destinesia:kota>
+        <destinesia:kategori>Wisata Edukasi</destinesia:kategori>
+        <destinesia:thumbnail>
+            http://commons.wikimedia.org/wiki/Special:FilePath/Taman_Pintar_Yogyakarta.jpg</destinesia:thumbnail>
+        <foaf:homepage rdf:resource="https://id.wikipedia.org/wiki/Taman_Pintar_Yogyakarta" />
+    </destinesia:wisata>
+
+    <destinesia:wisata rdf:about="https://dbpedia.org/page/Sangiran_Early_Man_Site">
+        <rdfs:label>Situs Manusia Purba Sangiran</rdfs:label>
+        <destinesia:abstract>Sangiran adalah situs arkeologi di Jawa, Indonesia. Menurut laporan
+            UNESCO (1995) "Sangiran diakui oleh para ilmuwan untuk menjadi salah satu situs yang
+            paling penting di dunia untuk mempelajari fosil manusia, disejajarkan bersama situs
+            Zhoukoudian (Cina), Willandra Lakes (Australia), Olduvai Gorge (Tanzania), dan
+            Sterkfontein (Afrika Selatan), dan lebih baik dalam penemuan daripada yang lain."</destinesia:abstract>
+        <destinesia:pulau>Jawa</destinesia:pulau>
+        <destinesia:provinsi>Jawa Timur</destinesia:provinsi>
+        <destinesia:kota>Sragen dan Karanganyar</destinesia:kota>
+        <destinesia:kategori>Wisata Edukasi</destinesia:kategori>
+        <destinesia:thumbnail>https://upload.wikimedia.org/wikipedia/commons/1/16/Sangiran_17-02.JPG</destinesia:thumbnail>
+        <foaf:homepage rdf:resource="https://id.wikipedia.org/wiki/Sangiran" />
+    </destinesia:wisata>
+
+    <!-- Wisata Rekreasi -->
     <destinesia:wisata rdf:about="http://id.dbpedia.org/page/Taman_Impian_Jaya_Ancol">
-        <destinesia:id>14</destinesia:id>
         <rdfs:label>Taman Impian Jaya Ancol</rdfs:label>
         <destinesia:abstract>Taman Impian Jaya Ancol merupakan sebuah objek wisata di Jakarta Utara.
             Sebagai komunitas pembaharuan kehidupan masyarakat yang menjadi kebanggaan bangsa.
             Senantiasa menciptakan lingkungan sosial yang lebih baik melalui sajian hiburan
             berkualitas yang berunsur seni, budaya dan pengetahuan, dalam rangka mewujudkan
             komunitas 'Life Re-Creation' yang menjadi kebanggaan bangsa.</destinesia:abstract>
+        <destinesia:pulau>Jawa</destinesia:pulau>
         <destinesia:provinsi>DKI Jakarta</destinesia:provinsi>
         <destinesia:kota>Jakarta Utara</destinesia:kota>
         <destinesia:kategori>Wisata Rekreasi</destinesia:kategori>
@@ -305,8 +883,64 @@
         <foaf:homepage rdf:resource="https://id.wikipedia.org/wiki/Taman_Impian_Jaya_Ancol" />
     </destinesia:wisata>
 
+    <destinesia:wisata rdf:about="https://dbpedia.org/page/Bali_Safari_and_Marine_Park">
+        <rdfs:label>Taman Safari dan Marine Bali</rdfs:label>
+        <destinesia:abstract>Bali Safari dan Marine Park (BSMP) merupakan tempat wisata keluarga
+            berwawasan lingkungan yang terletak di Desa Serongga, Kec. Gianyar, Kabupaten Gianyar,
+            Bali. Bali Safari and Marine Park ini dikelola oleh Taman Safari Group yang juga
+            mengelola Taman Safari Indonesia 1 di Cisarua, Bogor, Jawa Barat dan Taman Safari
+            Indonesia 2 di Prigen, Jawa Timur.[1] Seperti kedua Taman Safari sebelumnya itu, BSMP
+            juga merupakan lembaga konservasi dan anggota dari Persatuan Kebun Binatang
+            se-Indonesia. Satwa yang ada di BSMP adalah jenis satwa dari tiga wilayah (Indonesia,
+            India, dan Afrika), di antaranya adalah jalak putih, burung hantu, beruang madu, harimau
+            Sumatra, rusa tutul, beruang Himalaya, nilgai, black buck, kuda nil, greavy zebra, onta
+            punuk satu, burung unta, babbon, blue wildebeest, dan singa.</destinesia:abstract>
+        <destinesia:pulau>Bali dan Nusa Tenggara</destinesia:pulau>
+        <destinesia:provinsi>Bali</destinesia:provinsi>
+        <destinesia:kota>Gianyar</destinesia:kota>
+        <destinesia:kategori>Wisata Rekreasi</destinesia:kategori>
+        <destinesia:thumbnail>
+            https://upload.wikimedia.org/wikipedia/commons/d/d3/Bali_Safari_%26_Marine_Park.jpg</destinesia:thumbnail>
+        <foaf:homepage rdf:resource="https://id.wikipedia.org/wiki/Bali_Safari_%26_Marine_Park" />
+    </destinesia:wisata>
+
+    <destinesia:wisata rdf:about="https://dbpedia.org/page/Trans_Studio_Bandung">
+        <rdfs:label>Trans Studio Bandung</rdfs:label>
+        <destinesia:abstract>Trans Studio Bandung adalah sebuah mal sekaligus taman bermain indoor
+            terbesar pertama di Indonesia yang terletak di Kota Bandung, Jawa Barat. Trans Studio
+            Bandung dibangun di lahan seluas 17 ha. Wahana yang terdapat didalamnya menawarkan
+            petualangan dan sensasi untuk para penyuka adrenalin. Target pengunjung Trans Studio
+            Bandung bukan hanya dari wisatawan domestik, melainkan juga pengunjung wisatawan asing
+            dari berbagai negara tetangga dan oleh karena itu Trans Studio Bandung harus bersaing
+            dengan Resort World Sentosa, Genting Highlands, dan lain-lainnya yang sudah terkenal di
+            mata internasional.</destinesia:abstract>
+        <destinesia:pulau>Jawa</destinesia:pulau>
+        <destinesia:provinsi>Jawa Barat</destinesia:provinsi>
+        <destinesia:kota>Bandung</destinesia:kota>
+        <destinesia:kategori>Wisata Rekreasi</destinesia:kategori>
+        <destinesia:thumbnail>
+            http://commons.wikimedia.org/wiki/Special:FilePath/Bandung,_Bandung_City,_West_Java,_Indonesia_-_panoramio_(3).jpg</destinesia:thumbnail>
+        <foaf:homepage rdf:resource="https://id.wikipedia.org/wiki/Trans_Studio_Bandung" />
+    </destinesia:wisata>
+
+    <destinesia:wisata rdf:about="https://dbpedia.org/page/Batu_Secret_Zoo">
+        <rdfs:label>Batu Secret Zoo</rdfs:label>
+        <destinesia:abstract>Batu Secret Zoo merupakan tempat wisata dan kebun binatang modern yang
+            terletak di Kota Batu, Jawa Timur. Batu Secret Zoo yang berada di tanah seluas 14 hektar
+            tersebut merupakan bagian dari Jatim Park 2, selain Pohon Inn dan Museum Satwa. Beberapa
+            koleksi hewan dari berbagai habitat yang sebagian besar berasal dari Asia dan Afrika
+            dapat ditemukan di kebun binatang ini, antara lain singa putih, kijang afrika, burung
+            macau, dan bermacam-macam reptil.</destinesia:abstract>
+        <destinesia:pulau>Jawa</destinesia:pulau>
+        <destinesia:provinsi>Jawa Timur</destinesia:provinsi>
+        <destinesia:kota>Batu</destinesia:kota>
+        <destinesia:kategori>Wisata Rekreasi</destinesia:kategori>
+        <destinesia:thumbnail>
+            https://upload.wikimedia.org/wikipedia/commons/4/44/Batu_Secret_Zoo_entrance_pavilion.jpg</destinesia:thumbnail>
+        <foaf:homepage rdf:resource="https://id.wikipedia.org/wiki/Batu_Secret_Zoo" />
+    </destinesia:wisata>
+
     <destinesia:wisata rdf:about="https://dbpedia.org/page/Wayang_Museum">
-        <destinesia:id>15</destinesia:id>
         <rdfs:label>Museum Wayang</rdfs:label>
         <destinesia:abstract>Museum Wayang adalah sebuah museum yang berlokasi di Jalan Pintu Besar
             Utara id 27, Jakarta Barat. Museum Wayang memamerkan berbagai jenis dan bentuk wayang
@@ -320,11 +954,87 @@
             Selain itu secara periodik disenggelarakan juga pagelaran wayang pada minggu 2 dan ke 3
             setiap bulannya. Pada tanggal 7 November 2003, Perserikatan Bangsa-Bangsa atau u PBB
             memutuskan mengakui wayang Indonesia sebagai warisan dunia yang patut dilestarikan</destinesia:abstract>
+        <destinesia:pulau>Jawa</destinesia:pulau>
         <destinesia:provinsi>DKI Jakarta</destinesia:provinsi>
         <destinesia:kota>Jakarta Barat</destinesia:kota>
         <destinesia:kategori>Wisata Kesenian</destinesia:kategori>
         <destinesia:thumbnail>http://commons.wikimedia.org/wiki/Special:FilePath/Museum_Wayang.jpg</destinesia:thumbnail>
         <foaf:homepage rdf:resource="https://id.wikipedia.org/wiki/Museum_Wayang" />
+    </destinesia:wisata>
+
+    <destinesia:wisata rdf:about="https://dbpedia.org/page/Ismail_Marzuki_Park">
+        <rdfs:label>Taman Ismail Marzuki</rdfs:label>
+        <destinesia:abstract>Pusat Kesenian Jakarta Taman Ismail Marzuki yang populer disebut Taman
+            Ismail Marzuki (TIM) merupakan sebuah pusat kesenian dan kebudayaan yang berlokasi di
+            Jalan Cikini Raya 73, Jakarta Pusat. Di komplek TIM, berdiri juga Institut Kesenian
+            Jakarta dan Planetarium Jakarta. TIM juga memiliki enam teater modern, perpustakaan,
+            balai pameran, galeri, dan gedung arsip. Acara-acara seni dan budaya dipertunjukkan
+            secara rutin di pusat kesenian ini, termasuk pementasan drama, tari, wayang, musik,
+            pembacaan puisi, pameran lukisan dan pertunjukan film. Berbagai jenis kesenian
+            tradisional dan kontemporer, baik yang merupakan tradisi asli Indonesia maupun dari luar
+            negeri juga dapat ditemukan di tempat ini. Nama pusat kesenian ini berasal dari nama
+            pencipta lagu terkenal Indonesia, Ismail Marzuki.</destinesia:abstract>
+        <destinesia:pulau>Jawa</destinesia:pulau>
+        <destinesia:provinsi>DKI Jakarta</destinesia:provinsi>
+        <destinesia:kota>Jakarta Pusat</destinesia:kota>
+        <destinesia:kategori>Wisata Kesenian</destinesia:kategori>
+        <destinesia:thumbnail>
+            https://upload.wikimedia.org/wikipedia/commons/d/d3/Plaza_Taman_Ismail_Marzuki.jpg</destinesia:thumbnail>
+        <foaf:homepage rdf:resource="https://id.wikipedia.org/wiki/Taman_Ismail_Marzuki" />
+    </destinesia:wisata>
+
+    <destinesia:wisata rdf:about="https://dbpedia.org/page/Agung_Rai_Museum_of_Art">
+        <rdfs:label>Museum Seni Agung Rai</rdfs:label>
+        <destinesia:abstract>Museum Seni Agung Rai atau Agung Rai Museum of Art (ARMA) merupakan
+            salah satu museum seni rupa di Bali yang menyimpan berbagai koleksi lukisan yang berasal
+            dari pelukis-pelukis ternama baik dari dalam negeri maupun mancanegara. Museum ini
+            diresmikan oleh Menteri Pendidikan dan Kebudayaan Indonesia, Prof. Dr. Ing. Wardiman
+            Djojonegoro pada 9 Juni 1996. Nama museum ini diambil dari seniman Bali yaitu Anak Agung
+            Gde Rai atau biasa dipanggil Agung Rai yang merupakan budayawan dan tokoh seni yang
+            berjasa besar melestarikan dan mempopulerkan karya-karya seni Indonesia (khususnya
+            Bali). Dia beliau juga adalah pendiri museum.</destinesia:abstract>
+        <destinesia:pulau>Bali dan Nusa Tenggara</destinesia:pulau>
+        <destinesia:provinsi>Bali</destinesia:provinsi>
+        <destinesia:kota>Gianyar</destinesia:kota>
+        <destinesia:kategori>Wisata Kesenian</destinesia:kategori>
+        <destinesia:thumbnail>https://upload.wikimedia.org/wikipedia/commons/9/9a/AgungRaiMuseum.JPG</destinesia:thumbnail>
+        <foaf:homepage rdf:resource="https://id.wikipedia.org/wiki/Museum_Seni_Agung_Rai" />
+    </destinesia:wisata>
+
+    <destinesia:wisata rdf:about="https://dbpedia.org/page/Garuda_Wisnu_Kencana_Cultural_Park">
+        <rdfs:label>Taman Budaya Garuda Wisnu Kencana</rdfs:label>
+        <destinesia:abstract>Garuda Wisnu Kencana (disingkat GWK) adalah sebuah kompleks taman
+            budaya yang terletak di tanjung Nusa Dua, Badung, Bali. Kawasan ini adalah rumah bagi
+            patung Garuda Wisnu Kencana, yang merupakan patung Wisnu sedang mengendarai Garuda, yang
+            merupakan tokoh mitologi Hindu. Patung ini menjadi salah satu ikon pariwisata di Bali.
+            GWK terletak di dekat Uluwatu, sebuah tempat suci Hindu yang juga dikenal dengan
+            pemandangan tebingnya yang spektakuler. Selain patung utama, kompleks ini juga memiliki
+            berbagai fasilitas seperti teater tari, galeri seni, dan tempat pertunjukan budaya.
+            Pengunjung dapat menikmati pemandangan yang indah, pertunjukan seni, serta memahami
+            lebih dalam budaya dan seni Bali di sini.</destinesia:abstract>
+        <destinesia:pulau>Bali dan Nusa Tenggara</destinesia:pulau>
+        <destinesia:provinsi>Bali</destinesia:provinsi>
+        <destinesia:kota>Badung</destinesia:kota>
+        <destinesia:kategori>Wisata Kesenian</destinesia:kategori>
+        <destinesia:thumbnail>
+            https://upload.wikimedia.org/wikipedia/id/0/0a/Patung_Wisnu_di_GWK.jpeg</destinesia:thumbnail>
+        <foaf:homepage rdf:resource="https://id.wikipedia.org/wiki/Garuda_Wisnu_Kencana" />
+    </destinesia:wisata>
+
+    <destinesia:wisata rdf:about="https://dbpedia.org/page/Pekalongan_Batik_Museum">
+        <rdfs:label>Museum Batik Pekalongan</rdfs:label>
+        <destinesia:abstract>Museum Batik Pekalongan adalah museum batik yang beralamat di Jalan
+            Jetayu No.1 Pekalongan, Jawa Tengah. Museum ini memiliki luas tanah dan bangunan 40
+            meter persegi dan memiliki 1149 koleksi batik, antara lain wayang beber dari kain batik
+            yang berusia ratusan tahun dan alat tenun tradisional atau dikenal sebagai alat tenun
+            bukan mesin.[1] Museum Batik Pekalongan merupakan Unit Pelaksana Teknis Daerah (UPTD).</destinesia:abstract>
+        <destinesia:pulau>Jawa</destinesia:pulau>
+        <destinesia:provinsi>Jawa Tengah</destinesia:provinsi>
+        <destinesia:kota>Pekalongan</destinesia:kota>
+        <destinesia:kategori>Wisata Kesenian</destinesia:kategori>
+        <destinesia:thumbnail>
+            https://upload.wikimedia.org/wikipedia/commons/1/1f/Museum_Batik_Pekalongan.jpg</destinesia:thumbnail>
+        <foaf:homepage rdf:resource="https://id.wikipedia.org/wiki/Museum_Batik_Pekalongan" />
     </destinesia:wisata>
 
 </rdf:RDF>
