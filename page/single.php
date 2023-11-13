@@ -15,8 +15,16 @@
             FILTER(?nama = '$keyword') .
         }
     ";
-    $result = $sparqlJena->query($query);
-    $data = $result->current();
+    $result = $sparqlJena->query($query)->current();
+
+    $mapQuery = '
+        SELECT DISTINCT * WHERE {
+            dbr:' . str_replace(' ', '_', ucwords($keyword)) . ' geo:lat  ?lat;
+                                                                 geo:long ?long .
+        }
+    ';
+    
+    $result2 = $sparqlDbPedia->query($mapQuery)->current();
 ?>
 <!-- Header Start -->
 <div class="container-fluid page-header">
@@ -41,34 +49,36 @@
                 <div class="pb-3">
                     <div class="bg-white mb-3" style="padding: 30px; text-align: justify;">
                         <div class="d-flex mb-3">
-                            <a class="text-primary text-uppercase text-decoration-none" href="?p=category&keyword=<?= $data->kategori ?>"><?= $data->kategori ?></a>
+                            <a class="text-primary text-uppercase text-decoration-none" href="?p=category&keyword=<?= $result->kategori ?>"><?= $result->kategori ?></a>
                         </div>
-                        <h2 class="mb-3"><?= $data->nama ?></h2>
-                        <div><?= $data->abstract ?></div>
+                        <h2 class="mb-3"><?= $result->nama ?></h2>
+                        <div><?= $result->abstract ?></div>
+                        <div class="mt-4">
+                            <iframe width="100%" height="376.875px" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" src="https://maps.google.com/maps?q=<?= $result2->lat ?>,<?= $result2->long ?>&hl=en&z=14&amp;output=embed"></iframe>
+                        </div>
                     </div>
                 </div>
             </div>
             <div class="col-lg-4">
                 <div class="pb-3">
                     <div class="bg-white mb-3" style="padding: 10px;">
-                        <img class="w-100" src="<?= $data->thumbnail ?>" alt="">
+                        <img class="w-100" src="<?= $result->thumbnail ?>" alt="">
                         <div class="p-2">
                             <table>
                                 <tr>
                                     <td>Pulau</td>
-                                    <td><?= $data->pulau ?></td>
+                                    <td><?= $result->pulau ?></td>
                                 </tr>
                                 <tr>
                                     <td width="100px">Provinsi</td>
-                                    <td><?= $data->provinsi ?></td>
+                                    <td><?= $result->provinsi ?></td>
                                 </tr>
                                 <tr>
                                     <td>Kota</td>
-                                    <td><?= $data->kota ?></td>
+                                    <td><?= $result->kota ?></td>
                                 </tr>
                             </table>
-                            <span>Untuk info lebih lanjut klik <a href="<?= $data->home ?>">di sini</a></span>
-                            
+                            <span>Untuk info lebih lanjut klik <a href="<?= $result->home ?>">di sini</a></span>
                         </div>
                     </div>
                 </div>

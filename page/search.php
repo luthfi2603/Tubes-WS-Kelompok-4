@@ -107,7 +107,7 @@
                             </div>
                         <?php endforeach ?>
                     <?php endif ?>
-                    <div class="col-12">
+                    <!-- <div class="col-12">
                         <nav aria-label="Page navigation">
                             <ul class="pagination pagination-lg justify-content-center bg-white mb-0" style="padding: 30px;">
                                 <li class="page-item disabled">
@@ -127,7 +127,7 @@
                                 </li>
                             </ul>
                         </nav>
-                    </div>
+                    </div> -->
                 </div>
             </div>
         </div>
