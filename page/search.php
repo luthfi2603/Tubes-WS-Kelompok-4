@@ -1,54 +1,54 @@
 <?php
-    if(isset($_POST["cari"])){
-        $keyword = $_POST["keyword"];
+if (isset($_POST["cari"])) {
+    $keyword = $_POST["keyword"];
 
-        $query = "
-            SELECT DISTINCT ?nama ?kategori ?thumbnail ?pulau WHERE {
-                ?d a destinesia:wisata;
-                     rdfs:label           ?nama;
-                     destinesia:provinsi  ?provinsi;
-                     destinesia:kota      ?kota;
-                     destinesia:kategori  ?kategori;
+    $query = "
+            SELECT DISTINCT ?name ?category ?thumbnail ?island WHERE {
+                ?d a destinesia:tour;
+                     rdfs:label           ?name;
+                     destinesia:province  ?province;
+                     destinesia:location      ?location;
+                     destinesia:category  ?category;
                      destinesia:thumbnail ?thumbnail;
-                     destinesia:pulau     ?pulau .
-                FILTER ( REGEX (?nama, '$keyword', 'i') ||
-                         REGEX (?provinsi, '$keyword', 'i') ||
-                         REGEX (?kota, '$keyword', 'i') ||
-                         REGEX (?kategori, '$keyword', 'i') ||
-                         REGEX (?pulau, '$keyword', 'i')) .
+                     destinesia:island    ?island .
+                FILTER ( REGEX (?name, '$keyword', 'i') ||
+                         REGEX (?province, '$keyword', 'i') ||
+                         REGEX (?location, '$keyword', 'i') ||
+                         REGEX (?category, '$keyword', 'i') ||
+                         REGEX (?island, '$keyword', 'i')) .
             }
-            ORDER BY ?nama
+            ORDER BY ?name
         ";
 
-        $result = $sparqlJena->query($query);
-    }else{
-        $query = "
-            SELECT DISTINCT ?nama ?kategori ?thumbnail ?pulau WHERE {
-                ?d a destinesia:wisata;
-                     rdfs:label           ?nama;
-                     destinesia:kategori  ?kategori;
+    $result = $sparqlJena->query($query);
+} else {
+    $query = "
+            SELECT DISTINCT ?name ?category ?thumbnail ?island WHERE {
+                ?d a destinesia:tour;
+                     rdfs:label           ?name;
+                     destinesia:category  ?category;
                      destinesia:thumbnail ?thumbnail;
-                     destinesia:pulau ?pulau .
+                     destinesia:island ?island .
             }
-            ORDER BY ?nama
+            ORDER BY ?name
         ";
 
-        $result = $sparqlJena->query($query);
-    }
+    $result = $sparqlJena->query($query);
+}
 ?>
 <!-- Header Start -->
 <div class="container-fluid page-header">
-        <div class="container">
-            <div class="d-flex flex-column align-items-center justify-content-center" style="min-height: 400px">
-                <h3 class="display-4 text-white text-uppercase">Cari Destinasi</h3>
-                <div class="d-inline-flex text-white">
-                    <p class="m-0 text-uppercase"><a class="text-white" href="inc/..">Home</a></p>
-                    <i class="fa fa-angle-double-right pt-1 px-3"></i>
-                    <p class="m-0 text-uppercase">Cari Destinasi</p>
-                </div>
+    <div class="container">
+        <div class="d-flex flex-column align-items-center justify-content-center" style="min-height: 400px">
+            <h3 class="display-4 text-white text-uppercase">Find Destination</h3>
+            <div class="d-inline-flex text-white">
+                <p class="m-0 text-uppercase"><a class="text-white" href="inc/..">Home</a></p>
+                <i class="fa fa-angle-double-right pt-1 px-3"></i>
+                <p class="m-0 text-uppercase">Find Destination</p>
             </div>
         </div>
     </div>
+</div>
 <!-- Header End -->
 <!-- Search Start -->
 <div class="container-fluid booking mt-5">
@@ -62,7 +62,7 @@
                                 <div class="mb-3 mb-md-0">
                                     <div class="" id="" data-target-input="nearest">
                                         <div class="input-group">
-                                            <input name="keyword" type="text" class="form-control p-4 datetimepicker-input" placeholder="Cari Destinasi Wisata" />
+                                            <input name="keyword" type="text" class="form-control p-4 datetimepicker-input" placeholder="Find Destination" />
                                         </div>
                                     </div>
                                 </div>
@@ -86,10 +86,10 @@
         <div class="row">
             <div class="col-lg-12">
                 <div class="row pb-3">
-                    <?php if(!isset($result->current()->nama)) : ?>
-                        <div class="not-found-2">Data tidak ditemukan!</div>
+                    <?php if (!isset($result->current()->name)) : ?>
+                        <div class="not-found-2">Data is not found!</div>
                     <?php else : ?>
-                        <?php foreach($result as $data) : ?>
+                        <?php foreach ($result as $data) : ?>
                             <div class="col-lg-4 md-4 mb-4 pb-2">
                                 <div class="blog-item">
                                     <div class="position-relative">
@@ -97,11 +97,11 @@
                                     </div>
                                     <div class="bg-white p-4">
                                         <div class="d-flex mb-2">
-                                            <a class="text-primary text-uppercase text-decoration-none" href="?p=category&keyword=<?= $data->kategori ?>"><?= $data->kategori ?></a>
+                                            <a class="text-primary text-uppercase text-decoration-none" href="?p=category&keyword=<?= $data->category ?>"><?= $data->category ?></a>
                                             <span class="text-primary px-2">|</span>
-                                            <span class="text-primary text-uppercase text-decoration-none"><?= $data->pulau ?></span>
+                                            <span class="text-primary text-uppercase text-decoration-none"><?= $data->island ?></span>
                                         </div>
-                                        <a class="h5 m-0 text-decoration-none" href="?p=single&keyword=<?= $data->nama ?>"><?= $data->nama ?></a>
+                                        <a class="h5 m-0 text-decoration-none" href="?p=single&keyword=<?= $data->name ?>"><?= $data->name ?></a>
                                     </div>
                                 </div>
                             </div>

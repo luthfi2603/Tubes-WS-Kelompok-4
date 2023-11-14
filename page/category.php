@@ -1,23 +1,23 @@
 <?php
-    $keyword = $_GET['keyword'];
+$keyword = $_GET['keyword'];
 
-    $query = "
-        SELECT DISTINCT ?nama ?kategori ?thumbnail ?pulau WHERE {
-            ?d a destinesia:wisata;
-                 rdfs:label           ?nama;
-                 destinesia:kategori  ?kategori;
+$query = "
+        SELECT DISTINCT ?name ?category ?thumbnail ?island WHERE {
+            ?d a destinesia:tour;
+                 rdfs:label           ?name;
+                 destinesia:category  ?category;
                  destinesia:thumbnail ?thumbnail;
-                 destinesia:pulau ?pulau .
-            FILTER(?kategori = '$keyword') .
+                 destinesia:island ?island .
+            FILTER(?category = '$keyword') .
         }
     ";
-    $result = $sparqlJena->query($query);
+$result = $sparqlJena->query($query);
 ?>
 <!-- Header Start -->
 <div class="container-fluid page-header">
     <div class="container">
         <div class="d-flex flex-column align-items-center justify-content-center" style="min-height: 400px">
-            <h3 class="display-4 text-white text-uppercase">Kategori</h3>
+            <h3 class="display-4 text-white text-uppercase">Category</h3>
             <div class="d-inline-flex text-white">
                 <p class="m-0 text-uppercase"><a class="text-white" href="">Home</a></p>
                 <i class="fa fa-angle-double-right pt-1 px-3"></i>
@@ -33,9 +33,9 @@
     <div class="container py-1">
         <div class="row">
             <div class="col-lg-12">
-                <h2 class="text-primary">Kategori : <?= $keyword ?></h2>
+                <h2 class="text-primary">Category: <?= $keyword ?></h2>
                 <div class="row py-3">
-                    <?php foreach($result as $data) : ?>
+                    <?php foreach ($result as $data) : ?>
                         <div class="col-lg-4 md-4 mb-4 pb-2">
                             <div class="blog-item">
                                 <div class="position-relative">
@@ -43,9 +43,9 @@
                                 </div>
                                 <div class="bg-white p-4">
                                     <div class="d-flex mb-2">
-                                        <span class="text-primary text-uppercase text-decoration-none"><?= $data->pulau ?></span>
+                                        <span class="text-primary text-uppercase text-decoration-none"><?= $data->island ?></span>
                                     </div>
-                                    <a class="h5 m-0 text-decoration-none" href="?p=single&keyword=<?= $data->nama ?>"><?= $data->nama ?></a>
+                                    <a class="h5 m-0 text-decoration-none" href="?p=single&keyword=<?= $data->name ?>"><?= $data->name ?></a>
                                 </div>
                             </div>
                         </div>
