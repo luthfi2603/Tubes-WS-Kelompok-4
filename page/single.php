@@ -2,36 +2,38 @@
 $keyword = $_GET['keyword'];
 
 $query = "
-        SELECT DISTINCT ?name ?abstract ?province ?location ?category ?thumbnail ?island ?home WHERE {
-            ?d a destinesia:tour;
-                 rdfs:label           ?name;
-                 destinesia:abstract  ?abstract;
-                 destinesia:province  ?province;
-                 destinesia:location      ?location;
-                 destinesia:category  ?category;
-                 destinesia:thumbnail ?thumbnail;
-                 destinesia:island     ?island;
-                 foaf:homepage        ?home .
-            FILTER(?name = '$keyword') .
-        }
-    ";
+    SELECT DISTINCT ?name ?abstract ?province ?location ?category ?thumbnail ?island ?home WHERE {
+        ?d a destinesia:tour;
+             rdfs:label           ?name;
+             destinesia:abstract  ?abstract;
+             destinesia:province  ?province;
+             destinesia:location  ?location;
+             destinesia:category  ?category;
+             destinesia:thumbnail ?thumbnail;
+             destinesia:island    ?island;
+             foaf:homepage        ?home .
+        FILTER(?name = '$keyword') .
+    }
+";
+
 $result = $sparqlJena->query($query)->current();
 
 $mapQuery = '
-        SELECT DISTINCT * WHERE {
-            dbr:' . str_replace(' ', '_', ucwords($keyword)) . ' geo:lat  ?lat;
-                                                                 geo:long ?long .
-        }
-    ';
+    SELECT DISTINCT * WHERE {
+        dbr:' . str_replace(' ', '_', ucwords($keyword)) . ' geo:lat  ?lat;
+                                                             geo:long ?long .
+    }
+';
 
 $result2 = $sparqlDbPedia->query($mapQuery)->current();
 
 if (!empty($result->home)) {
     \EasyRdf\RdfNamespace::setDefault('og');
     $wiki = \EasyRdf\Graph::newAndLoad($result->home);
-    $foto_url = $wiki->image;
-} else
-    $foto_url = "assets/img/3.png"
+    $fotoURL = $wiki->image;
+} else {
+    $fotoURL = "./assets/img/3.png";
+}
 ?>
 <!-- Header Start -->
 <div class="container-fluid page-header">
@@ -88,7 +90,7 @@ if (!empty($result->home)) {
                             <span style="position: relative;" class="py-2">
                                 <div class=" row justify-content-center mt-2">
                                     <div class="destination-item position-relative overflow-hidden mb-2 w-75">
-                                        <img class="img-fluid" src="<?= $foto_url ?>" alt="">
+                                        <img class="img-fluid" src="<?= $fotoURL ?>" alt="">
                                         <a class="destination-overlay text-white text-decoration-none" href="<?= $result->home ?>">
                                             <h6 class="text-white" style="font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; text-decoration:underline;">For more infos click here</h6>
                                         </a>

@@ -2,15 +2,16 @@
 $keyword = $_GET['keyword'];
 
 $query = "
-        SELECT DISTINCT ?name ?category ?thumbnail ?island WHERE {
-            ?d a destinesia:tour;
-                 rdfs:label           ?name;
-                 destinesia:category  ?category;
-                 destinesia:thumbnail ?thumbnail;
-                 destinesia:island ?island .
-            FILTER(?category = '$keyword') .
-        }
-    ";
+    SELECT DISTINCT ?name ?category ?thumbnail ?island WHERE {
+        ?d a destinesia:tour;
+             rdfs:label           ?name;
+             destinesia:category  ?category;
+             destinesia:thumbnail ?thumbnail;
+             destinesia:island    ?island .
+        FILTER(?category = '$keyword') .
+    }
+";
+
 $result = $sparqlJena->query($query);
 ?>
 <!-- Header Start -->
