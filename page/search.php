@@ -3,35 +3,35 @@ if (isset($_POST["cari"])) {
     $keyword = $_POST["keyword"];
 
     $query = "
-            SELECT DISTINCT ?name ?category ?thumbnail ?island WHERE {
-                ?d a destinesia:tour;
-                     rdfs:label           ?name;
-                     destinesia:province  ?province;
-                     destinesia:location      ?location;
-                     destinesia:category  ?category;
-                     destinesia:thumbnail ?thumbnail;
-                     destinesia:island    ?island .
-                FILTER ( REGEX (?name, '$keyword', 'i') ||
-                         REGEX (?province, '$keyword', 'i') ||
-                         REGEX (?location, '$keyword', 'i') ||
-                         REGEX (?category, '$keyword', 'i') ||
-                         REGEX (?island, '$keyword', 'i')) .
-            }
-            ORDER BY ?name
-        ";
+        SELECT DISTINCT ?name ?category ?thumbnail ?island WHERE {
+            ?d a destinesia:tour;
+                 rdfs:label           ?name;
+                 destinesia:province  ?province;
+                 destinesia:location  ?location;
+                 destinesia:category  ?category;
+                 destinesia:thumbnail ?thumbnail;
+                 destinesia:island    ?island .
+            FILTER ( REGEX (?name, '$keyword', 'i') ||
+                     REGEX (?province, '$keyword', 'i') ||
+                     REGEX (?location, '$keyword', 'i') ||
+                     REGEX (?category, '$keyword', 'i') ||
+                     REGEX (?island, '$keyword', 'i')) .
+        }
+        ORDER BY ?name
+    ";
 
     $result = $sparqlJena->query($query);
 } else {
     $query = "
-            SELECT DISTINCT ?name ?category ?thumbnail ?island WHERE {
-                ?d a destinesia:tour;
-                     rdfs:label           ?name;
-                     destinesia:category  ?category;
-                     destinesia:thumbnail ?thumbnail;
-                     destinesia:island ?island .
-            }
-            ORDER BY ?name
-        ";
+        SELECT DISTINCT ?name ?category ?thumbnail ?island WHERE {
+            ?d a destinesia:tour;
+                 rdfs:label           ?name;
+                 destinesia:category  ?category;
+                 destinesia:thumbnail ?thumbnail;
+                 destinesia:island    ?island .
+        }
+        ORDER BY ?name
+    ";
 
     $result = $sparqlJena->query($query);
 }

@@ -1,11 +1,12 @@
 <?php
 $query = "
-        SELECT DISTINCT ?category WHERE {
-            ?d a destinesia:tour;
-                 destinesia:category  ?category .
-        }
-        ORDER BY ?category 
-    ";
+    SELECT DISTINCT ?category WHERE {
+        ?d a destinesia:tour;
+             destinesia:category ?category .
+    }
+    ORDER BY ?category 
+";
+
 $result = $sparqlJena->query($query);
 ?>
 <!-- Carousel Start -->

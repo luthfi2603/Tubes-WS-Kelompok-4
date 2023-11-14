@@ -15,4 +15,4 @@ require "./vendor/easyrdf/easyrdf/lib/GraphStore.php";
 \EasyRdf\RdfNamespace::set('geo', 'http://www.w3.org/2003/01/geo/wgs84_pos#');
 
 $sparqlDbPedia = new \EasyRdf\Sparql\Client('http://dbpedia.org/sparql');
-$sparqlJena = new \EasyRdf\Sparql\Client('http://127.0.0.1:3030/destinesia_kelompok1/sparql');
+$sparqlJena = new \EasyRdf\Sparql\Client('http://127.0.0.1:3030/destinesia/sparql');
