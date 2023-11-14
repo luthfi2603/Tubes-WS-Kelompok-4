@@ -1,6 +1,8 @@
 <?php
 
 require "./vendor/autoload.php";
+require "./vendor/easyrdf/easyrdf/lib/Graph.php";
+require "./vendor/easyrdf/easyrdf/lib/GraphStore.php";
 
 \EasyRdf\RdfNamespace::set('rdf', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#');
 \EasyRdf\RdfNamespace::set('rdfs', 'http://www.w3.org/2000/01/rdf-schema#');
@@ -13,4 +15,4 @@ require "./vendor/autoload.php";
 \EasyRdf\RdfNamespace::set('geo', 'http://www.w3.org/2003/01/geo/wgs84_pos#');
 
 $sparqlDbPedia = new \EasyRdf\Sparql\Client('http://dbpedia.org/sparql');
-$sparqlJena = new \EasyRdf\Sparql\Client('http://127.0.0.1:3030/destinesia/sparql');
+$sparqlJena = new \EasyRdf\Sparql\Client('http://127.0.0.1:3030/destinesia_kelompok1/sparql');
