@@ -93,7 +93,7 @@ if (isset($_POST["cari"])) {
                             <div class="col-lg-4 md-4 mb-4 pb-2">
                                 <div class="blog-item">
                                     <div class="position-relative">
-                                        <img class="img-fluid w-100" src="<?= $data->thumbnail ?>" alt="">
+                                        <img class="img-fluid w-100" style="height: 250px;" src="<?= $data->thumbnail ?>" alt="">
                                     </div>
                                     <div class="bg-white p-4">
                                         <div class="d-flex mb-2">
