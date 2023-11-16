@@ -19,20 +19,24 @@
         <div class="row">
             <div class="col-lg-6" style="min-height: 500px;">
                 <div class="position-relative h-100">
-                    <img class="position-absolute w-100 h-100" src="./assets/img/about.jpg" style="object-fit: cover;">
+                    <img class="position-absolute w-100 h-100" src="./assets/img/rajaampat.jpg" style="object-fit: cover;">
                 </div>
             </div>
             <div class="col-lg-6 pt-5 pb-lg-5">
                 <div class="about-text bg-white p-4 p-lg-5 my-lg-5">
                     <h6 class="text-primary text-uppercase" style="letter-spacing: 5px;">About Us</h6>
-                    <h1 class="mb-3">We Provide Best Tour Packages In Your Budget</h1>
-                    <p>Dolores lorem lorem ipsum sit et ipsum. Sadip sea amet diam dolore sed et. Sit rebum labore sit sit ut vero no sit. Et elitr stet dolor sed sit et sed ipsum et kasd ut. Erat duo eos et erat sed diam duo</p>
+                    <h2 class="mb-3">Destinesia memberikan pilihan terbaik untuk destinasi wisata kamu dan keluarga</h2>
+                    <p>Destinesia merupakan sebuah Semantic-Website yang berisi informasi mengenai destinasi wisata di Indonesia. 
+                    Destinesia menghadirkan bermacam destinasi wisata dari berbagai provinsi dan pulau di Indonesia dengan informasi yang lengkap dan jelas.
+                    Kami berkomitmen dengan memberikan informasi yang asli dan akurat terhadap setiap destinasi wisata yang kami hadirkan.
+                    Dengan Destinesia kamu tidak perlu bingung lagi untuk menentukan pilihan destinasi wisata yang akan kamu kunjungi.
+                    </p>
                     <div class="row mb-4">
                         <div class="col-6">
-                            <img class="img-fluid" src="./assets/img/about-1.jpg" alt="">
+                            <img class="img-fluid" src="./assets/img/tanahlot.jpg" style="height: 180px;" alt="">
                         </div>
                         <div class="col-6">
-                            <img class="img-fluid" src="./assets/img/about-2.jpg" alt="">
+                            <img class="img-fluid" src="./assets/img/borobudur.jpg" style="height: 180px;" alt="">
                         </div>
                     </div>
                 </div>
@@ -96,16 +100,14 @@
             <div class="col-lg-4 col-md-4 col-sm-6 pb-1">
                 <div class="team-item bg-white mb-4">
                     <div class="team-img position-relative overflow-hidden">
-                        <img class="img-fluid w-100" src="./assets/img/team-1.jpg" alt="">
+                        <img class="img-fluid w-100" src="./assets/img/ruth.jpg" alt="">
                         <div class="team-social">
-                            <a class="btn btn-outline-primary btn-square" href=""><i class="fab fa-twitter"></i></a>
-                            <a class="btn btn-outline-primary btn-square" href=""><i class="fab fa-facebook-f"></i></a>
-                            <a class="btn btn-outline-primary btn-square" href=""><i class="fab fa-instagram"></i></a>
-                            <a class="btn btn-outline-primary btn-square" href=""><i class="fab fa-linkedin-in"></i></a>
+                            <a class="btn btn-outline-primary btn-square" href="https://www.instagram.com/ruthgracea_/"><i class="fab fa-instagram"></i></a>
+                            <a class="btn btn-outline-primary btn-square" href="https://www.linkedin.com/in/ruth-grace-arlyana-manurung-b674b2293/"><i class="fab fa-linkedin-in"></i></a>
                         </div>
                     </div>
                     <div class="text-center py-4">
-                        <h5 class="text-truncate">Guide Name</h5>
+                        <h5 class="text-truncate">Ruth Grace Manurung</h5>
                         <p class="m-0">Designation</p>
                     </div>
                 </div>
@@ -113,16 +115,14 @@
             <div class="col-lg-4 col-md-4 col-sm-6 pb-1">
                 <div class="team-item bg-white mb-4">
                     <div class="team-img position-relative overflow-hidden">
-                        <img class="img-fluid w-100" src="./assets/img/team-2.jpg" alt="">
+                        <img class="img-fluid w-100" src="./assets/img/rifqi.jpg" alt="">
                         <div class="team-social">
-                            <a class="btn btn-outline-primary btn-square" href=""><i class="fab fa-twitter"></i></a>
-                            <a class="btn btn-outline-primary btn-square" href=""><i class="fab fa-facebook-f"></i></a>
-                            <a class="btn btn-outline-primary btn-square" href=""><i class="fab fa-instagram"></i></a>
-                            <a class="btn btn-outline-primary btn-square" href=""><i class="fab fa-linkedin-in"></i></a>
+                            <a class="btn btn-outline-primary btn-square" href="https://www.instagram.com/rifqijabrah/"><i class="fab fa-instagram"></i></a>
+                            <a class="btn btn-outline-primary btn-square" href="https://www.linkedin.com/in/rifqi-jabrah-b718a0257/"><i class="fab fa-linkedin-in"></i></a>
                         </div>
                     </div>
                     <div class="text-center py-4">
-                        <h5 class="text-truncate">Guide Name</h5>
+                        <h5 class="text-truncate">Rifqi Jabrah Rhae</h5>
                         <p class="m-0">Designation</p>
                     </div>
                 </div>
@@ -130,16 +130,14 @@
             <div class="col-lg-4 col-md-4 col-sm-6 pb-1">
                 <div class="team-item bg-white mb-4">
                     <div class="team-img position-relative overflow-hidden">
-                        <img class="img-fluid w-100" src="./assets/img/team-2.jpg" alt="">
+                        <img class="img-fluid w-100" src="./assets/img/luthfi.jpg" alt="">
                         <div class="team-social">
-                            <a class="btn btn-outline-primary btn-square" href=""><i class="fab fa-twitter"></i></a>
-                            <a class="btn btn-outline-primary btn-square" href=""><i class="fab fa-facebook-f"></i></a>
-                            <a class="btn btn-outline-primary btn-square" href=""><i class="fab fa-instagram"></i></a>
-                            <a class="btn btn-outline-primary btn-square" href=""><i class="fab fa-linkedin-in"></i></a>
+                            <a class="btn btn-outline-primary btn-square" href="https://www.instagram.com/luthfi2603/"><i class="fab fa-instagram"></i></a>
+                            <a class="btn btn-outline-primary btn-square" href="https://www.linkedin.com/in/muhammad-luthfi-0155a8282/"><i class="fab fa-linkedin-in"></i></a>
                         </div>
                     </div>
                     <div class="text-center py-4">
-                        <h5 class="text-truncate">Guide Name</h5>
+                        <h5 class="text-truncate">Muhammad Luthfi</h5>
                         <p class="m-0">Designation</p>
                     </div>
                 </div>
@@ -147,16 +145,14 @@
             <div class="col-lg-4 col-md-4 col-sm-6 pb-1">
                 <div class="team-item bg-white mb-4">
                     <div class="team-img position-relative overflow-hidden">
-                        <img class="img-fluid w-100" src="./assets/img/team-2.jpg" alt="">
+                        <img class="img-fluid w-100" src="./assets/img/andy.jpg" alt="">
                         <div class="team-social">
-                            <a class="btn btn-outline-primary btn-square" href=""><i class="fab fa-twitter"></i></a>
-                            <a class="btn btn-outline-primary btn-square" href=""><i class="fab fa-facebook-f"></i></a>
-                            <a class="btn btn-outline-primary btn-square" href=""><i class="fab fa-instagram"></i></a>
-                            <a class="btn btn-outline-primary btn-square" href=""><i class="fab fa-linkedin-in"></i></a>
+                            <a class="btn btn-outline-primary btn-square" href="https://www.instagram.com/andysaragih_/"><i class="fab fa-instagram"></i></a>
+                            <a class="btn btn-outline-primary btn-square" href="https://www.linkedin.com/in/andy-septiawan-saragih-272095255/"><i class="fab fa-linkedin-in"></i></a>
                         </div>
                     </div>
                     <div class="text-center py-4">
-                        <h5 class="text-truncate">Guide Name</h5>
+                        <h5 class="text-truncate">Andy Septiawan Saragih</h5>
                         <p class="m-0">Designation</p>
                     </div>
                 </div>
@@ -164,16 +160,14 @@
             <div class="col-lg-4 col-md-4 col-sm-6 pb-1">
                 <div class="team-item bg-white mb-4">
                     <div class="team-img position-relative overflow-hidden">
-                        <img class="img-fluid w-100" src="./assets/img/team-3.jpg" alt="">
+                        <img class="img-fluid w-100" src="./assets/img/aulia.jpg" alt="">
                         <div class="team-social">
-                            <a class="btn btn-outline-primary btn-square" href=""><i class="fab fa-twitter"></i></a>
-                            <a class="btn btn-outline-primary btn-square" href=""><i class="fab fa-facebook-f"></i></a>
-                            <a class="btn btn-outline-primary btn-square" href=""><i class="fab fa-instagram"></i></a>
+                            <a class="btn btn-outline-primary btn-square" href="https://www.instagram.com/rizstiaulia/"><i class="fab fa-instagram"></i></a>
                             <a class="btn btn-outline-primary btn-square" href=""><i class="fab fa-linkedin-in"></i></a>
                         </div>
                     </div>
                     <div class="text-center py-4">
-                        <h5 class="text-truncate">Guide Name</h5>
+                        <h5 class="text-truncate">Rizky Siti Aulia</h5>
                         <p class="m-0">Designation</p>
                     </div>
                 </div>
@@ -181,20 +175,19 @@
             <div class="col-lg-4 col-md-4 col-sm-6 pb-1">
                 <div class="team-item bg-white mb-4">
                     <div class="team-img position-relative overflow-hidden">
-                        <img class="img-fluid w-100" src="./assets/img/team-4.jpg" alt="">
+                        <img class="img-fluid w-100" src="./assets/img/fenaya.jpg" alt="">
                         <div class="team-social">
-                            <a class="btn btn-outline-primary btn-square" href=""><i class="fab fa-twitter"></i></a>
-                            <a class="btn btn-outline-primary btn-square" href=""><i class="fab fa-facebook-f"></i></a>
-                            <a class="btn btn-outline-primary btn-square" href=""><i class="fab fa-instagram"></i></a>
-                            <a class="btn btn-outline-primary btn-square" href=""><i class="fab fa-linkedin-in"></i></a>
+                            <a class="btn btn-outline-primary btn-square" href="https://www.instagram.com/fenayacecilly/"><i class="fab fa-instagram"></i></a>
+                            <a class="btn btn-outline-primary btn-square" href="https://www.linkedin.com/in/fenaya-cecilly-a760262a0/"><i class="fab fa-linkedin-in"></i></a>
                         </div>
                     </div>
                     <div class="text-center py-4">
-                        <h5 class="text-truncate">Guide Name</h5>
+                        <h5 class="text-truncate">Fenaya Cecilly Nababan</h5>
                         <p class="m-0">Designation</p>
                     </div>
                 </div>
             </div>
+            
         </div>
     </div>
 </div>
