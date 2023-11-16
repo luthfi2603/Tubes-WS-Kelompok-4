@@ -26,7 +26,7 @@
                 <div class="about-text bg-white p-4 p-lg-5 my-lg-5">
                     <h6 class="text-primary text-uppercase" style="letter-spacing: 5px;">About Us</h6>
                     <h2 class="mb-3">Destinesia memberikan pilihan terbaik untuk destinasi wisata kamu dan keluarga</h2>
-                    <p>Destinesia merupakan sebuah Semantic-Website yang berisi informasi mengenai destinasi wisata di Indonesia. 
+                    <p style="text-align: justify;">Destinesia merupakan sebuah Semantic-Website yang berisi informasi mengenai destinasi wisata di Indonesia. 
                     Destinesia menghadirkan bermacam destinasi wisata dari berbagai provinsi dan pulau di Indonesia dengan informasi yang lengkap dan jelas.
                     Kami berkomitmen dengan memberikan informasi yang asli dan akurat terhadap setiap destinasi wisata yang kami hadirkan.
                     Dengan Destinesia kamu tidak perlu bingung lagi untuk menentukan pilihan destinasi wisata yang akan kamu kunjungi.
