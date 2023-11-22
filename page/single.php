@@ -21,7 +21,7 @@ $result = $sparqlJena->query($query)->current();
 $mapQuery = '
     SELECT DISTINCT * WHERE {
         dbr:' . str_replace(' ', '_', $keyword) . ' geo:lat  ?lat;
-                                                             geo:long ?long .
+                                                    geo:long ?long .
     }
 ';
 
