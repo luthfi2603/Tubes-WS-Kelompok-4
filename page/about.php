@@ -108,7 +108,7 @@
                     </div>
                     <div class="text-center py-4">
                         <h5 class="text-truncate">Ruth Grace Manurung</h5>
-                        <p class="m-0">Designation</p>
+                        <p class="m-0">Member</p>
                     </div>
                 </div>
             </div>
@@ -123,7 +123,7 @@
                     </div>
                     <div class="text-center py-4">
                         <h5 class="text-truncate">Rifqi Jabrah Rhae</h5>
-                        <p class="m-0">Designation</p>
+                        <p class="m-0">Member</p>
                     </div>
                 </div>
             </div>
@@ -138,7 +138,7 @@
                     </div>
                     <div class="text-center py-4">
                         <h5 class="text-truncate">Muhammad Luthfi</h5>
-                        <p class="m-0">Designation</p>
+                        <p class="m-0">Member</p>
                     </div>
                 </div>
             </div>
@@ -153,7 +153,7 @@
                     </div>
                     <div class="text-center py-4">
                         <h5 class="text-truncate">Andy Septiawan Saragih</h5>
-                        <p class="m-0">Designation</p>
+                        <p class="m-0">Member</p>
                     </div>
                 </div>
             </div>
@@ -167,8 +167,8 @@
                         </div>
                     </div>
                     <div class="text-center py-4">
-                        <h5 class="text-truncate">Rizky Siti Aulia</h5>
-                        <p class="m-0">Designation</p>
+                        <h5 class="text-truncate">Rizqi Siti Aulia</h5>
+                        <p class="m-0">Member</p>
                     </div>
                 </div>
             </div>
@@ -183,7 +183,7 @@
                     </div>
                     <div class="text-center py-4">
                         <h5 class="text-truncate">Fenaya Cecilly Nababan</h5>
-                        <p class="m-0">Designation</p>
+                        <p class="m-0">Member</p>
                     </div>
                 </div>
             </div>
