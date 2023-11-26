@@ -31,8 +31,10 @@ if (!empty($result->home)) {
     \EasyRdf\RdfNamespace::setDefault('og');
     $wiki = \EasyRdf\Graph::newAndLoad($result->home);
     $fotoURL = $wiki->image;
-} else {
-    $fotoURL = "./assets/img/3.png";
+
+    if($fotoURL == NULL){
+        $fotoURL = './assets/img/3.png';
+    }
 }
 ?>
 <!-- Header Start -->
