@@ -43,6 +43,25 @@
         <foaf:homepage rdf:resource="https://id.wikipedia.org/wiki/Danau_Toba" />
     </destinesia:tour>
 
+    <destinesia:tour rdf:about="https://dbpedia.org/page/Sipisopiso">
+        <rdfs:label>Sipisopiso</rdfs:label>
+        <destinesia:abstract>The Sipiso-piso is a plunge waterfall in the Batak highlands of
+            Sumatra, Indonesia. It is formed by a small underground river of the Karo plateau that
+            falls from a cave in the side of caldera of Lake Toba, some 120 metres (390 ft) down to
+            lake level. Sipiso-piso is a well-known tourist attraction and a nearby vantage point
+            offers views of the falls and lake. Sipiso-piso waterfall is located in the Tanah Karo
+            regency in North Sumatra, at the northernmost tip of the Lake Toba caldera, near the
+            fishing village of Tongging. The closest municipality is the town of Kabanjahe, about 25
+            km (16 mi) away</destinesia:abstract>
+        <destinesia:island>Sumatra</destinesia:island>
+        <destinesia:province>North Sumatra</destinesia:province>
+        <destinesia:location>Tongging Village, Merek, Karo Regency</destinesia:location>
+        <destinesia:category>Nature Tourism</destinesia:category>
+        <destinesia:thumbnail>
+            https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/AIR_TERJUN_SIPISO-PISO_%28SUMUT%29.jpg/375px-AIR_TERJUN_SIPISO-PISO_%28SUMUT%29.jpg</destinesia:thumbnail>
+        <foaf:homepage rdf:resource="https://id.wikipedia.org/wiki/Air_Terjun_Sipisopiso" />
+    </destinesia:tour>
+
     <destinesia:tour rdf:about="https://dbpedia.org/page/Lake_Maninjau">
         <rdfs:label>Lake Maninjau</rdfs:label>
         <destinesia:abstract>Lake Maninjau (Indonesian: Danau Maninjau, meaning "overlook" or
@@ -55,6 +74,27 @@
         <destinesia:category>Nature Tourism</destinesia:category>
         <destinesia:thumbnail>http://commons.wikimedia.org/wiki/Special:FilePath/Maninjau.jpg</destinesia:thumbnail>
         <foaf:homepage rdf:resource="https://id.wikipedia.org/wiki/Danau_Maninjau" />
+    </destinesia:tour>
+
+    <destinesia:tour rdf:about="https://dbpedia.org/page/Lake_Singkarak">
+        <rdfs:label>Lake Singkarak</rdfs:label>
+        <destinesia:abstract>Lake Singkarak (Indonesian: Danau Singkarak) is a lake in West Sumatra,
+            Indonesia. It is located between the regencies of Tanah Datar and Solok Regency. It has
+            an area of 107.8 km2, being approximately 21 km long and 7 km wide. The natural outlet
+            for excess water is the Ombilin river which flows eastward to the Strait of Malacca. A
+            hydroelectric project, however, has diverted most of the lake outflow to the Anai river
+            which flows westward into the Indian Ocean near Padang. This Singkarak power station
+            uses this water to generate power for the West Sumatra and Riau provinces. A species of
+            fish called ikan bilih (Mystacoleucus padangensis) is endemic to the lake, and is
+            harvested for human consumption. A railway line, which connects Padang and
+            Sawahlunto-Sijunjung, skirts the length of the lake on the eastern side.</destinesia:abstract>
+        <destinesia:island>Sumatra</destinesia:island>
+        <destinesia:province>West Sumatra</destinesia:province>
+        <destinesia:location>Tanah Datar and Solok Regency</destinesia:location>
+        <destinesia:category>Nature Tourism</destinesia:category>
+        <destinesia:thumbnail>
+            https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Danau_singkarak_2.jpg/570px-Danau_singkarak_2.jpg</destinesia:thumbnail>
+        <foaf:homepage rdf:resource="https://id.wikipedia.org/wiki/Danau_Singkarak" />
     </destinesia:tour>
 
     <destinesia:tour rdf:about="https://dbpedia.org/page/Komodo_National_Park">
@@ -320,6 +360,411 @@
         <foaf:homepage rdf:resource="https://id.wikipedia.org/wiki/Pantai_Kuta" />
     </destinesia:tour>
 
+    <destinesia:tour rdf:about="https://dbpedia.org/page/Lake_Laut_Tawar">
+        <rdfs:label>Lake Laut Tawar</rdfs:label>
+        <destinesia:abstract>Lake Laut Tawar (Indonesian: Danau Laut Tawar) is a lake in Central
+            Aceh Regency of Aceh Province, Indonesia. It is located at 4°36′43″N 96°55′25″E﻿ /
+            ﻿4.61194°N 96.92361°E. The name Laut Tawar literally means "freshwater sea". * Laut
+            Tawar Lake * View of Lake Laut Tawar</destinesia:abstract>
+        <destinesia:island>Sumatra</destinesia:island>
+        <destinesia:province>Aceh</destinesia:province>
+        <destinesia:location>Gayo Highlands, Central Aceh District, Aceh</destinesia:location>
+        <destinesia:category>Nature Tourism</destinesia:category>
+        <destinesia:thumbnail>
+            https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Laut_Tawar_Lake.jpg/495px-Laut_Tawar_Lake.jpg</destinesia:thumbnail>
+        <foaf:homepage rdf:resource="https://id.wikipedia.org/wiki/Danau_Laut_Tawar" />
+    </destinesia:tour>
+
+    <destinesia:tour rdf:about="https://dbpedia.org/page/Bukit_Lawang">
+        <rdfs:label>Bukit Lawang</rdfs:label>
+        <destinesia:abstract>Bukit Lawang is a small tourist village on the bank of Bahorok River in
+            North Sumatra province of Indonesia. Situated approximately 86 km northwest of the city
+            of Medan, Bukit Lawang is known for the largest animal sanctuary of Sumatran orangutan
+            (around 5,000 orangutans occupying the area) and also the main access point to the
+            Gunung Leuser National Park from the east side. The Bukit Lawang rehabilitation centre
+            for orangutans was founded in 1973. Its main purpose was to preserve the decreasing
+            number of orangutan population due to hunting, trading and deforestation. The centre
+            closed in 2002 as the place was getting too touristy and unsuitable for animal
+            rehabilitation. A flash flood hit Bukit Lawang on 2 November 2003. The disaster
+            destroyed the local tourist resorts and had a devastating impact to the local tourism
+            industry in the area. Around 400 houses, 3 mosques, 8 bridges, 280 kiosks and food
+            stalls, 35 hotels and guest houses were destroyed by the flood; 239 people including 5
+            tourists were killed, and around 1,400 locals lost their homes. Local authorities and an
+            environmental NGO attributed it to illegal logging. Thanks to several international
+            cooperation agencies, the site was rebuilt and re-opened again in July 2004. The area is
+            slowly regenerating and offers truly wonderful escapes and the chance to see an
+            abundance of wildlife</destinesia:abstract>
+        <destinesia:island>Sumatra</destinesia:island>
+        <destinesia:province>North Sumatra</destinesia:province>
+        <destinesia:location>Bahorok, Langkat Regency</destinesia:location>
+        <destinesia:category>Nature Tourism</destinesia:category>
+        <destinesia:thumbnail>
+            https://upload.wikimedia.org/wikipedia/commons/7/7e/Orang_utan_and_man.jpg</destinesia:thumbnail>
+        <foaf:homepage rdf:resource="https://id.wikipedia.org/wiki/Bukit_Lawang" />
+    </destinesia:tour>
+
+    <destinesia:tour rdf:about="https://dbpedia.org/page/Merangin_Geopark">
+        <rdfs:label>Merangin Geopark</rdfs:label>
+        <destinesia:abstract>Merangin Jambi Geopark is a national Geopark at Merangin Regency, Jambi
+            Province that located on Sumatra Island, Indonesia. There are three main of geological
+            uniqueness in the Merangin Jambi Geopark (MJGp). Fossils of “Jambi Flora” represent the
+            West Sumatra Terrane of Cathaysialand with Euramerican Flora, karst landscape represent
+            a mesozoic era with prehistoric artefacts and Masurai Caldera represents the Quaternary
+            volcanic. In the Early Permian at the end of the Paleozoic glaciation, ecosystem
+            stability and the resulting taxonomic statis that existed for plants forest in the Late
+            Carboniferous were disturbed. Early Permian fossils collection from Merangin Jambi
+            Geopark in Mengkarang Formation consist in Parasequences. Flora fossil Permian is
+            composed of general ration of seed ferns flora like Pecopterids, Calamites and
+            Cordaites, rare new Permian Flora exist like Gigantopterids. Early conifers also present
+            in Mengkarang like Tobleria bicuspis in Merangin river. The geological diversity in the
+            Merangin Jambi Geopark area is also increasingly complemented by the presence of karst
+            stretches in the Sungai Manau which have a variety of landscapes, both exokarst and
+            endokarst. The karst is formed by limestone, this rock unit is a shallow sea exposure
+            deposit, orientation to the southwest. It belong to Peneta Formation of the Late
+            Jurassic Member of Mersip. The rock layers contain molluscs and small veins of quartz
+            and calcite are visible. Merangin Jambi Geopark completed with Masurai Complex with
+            tectonic volcanic phenomena that have caused the formation of several landscapes such as
+            lakes, waterfalls, and hotspring manifestations that are still active process today.
+            Caldera Masurai was formed from a large eruption on the VEI scale 6 at 33,000 years ago.
+            It is being proposed to become member of UNESCO Global Geopark (UGG) to be recognized
+            UNESCO by 2023. It takes about six hours journey from Jambi City to reach the Merangin
+            Jambi Geopark.</destinesia:abstract>
+        <destinesia:island>Sumatra</destinesia:island>
+        <destinesia:province>Jambi</destinesia:province>
+        <destinesia:location>Merangin Regency, Jambi</destinesia:location>
+        <destinesia:category>Nature Tourism</destinesia:category>
+        <destinesia:thumbnail>
+            https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/At_ma_krng.jpg/1024px-At_ma_krng.jpg</destinesia:thumbnail>
+        <foaf:homepage rdf:resource="https://id.wikipedia.org/wiki/Taman_Bumi_Merangin-Jambi" />
+    </destinesia:tour>
+
+    <destinesia:tour rdf:about="https://dbpedia.org/page/Lake_Kerinci">
+        <rdfs:label>Lake Kerinci</rdfs:label>
+        <destinesia:abstract>Lake Kerinci (Indonesian: Danau Kerinci) is a lake in Jambi, Indonesia.
+            It is located at 2°8′55″S 101°29′34″E﻿ / ﻿2.14861°S 101.49278°E. The cyprinid fish
+            Osteochilus kerinciensis is named after Lake Kerinci, its type locality. </destinesia:abstract>
+        <destinesia:island>Sumatra</destinesia:island>
+        <destinesia:province>North Sumatra</destinesia:province>
+        <destinesia:location>Kerinci Regency, Jambi</destinesia:location>
+        <destinesia:category>Nature Tourism</destinesia:category>
+        <destinesia:thumbnail>
+            https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Danau_Kerinci_dari_Bukit_Kayangan.jpg/1024px-Danau_Kerinci_dari_Bukit_Kayangan.jpg</destinesia:thumbnail>
+        <foaf:homepage rdf:resource="https://id.wikipedia.org/wiki/Danau_Kerinci" />
+    </destinesia:tour>
+
+    <destinesia:tour rdf:about="https://dbpedia.org/page/Way_Kambas_National_Park">
+        <rdfs:label>Way Kambas National Park</rdfs:label>
+        <destinesia:abstract>Way Kambas National Park (Indonesian: Taman Nasional Way Kambas,
+            abbreviated TNWK) is a national park covering 1,300 square kilometres in Lampung
+            province, southern Sumatra, Indonesia. It consists of swamp forest and lowland rain
+            forest, mostly of secondary growth as result of extensive logging in the 1960s and
+            1970s. Despite decreasing populations, the park still has a few critically endangered
+            Sumatran tigers, Sumatran elephants and Sumatran rhinoceroses. It also provides
+            excellent birdwatching, with the rare white-winged wood duck among the over 400 species
+            present in the park. Threats to the park are posed by poaching and habitat loss due to
+            illegal logging. Conservation efforts include patrolling and the establishment of the
+            Sumatran Rhino Sanctuary and the Elephant Conservation Centre. In 2016, Way Kambas was
+            formally declared an ASEAN Heritage Park.</destinesia:abstract>
+        <destinesia:island>Sumatra</destinesia:island>
+        <destinesia:province>Lampung</destinesia:province>
+        <destinesia:location>Sukadana, East Lampung Regency</destinesia:location>
+        <destinesia:category>Nature Tourism</destinesia:category>
+        <destinesia:thumbnail>
+            https://upload.wikimedia.org/wikipedia/commons/c/cd/Sumatran_Rhinoceros_Way_Kambas_2008.jpg</destinesia:thumbnail>
+        <foaf:homepage rdf:resource="https://id.wikipedia.org/wiki/Taman_Nasional_Way_Kambas" />
+    </destinesia:tour>
+
+    <destinesia:tour rdf:about="https://dbpedia.org/page/Talagabodas">
+        <rdfs:label>Talagabodas</rdfs:label>
+        <destinesia:abstract>Mount Talagabodas or Mount Telagabodas (which means Mount of White Lake
+            (refer to white crater lake) in Sundanese) is a stratovolcano in West Java, Indonesia.
+            The volcano is about 25 km to the east of the town of Garut and is built up of andesitic
+            lavas and pyroclastics. Fumaroles, mud pots and hot springs are found around the crater
+            lake. Changes of the lake color occurred in 1913 and 1921. The diameter of crater lake
+            is less than 2 km and lies at an altitude of 1,720 m or 1,020 m above Garut plains. Mt
+            Talagabodas is just north of Galunggung volcano which attracted global attention
+            following an eruption in 1982 that, amongst other things, caused widely reported
+            disruption to international air travel and an emergency for British Airways Flight 9
+            travelling from Kuala Lumpur to Perth in June 1982.</destinesia:abstract>
+        <destinesia:island>Java</destinesia:island>
+        <destinesia:province>West Java</destinesia:province>
+        <destinesia:location>Garut, West Java</destinesia:location>
+        <destinesia:category>Nature Tourism</destinesia:category>
+        <destinesia:thumbnail>
+            https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/Talagabodas.jpg/420px-Talagabodas.jpg</destinesia:thumbnail>
+        <foaf:homepage rdf:resource="https://id.wikipedia.org/wiki/Gunung_Talaga_Bodas" />
+    </destinesia:tour>
+
+    <destinesia:tour rdf:about="https://dbpedia.org/page/Kawah_Putih">
+        <rdfs:label>Kawah Putih</rdfs:label>
+        <destinesia:abstract>Kawah Putih (Sundanese: ᮊᮝᮂ ᮕᮥᮒᮤᮂ) (English: White Crater) is a crater
+            lake and tourist spot in a volcanic crater about 50 kilometres (31 mi) south of Bandung
+            in West Java in Indonesia. Kawah Putih lake (7.10° S 107.24° E) is one of the two
+            craters which make up Mount Patuha, an andesitic stratovolcano (a "composite" volcano).
+            Mount Patuha is one of numerous volcanoes in Java. Kawah Putih crater lake itself
+            represents a relatively stable volcanic system with no records of significant activity
+            since around 1600. The Kawah Putih site was opened to visitors in 1987. The lake is
+            2,430 metres (7,970 ft) above sea level so the local climate is often quite chilly
+            (temperatures are frequently around 10 °C (50 °F)). This makes a brisk change from the
+            humidity of the north Java plain and the capital city of Jakarta. Kawah Putih is a
+            sizeable highly acid lake (pH 0.5-1.3) which changes colour from bluish to whitish
+            green, or brown, depending on the concentration of sulfur and the temperature or the
+            oxidation state. The sand and rocks surrounding the lake have been also leached into
+            whitish colours through interaction with the acidic lake waters (with possible mineral
+            precipitation as well).</destinesia:abstract>
+        <destinesia:island>Java</destinesia:island>
+        <destinesia:province>West Java</destinesia:province>
+        <destinesia:location>Bandung Regency, West Java</destinesia:location>
+        <destinesia:category>Nature Tourism</destinesia:category>
+        <destinesia:thumbnail>
+            https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Kawah_Putih_Lake_from_the_viewing_platform%2C_Bandung_Regency%2C_2014-08-21.jpg/800px-Kawah_Putih_Lake_from_the_viewing_platform%2C_Bandung_Regency%2C_2014-08-21.jpg</destinesia:thumbnail>
+        <foaf:homepage rdf:resource="https://id.wikipedia.org/wiki/Kawah_Putih" />
+    </destinesia:tour>
+
+    <destinesia:tour rdf:about="https://dbpedia.org/page/Puncak">
+        <rdfs:label>Puncak</rdfs:label>
+        <destinesia:abstract>Puncak or Puncak Pass (Indonesian for "top" or "peak") is a mountain
+            pass in West Java, Indonesia. The pass connects the city of Bogor and Bandung, and is
+            spread within the regencies of Bogor, Cianjur, and Sukabumi. Puncak Pass is located
+            between Mt. Gede-Pangrango in the south, and the Jonggol Mountains in the north. The
+            highest point of the pass is about 1500 m altitude. Puncak is a large conglomeration of
+            districts in Bogor Regency, such as Cisarua, Ciawi, Megamendung, Cipanas, etc. All of
+            those districts are unified by the main road, Jalan Raya Puncak.</destinesia:abstract>
+        <destinesia:island>Java</destinesia:island>
+        <destinesia:province>West Java</destinesia:province>
+        <destinesia:location>Bogor, West Java</destinesia:location>
+        <destinesia:category>Nature Tourism</destinesia:category>
+        <destinesia:thumbnail>
+            https://upload.wikimedia.org/wikipedia/commons/0/03/Puncak_pass_indonesie.jpg</destinesia:thumbnail>
+        <foaf:homepage rdf:resource="https://id.wikipedia.org/wiki/Kawasan_Puncak" />
+    </destinesia:tour>
+
+    <destinesia:tour rdf:about="https://dbpedia.org/page/Tangkuban_Perahu">
+        <rdfs:label>Tangkuban Perahu</rdfs:label>
+        <destinesia:abstract>Tangkuban Perahu (also Tangkuban Parahu) is a stratovolcano 30 km north
+            of the city of Bandung, the provincial capital of West Java, Indonesia. It erupted in
+            1826, 1829, 1842, 1846, 1896, 1910, 1926, 1929, 1952, 1957, 1961, 1965, 1967, 1969,
+            1983, 2013 and 2019. It is a popular tourist attraction where tourists hike or ride to
+            the edge of the crater to view the hot water springs and boiling mud up close, and buy
+            eggs cooked on the hot surface. Together with Mount Burangrang and Bukit Tunggul, it is
+            a remnant of the ancient Mount Sunda after the plinian eruption caused the Caldera to
+            collapse. In April 2005, the Directorate of Volcanology and Geological Hazard Mitigation
+            raised an alert, forbidding visitors from going up the volcano. "Sensors on the slopes
+            of the two mountains - Anak Krakatoa on the southern tip of Sumatra Island and Tangkuban
+            Perahu in Java - picked up an increase in volcanic activity and a build-up of gases,
+            said government volcanologist Syamsul Rizal." On the mountain's northern flank is Death
+            Valley, which derives its name from a frequent accumulation of poisonous gases.</destinesia:abstract>
+        <destinesia:island>Java</destinesia:island>
+        <destinesia:province>West Java</destinesia:province>
+        <destinesia:location>Bandung, West Java</destinesia:location>
+        <destinesia:category>Nature Tourism</destinesia:category>
+        <destinesia:thumbnail>
+            https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Gunung_Tangkuban_Parahu.jpg/432px-Gunung_Tangkuban_Parahu.jpg</destinesia:thumbnail>
+        <foaf:homepage rdf:resource="https://id.wikipedia.org/wiki/Gunung_Tangkuban_Parahu" />
+    </destinesia:tour>
+
+    <destinesia:tour rdf:about="https://dbpedia.org/page/Mount_Bromo">
+        <rdfs:label>Mount Bromo</rdfs:label>
+        <destinesia:abstract>The Bromo (Javanese: ꦧꦿꦩ), or Mount Bromo (Javanese: ꦒꦸꦤꦸꦁ​ꦧꦿꦩ (Pegon:
+            ڮنڠ برومو, romanized: Gunung Bromo) is an active somma volcano and part of the Tengger
+            mountains, in East Java, Indonesia. At 2,329 meters (7,641 ft) it is not the highest
+            peak of the massif, but the most famous. The area is one of the most visited tourist
+            destinations in East Java, and the volcano is included in the Bromo Tengger Semeru
+            National Park. The name Bromo comes from the Javanese pronunciation of Brahma, the Hindu
+            god of creation. Mount Bromo is located in the middle of a plain called "Sea of Sand"
+            (Javanese: Segara Wedi or Indonesian: Lautan Pasir), a nature reserve that has been
+            protected since 1919. A typical way to visit Mount Bromo is from the nearby mountain
+            village of Cemoro Lawang. From there it is possible to walk to the volcano in about 45
+            minutes, but it is also possible to take an organized jeep tour, including stops at the
+            viewpoint of Mount Penanjakan (2,770 m (9,090 ft)) (Indonesian: Gunung Penanjakan). The
+            sights on Mount Penanjakan can also be reached on foot in about two hours. Depending on
+            the level of volcanic activity, the Indonesian Center for Volcanology and Disaster
+            Mitigation sometimes issues a warning not to visit Mount Bromo.</destinesia:abstract>
+        <destinesia:island>Java</destinesia:island>
+        <destinesia:province>East Java</destinesia:province>
+        <destinesia:location>Probolinggo Regency, Pasuruan Regency, Lumajang Regency, Malang Regency</destinesia:location>
+        <destinesia:category>Nature Tourism</destinesia:category>
+        <destinesia:thumbnail>
+            https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/Mount_Bromo_at_sunrise%2C_showing_its_volcanoes_and_Mount_Semeru_%28background%29.jpg/1024px-Mount_Bromo_at_sunrise%2C_showing_its_volcanoes_and_Mount_Semeru_%28background%29.jpg</destinesia:thumbnail>
+        <foaf:homepage rdf:resource="https://id.wikipedia.org/wiki/Gunung_Bromo" />
+    </destinesia:tour>
+
+    <destinesia:tour rdf:about="https://dbpedia.org/page/Patenggang_Lake">
+        <rdfs:label>Patenggang Lake</rdfs:label>
+        <destinesia:abstract>Patenggang Lake (Indonesian: Situ Patenggang) is a lake located in the
+            area of natural tourist attractions in the southern Bandung city, West Java, Indonesia,
+            to be exact it is in Ciwidey village. Located at an altitude of 1600 meters above sea
+            level, this lake has a very exotic landscape. The lake is spread over an area ofabout
+            45,000 hectares and the surrounding nature reserve has an area of about 123,077.15
+            hectares. The lake is called Situ Patengan by the local society, as the pronunciation of
+            patengan is too difficult to say in Sundanese patenggang. The lake and adjoining area is
+            a popular tourist destination. The label/name of the lake in maps.google.com is Situ
+            Penganten which Penganten means newlywed couple.</destinesia:abstract>
+        <destinesia:island>Java</destinesia:island>
+        <destinesia:province>West Java</destinesia:province>
+        <destinesia:location>Ciwidey, Bandung, West Java</destinesia:location>
+        <destinesia:category>Nature Tourism</destinesia:category>
+        <destinesia:thumbnail>
+            https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/Patenggang_Lake_panorama%2C_Bandung_Regency%2C_2014-08-21.jpg/900px-Patenggang_Lake_panorama%2C_Bandung_Regency%2C_2014-08-21.jpg</destinesia:thumbnail>
+        <foaf:homepage rdf:resource="https://id.wikipedia.org/wiki/Situ_Patenggang" />
+    </destinesia:tour>
+
+    <destinesia:tour
+        rdf:about="https://dbpedia.org/page/Ijen">
+        <rdfs:label>Ijen</rdfs:label>
+        <destinesia:abstract>The Ijen volcano complex is a group of composite volcanoes located on
+            the border between Banyuwangi Regency and Bondowoso Regency of East Java, Indonesia.
+            It is known for its blue fire, acidic crater lake, and labour-intensive sulfur mining.
+            It is inside an eponymous larger caldera Ijen, which is about 20 kilometres (12 mi)
+            wide.
+            The Gunung Merapi stratovolcano is the highest point of that complex.
+            The name "Gunung Merapi" means 'mountain of fire' in the Indonesian language;
+            Mount Merapi in central Java and Marapi in Sumatra have the same etymology.</destinesia:abstract>
+        <destinesia:island>Java</destinesia:island>
+        <destinesia:province>East Java</destinesia:province>
+        <destinesia:location>Bondowoso Regency and Banyuwangi Regency</destinesia:location>
+        <destinesia:category>Nature Tourism</destinesia:category>
+        <destinesia:thumbnail>
+            http://commons.wikimedia.org/wiki/Special:FilePath/Sulfur_mining_in_Kawah_Ijen_-_Indonesia_-_20110608.jpg</destinesia:thumbnail>
+        <foaf:homepage
+            rdf:resource="https://id.wikipedia.org/wiki/Gunung_Ijen" />
+    </destinesia:tour>
+
+    <destinesia:tour
+        rdf:about="https://dbpedia.org/page/Bawean">
+        <rdfs:label>Bawean</rdfs:label>
+        <destinesia:abstract>Bawean (Indonesian: Pulau Bawean) is an island of Indonesia located
+            approximately 150 kilometers (93 miles) north of Surabaya in the Java Sea, off the coast
+            of Java.
+            It is administered by Gresik Regency of East Java province. It is approximately 15 km
+            (9.3 mi) in diameter and is circumnavigated by a single narrow road.
+            Bawean is dominated by an extinct volcano at its center that rises to 655 meters (2,149
+            feet) above sea level.
+            Its population as of the 2010 Census was about 70,000 people, but more than 26,000 of
+            the total (that is about 70% of the male population) were temporarily living outside,
+            working in other parts of Indonesia, Singapore and Malaysia). As a result, females
+            constituted about 77% of the actual population of the island,
+            which is thus often referred to as "the Island of W</destinesia:abstract>
+        <destinesia:island>Java</destinesia:island>
+        <destinesia:province>East Java</destinesia:province>
+        <destinesia:location>Gresik Regency</destinesia:location>
+        <destinesia:category>Nature Tourism</destinesia:category>
+        <destinesia:thumbnail>
+            http://commons.wikimedia.org/wiki/Special:FilePath/Fleet_of_Cornelis_de_Houtman.jpg</destinesia:thumbnail>
+        <foaf:homepage
+            rdf:resource="https://id.wikipedia.org/wiki/Pulau_Bawean" />
+    </destinesia:tour>
+
+    <destinesia:tour
+        rdf:about="https://dbpedia.org/page/Ciletuh-Palabuhanratu_Geopark">
+        <rdfs:label>Ciletuh-Palabuhanratu Geopark</rdfs:label>
+        <destinesia:abstract>Ciletuh-Palabuhanratu Geopark (Indonesian: Taman Bumi
+            Ciletuh-Palabuhanratu) is a national Geopark at Pelabuhan Ratu of Sukabumi Regency in
+            West Java , Indonesia.
+            It was recognized by UNESCO in 2015 as a national geopark. It was being proposed to
+            become member of Global Geopark Network (GGN) to be recognized UNESCO by 2017.
+            UNESCO has made the park as a part of the Global Geoparks Network in April, 2018. The
+            park has land area of about 128,000 hectares.
+            It is spread over 8 sub-districts and 74 villages of Pelabuhan Ratu.</destinesia:abstract>
+        <destinesia:island>Java</destinesia:island>
+        <destinesia:province>West Java</destinesia:province>
+        <destinesia:location>Sukabumi</destinesia:location>
+        <destinesia:category>Nature Tourism</destinesia:category>
+        <destinesia:thumbnail>
+            http://commons.wikimedia.org/wiki/Special:FilePath/Curug_Cimarinjung,_Geopark_Ciletuh,_Ciemas,_Sukabumi,_Jawa_Barat_0607201602.jpg</destinesia:thumbnail>
+        <foaf:homepage
+            rdf:resource="https://id.wikipedia.org/wiki/Taman_Bumi_Ciletuh-Palabuhanratu" />
+    </destinesia:tour>
+
+    <destinesia:tour
+        rdf:about="https://dbpedia.org/page/Lowo_Cave">
+        <rdfs:label>Lowo Cave</rdfs:label>
+        <destinesia:abstract>Gua Lowo is a cave which is located at Watuagung, Watulimo sub-district
+            of Trenggalek Regency, East Java in Indonesia.
+            Gua Lowo is Indonesian word, which means bat's cave. There are no other fauna except
+            bats in this cave.
+            The cave is about 5 kilometers long, though only 859 meters of the cave is accessible.
+            Based on statements from cave experts,
+            Mr. Gilbert Manthovani and Dr. Robert K Kho in 1984, Gua Lowo is the longest natural
+            cave in Southeast Asia.</destinesia:abstract>
+        <destinesia:island>Java</destinesia:island>
+        <destinesia:province>East Java</destinesia:province>
+        <destinesia:location>Trenggalek</destinesia:location>
+        <destinesia:category>Nature Tourism</destinesia:category>
+        <destinesia:thumbnail>
+            http://commons.wikimedia.org/wiki/Special:FilePath/COLLECTIE_TROPENMUSEUM_Archeologisch_onderzoek_van_de_grot_bij_Sampoeng_TMnr_10027583.jpg?width=300</destinesia:thumbnail>
+        <foaf:homepage
+            rdf:resource="https://id.wikipedia.org/wiki/Gua_Lowo" />
+    </destinesia:tour>
+
+    <destinesia:tour
+        rdf:about="https://dbpedia.org/page/Sanur,_Bali">
+        <rdfs:label>Sanur Beach</rdfs:label>
+        <destinesia:abstract>Sanur (Indonesian: Pantai Sanur, pronounced sah-noor) is a coastal
+            stretch of beach east of Denpasar
+            in southeast Bali (about a 30-minute drive from Ngurah Rai International Airport),
+            which has grown into a little town in its own right. A 5.1 km (3.2 mi) area of Sanur's
+            coastline,
+            from Matahari Terbit Beach to Mertasari Beach, was reclaimed in 2008.</destinesia:abstract>
+        <destinesia:island>Balo</destinesia:island>
+        <destinesia:province>Bali</destinesia:province>
+        <destinesia:location>Denpasar</destinesia:location>
+        <destinesia:category>Nature Tourism</destinesia:category>
+        <destinesia:thumbnail>
+            https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/Sanur_Beach.JPG/250px-Sanur_Beach.JPG</destinesia:thumbnail>
+        <foaf:homepage
+            rdf:resource="https://id.wikipedia.org/wiki/Pantai_Sanur" />
+    </destinesia:tour>
+
+    <destinesia:tour
+        rdf:about="https://dbpedia.org/page/Seminyak">
+        <rdfs:label>Seminyak</rdfs:label>
+        <destinesia:abstract>Seminyak is a mixed tourist residential area on the west coast of Bali
+            in Indonesia,
+            just north of Kuta and Legian. Originally a separate township, this is now another
+            suburb of Kuta.
+            This area is very popular with resident expatriates; land and accommodation prices are
+            amongst the highest in Bali.
+            Plenty of luxury spas and hotels abound. Owing to its high density of high-end shopping,
+            combined with the clustering of many fine eating establishments,
+            it has rapidly become one of the most well-known tourist areas on the island.</destinesia:abstract>
+        <destinesia:island>Bali</destinesia:island>
+        <destinesia:province>Bali</destinesia:province>
+        <destinesia:location>Badung</destinesia:location>
+        <destinesia:category>Nature Tourism</destinesia:category>
+        <destinesia:thumbnail>
+            http://commons.wikimedia.org/wiki/Special:FilePath/Seminyak,_Bali.jpg</destinesia:thumbnail>
+        <foaf:homepage
+            rdf:resource="https://id.wikipedia.org/wiki/Seminyak,_Kuta,_Badung" />
+    </destinesia:tour>
+
+    <destinesia:tour
+        rdf:about="https://dbpedia.org/page/Bromo_Tengger_Semeru_National_Park">
+        <rdfs:label>Bromo Tengger Semeru National Park</rdfs:label>
+        <destinesia:abstract>Bromo Tengger Semeru National Park, known locally as Taman Nasional
+            Bromo Tengger Semeru (TNBTS) is a national park located in
+            East Java, Indonesia, to the east of Malang and Lumajang, to the south of Pasuruan and
+            Probolinggo, and to the southeast of Surabaya,
+            the capital of East Java. It is the only conservation area in Indonesia that has a sand
+            sea,
+            the Tengger Sand Sea (Indonesian: Laut Pasir Tengger), across which is the caldera of an
+            ancient volcano (Tengger)
+            from which four new volcanic cones have emerged. This unique feature covers a total area
+            of 5,250 hectares at an altitude of about 2,100 meters (6,900 ft).
+            The massif also contains the highest mountain in Java, Mount Semeru (3,676 meters
+            (12,060 ft)), four lakes and 50 rivers. I
+            t is named after the Tengger tribe. The explosion of</destinesia:abstract>
+        <destinesia:island>Java</destinesia:island>
+        <destinesia:province>East Java</destinesia:province>
+        <destinesia:location>Pasuruan, Malang Regency, Lumajang Regency and Probolinggo</destinesia:location>
+        <destinesia:category>Nature Tourism</destinesia:category>
+        <destinesia:thumbnail>
+            http://commons.wikimedia.org/wiki/Special:FilePath/Bromo_sunrise_May2014.jpg</destinesia:thumbnail>
+        <foaf:homepage
+            rdf:resource="https://id.wikipedia.org/wiki/Taman_Nasional_Bromo_Tengger_Semeru" />
+    </destinesia:tour>
+
+
     <!-- Religion Tourism -->
     <destinesia:tour rdf:about="https://dbpedia.org/page/Grand_Mosque_of_Medan">
         <rdfs:label>Grand Mosque of Medan</rdfs:label>
@@ -335,6 +780,23 @@
         <destinesia:thumbnail>
             http://commons.wikimedia.org/wiki/Special:FilePath/Great_mosque_in_Medan_cropped.jpg</destinesia:thumbnail>
         <foaf:homepage rdf:resource="https://id.wikipedia.org/wiki/Masjid_Raya_Al-Mashun" />
+    </destinesia:tour>
+
+    <destinesia:tour rdf:about="https://dbpedia.org/page/Lumbini_Natural_Park">
+        <rdfs:label>Lumbini Natural Park</rdfs:label>
+        <destinesia:abstract>Lumbini Natural Park (Indonesian: Taman Alam Lumbini) is a Buddhist
+            temple located at Desa Dolat Rayat, Berastagi in North Sumatra. It was inaugurated with
+            a great ceremony in October 2010. The ceremony was attended by more than 1,300 monks and
+            more than 200 lay people from around the world. Taman Alam Lumbini is a replica of
+            Shwedagon Pagoda in Yangon, Myanmar. The architecture is similar to a Myanmar pagoda,
+            covered in gold. It hosts an elephant statue and the door appears like an Burmese craft.</destinesia:abstract>
+        <destinesia:island>Sumatra</destinesia:island>
+        <destinesia:province>North Sumatra</destinesia:province>
+        <destinesia:location>Desa Dolat Rayat, Berastagi in North Sumatra</destinesia:location>
+        <destinesia:category>Religion Tourism</destinesia:category>
+        <destinesia:thumbnail>
+            https://upload.wikimedia.org/wikipedia/commons/7/71/TamanLumbini20110607.jpg</destinesia:thumbnail>
+        <foaf:homepage rdf:resource="https://id.wikipedia.org/wiki/Taman_Alam_Lumbini" />
     </destinesia:tour>
 
     <destinesia:tour rdf:about="https://dbpedia.org/page/Maha_Vihara_Maitreya">
@@ -368,7 +830,22 @@
         <destinesia:category>Religion Tourism</destinesia:category>
         <destinesia:thumbnail>
             https://upload.wikimedia.org/wikipedia/commons/2/2e/Gereja_Velangkani_Medan.jpg</destinesia:thumbnail>
-        <foaf:homepage rdf:resource="https://id.wikipedia.org/wiki/Graha_Maria_Anai_Velangkani" />
+        <foaf:homepage rdf:resource="https://id.wikipedia.org/wiki/Graha_Maria_Annai_Velangkanni" />
+    </destinesia:tour>
+
+    <destinesia:tour rdf:about="https://dbpedia.org/page/An-Nur_Great_Mosque">
+        <rdfs:label>An-Nur Great Mosque</rdfs:label>
+        <destinesia:abstract>An-Nur Great Mosque is a mosque located in Pekanbaru, Riau, Indonesia.
+            Construction began in 1963 and was completed in 1968. The mosque can accommodate about
+            4,500 worshipers. It is one of the largest mosques in Indonesia. The mosque has
+            influences from various architectural styles: Malay, Turkish, Arabic and Indian.</destinesia:abstract>
+        <destinesia:island>Sumatra</destinesia:island>
+        <destinesia:province>Riau</destinesia:province>
+        <destinesia:location>Pekanbaru, Riau</destinesia:location>
+        <destinesia:category>Religion Tourism</destinesia:category>
+        <destinesia:thumbnail>
+            https://upload.wikimedia.org/wikipedia/jv/d/db/M_annur_Pekanbaru.jpg?20121004005928</destinesia:thumbnail>
+        <foaf:homepage rdf:resource="https://id.wikipedia.org/wiki/Masjid_An-Nur_Pekanbaru" />
     </destinesia:tour>
 
     <destinesia:tour rdf:about="https://dbpedia.org/page/Baiturrahman_Grand_Mosque">
@@ -449,6 +926,88 @@
         <foaf:homepage rdf:resource="https://id.wikipedia.org/wiki/Pura_Tirta_Empul" />
     </destinesia:tour>
 
+    <destinesia:tour rdf:about="https://dbpedia.org/page/Great_Mosque_of_Central_Java">
+        <rdfs:label>Great Mosque of Central Java</rdfs:label>
+        <destinesia:abstract>The Great Mosque of Central Java (Indonesian: Masjid Agung Jawa Tengah)
+            is a mosque in the city of Semarang, Central Java, Indonesia. The mosque complex covers
+            10 hectares (25 acres). There are three central buildings arranged in the shape of a U,
+            with the domed mosque at the centre; all buildings have pitched, tiled roofs, while the
+            central mosque has four minarets. The central roof resembles the roof of a "joglo", the
+            traditional Javanese house, and symbolises the rising steps toward heaven or to gain
+            God's blessing. The long buildings forming the arms of the U house a library and
+            auditorium respectively; the auditorium can hold up to 2,000 people.</destinesia:abstract>
+        <destinesia:island>Java</destinesia:island>
+        <destinesia:province>Central Java</destinesia:province>
+        <destinesia:location>Semarang, Central Java</destinesia:location>
+        <destinesia:category>Religion Tourism</destinesia:category>
+        <destinesia:thumbnail>
+            https://upload.wikimedia.org/wikipedia/en/thumb/b/b4/Great_Mosque_of_Central_Java%2C_aerial_view.jpg/330px-Great_Mosque_of_Central_Java%2C_aerial_view.jpg</destinesia:thumbnail>
+        <foaf:homepage rdf:resource="https://id.wikipedia.org/wiki/Masjid_Agung_Jawa_Tengah" />
+    </destinesia:tour>
+
+    <destinesia:tour rdf:about="https://dbpedia.org/page/Jakarta_Cathedral">
+        <rdfs:label>Jakarta Cathedral</rdfs:label>
+        <destinesia:abstract>Jakarta Cathedral (Indonesian: Gereja Katedral Jakarta, Dutch:
+            Kathedraal van Jakarta) is a Roman Catholic cathedral in Jakarta, Indonesia, which is
+            also the seat of the Roman Catholic archbishop of Jakarta, currently Archbishop Ignatius
+            Suharyo Hardjoatmodjo. Its official name is Gereja Santa Maria Diangkat ke Surga,
+            derived from the original name in Dutch, De Kerk van Onze Lieve Vrouwe ten Hemelopneming
+            (English: The Church of Our Lady of the Assumption). This current cathedral was
+            consecrated in 1901 and built in the neo-Gothic style, a common architectural style to
+            build churches at that time. The Jakarta Cathedral is located in Central Jakarta near
+            Merdeka Square and Merdeka Palace, right in-front of the cathedral stands the Istiqlal
+            Mosque.</destinesia:abstract>
+        <destinesia:island>Java</destinesia:island>
+        <destinesia:province>Special Capital District of Jakarta</destinesia:province>
+        <destinesia:location>Central Jakarta City</destinesia:location>
+        <destinesia:category>Religion Tourism</destinesia:category>
+        <destinesia:thumbnail>
+            https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Jakarta_Indonesia_Jakarta-Cathedral-10.jpg/413px-Jakarta_Indonesia_Jakarta-Cathedral-10.jpg</destinesia:thumbnail>
+        <foaf:homepage rdf:resource="https://id.wikipedia.org/wiki/Gereja_Katedral_Jakarta" />
+    </destinesia:tour>
+
+    <destinesia:tour rdf:about="https://dbpedia.org/page/Vihara_Buddhagaya_Watugong">
+        <rdfs:label>Vihara Buddhagaya Watugong</rdfs:label>
+        <destinesia:abstract>Vihara Buddhagaya Watugong also known as Vihara Buddhagaya (in English
+            Vihara Bodh Gaya Watugong and Vihara Bodh Gaya respectively) is a Buddhist temple
+            located in Semarang, Indonesia. Watugong complex stretches back to the Majapahit.
+            Buddhism was then the official religion. With the fall of Majapahit empire and the
+            spread of Islam, the practice of Buddhism fell drastically. Buddhism reemerged 500 years
+            later. The first attempt to evangelize Buddhism came in the Dutch colonial era through
+            Ashin Jinarakkhita with the encouragement of Narada Maha Thera.</destinesia:abstract>
+        <destinesia:island>Java</destinesia:island>
+        <destinesia:province>Central Java</destinesia:province>
+        <destinesia:location>Semarang, Central Java</destinesia:location>
+        <destinesia:category>Religion Tourism</destinesia:category>
+        <destinesia:thumbnail>
+            https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/Pagoda_Avalokitesvara_-_Buddhagaya_Watugong.jpg/375px-Pagoda_Avalokitesvara_-_Buddhagaya_Watugong.jpg</destinesia:thumbnail>
+        <foaf:homepage rdf:resource="https://id.wikipedia.org/wiki/Vihara_Buddhagaya_Watugong" />
+    </destinesia:tour>
+
+    <destinesia:tour
+        rdf:about="https://dbpedia.org/page/Besakih_Temple">
+        <rdfs:label>Besakih Temple</rdfs:label>
+        <destinesia:abstract>Besakih Temple (Balinese: ᬧᬸᬭ​ᬩᭂᬲᬓᬶᬄ) is a pura complex in the village
+            of Besakih on the slopes of Mount Agung
+            in eastern Bali, Indonesia. It is the most important, the largest and holiest temple of
+            Balinese Hinduism,
+            and one of a series of Balinese temples.
+            Perched nearly 1000 meters up the side of Gunung Agung,
+            it is an extensive complex of 23 separate but related temples with the largest and most
+            important being Pura Penataran Agung.
+            The temple is built on six levels, terraced up the slope. The entrance is marked by a
+            candi bentar (split gateway),
+            and beyond it the Kori Agung is the gateway to the second courtyard.</destinesia:abstract>
+        <destinesia:island>Bali</destinesia:island>
+        <destinesia:province>Bali</destinesia:province>
+        <destinesia:location>Karangasem Regency</destinesia:location>
+        <destinesia:category>Religion Tourism</destinesia:category>
+        <destinesia:thumbnail>
+            http://commons.wikimedia.org/wiki/Special:FilePath/Besakih_Bali_Indonesia_Pura-Besakih-02.jpg</destinesia:thumbnail>
+        <foaf:homepage
+            rdf:resource="https://id.wikipedia.org/wiki/Pura_Besakih" />
+    </destinesia:tour>
+
     <!-- History Tourism -->
     <destinesia:tour rdf:about="https://dbpedia.org/page/Maimun_Palace">
         <rdfs:label>Maimun Palace</rdfs:label>
@@ -483,6 +1042,22 @@
         <destinesia:thumbnail>
             http://commons.wikimedia.org/wiki/Special:FilePath/Jam_Gadang,_Bukittinggi,_2016-02-12_01.jpg</destinesia:thumbnail>
         <foaf:homepage rdf:resource="https://id.wikipedia.org/wiki/Jam_Gadang" />
+    </destinesia:tour>
+
+    <destinesia:tour rdf:about="https://dbpedia.org/page/Fort_de_Kock">
+        <rdfs:label>Fort de Kock</rdfs:label>
+        <destinesia:abstract>Fort de Kock was a 19th-century Dutch sconce fortification established
+            over a hill in Bukittinggi, West Sumatra, Indonesia. Around the fortification, a new
+            settlement grew, which eventually grew into the city of Bukittinggi, the second largest
+            city in West Sumatra. Although the remnants of the mound and some cannons can still be
+            seen, the original buildings on top of the sconce has been demolished. </destinesia:abstract>
+        <destinesia:island>Sumatra</destinesia:island>
+        <destinesia:province>West Sumatra</destinesia:province>
+        <destinesia:location>Bukittinggi, West Sumatra</destinesia:location>
+        <destinesia:category>History Tourism</destinesia:category>
+        <destinesia:thumbnail>
+            https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/Bukittinggi_20190810.jpg/1024px-Bukittinggi_20190810.jpg</destinesia:thumbnail>
+        <foaf:homepage rdf:resource="https://id.wikipedia.org/wiki/Benteng_De_Kock" />
     </destinesia:tour>
 
     <destinesia:tour rdf:about="https://dbpedia.org/page/Muara_Takus">
@@ -717,6 +1292,304 @@
         <foaf:homepage rdf:resource="https://id.wikipedia.org/wiki/Jembatan_Ampera" />
     </destinesia:tour>
 
+    <destinesia:tour rdf:about="https://dbpedia.org/page/Balaputradeva_Museum">
+        <rdfs:label>Balaputradeva Museum</rdfs:label>
+        <destinesia:abstract>Balaputradeva Museum (Indonesian Museum Balaputera Dewa), officially
+            the State Museum of South Sumatra Province "Balaputradeva", is an ethnographic museum
+            located in Southern Sumatra's capital Palembang. The museum is the state museum of the
+            Province of South Sumatra. The name Balaputradeva is derived from Balaputra, a 9th
+            century sovereign of Srivijaya kingdom and the former head of the Sailendra dynasty
+            whose main center was located in the vicinity of Palembang. Balaputradeva Museum
+            displays the history and traditions of the province of South Sumatra.</destinesia:abstract>
+        <destinesia:island>Sumatra</destinesia:island>
+        <destinesia:province>South Sumatra</destinesia:province>
+        <destinesia:location>Palembang</destinesia:location>
+        <destinesia:category>History Tourism</destinesia:category>
+        <destinesia:thumbnail>
+            https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Rumah_Limas_of_IDR_10000_banknote.jpg/1024px-Rumah_Limas_of_IDR_10000_banknote.jpg</destinesia:thumbnail>
+        <foaf:homepage rdf:resource="https://id.wikipedia.org/wiki/Museum_Balaputera_Dewa" />
+    </destinesia:tour>
+
+    <destinesia:tour rdf:about="https://dbpedia.org/page/Jakarta_History_Museum">
+        <rdfs:label>Jakarta History Museum</rdfs:label>
+        <destinesia:abstract>The Jakarta History Museum (Indonesian: Museum Sejarah Jakarta), also
+            known as Fatahillah Museum or Batavia Museum, is located in the Old Town (known as Kota
+            Tua) of Jakarta, Indonesia. The building was built in 1710 as the Stadhuis (city hall)
+            of Batavia. Jakarta History Museum opened in 1974 and displays objects from the
+            prehistory period of the city region, the founding of Jayakarta in 1527, and the Dutch
+            colonization period from the 16th century until Indonesia's Independence in 1945. The
+            museum is located in south side of Fatahillah Square (former Batavia city square) near
+            Wayang Museum and Fine Art and Ceramic Museum. The building is believed to be modeled
+            after Dam Palace.</destinesia:abstract>
+        <destinesia:island>Java</destinesia:island>
+        <destinesia:province>Special Capital District of Jakarta</destinesia:province>
+        <destinesia:location>Kota Tua Jakarta, Jakarta Barat</destinesia:location>
+        <destinesia:category>History Tourism</destinesia:category>
+        <destinesia:thumbnail>
+            https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Jakarta_Indonesia_Jakarta-History-Museum-02.jpg/1280px-Jakarta_Indonesia_Jakarta-History-Museum-02.jpg</destinesia:thumbnail>
+        <foaf:homepage rdf:resource="https://id.wikipedia.org/wiki/Museum_Fatahillah" />
+    </destinesia:tour>
+
+    <destinesia:tour rdf:about="https://dbpedia.org/page/Candi_Kethek">
+        <rdfs:label>Candi Kethek</rdfs:label>
+        <destinesia:abstract>Candi Kethek, is a terraced megalithic pyramid shaped 15th-16th century
+            Hindu temple on the northwest slope of Mount Lawu in Anggrasmanis village of Gumeng
+            subdistrict in district of Karanganyar Regency in Central Java of Indonesia. Temple has
+            seven terraces facing west, each terrace is connected by stone steps. There is an
+            alternative path to the top terrace on the south side. Kethek Temple is located
+            northeast of fifteenth-century Javanese-Hindu Ceto Temple. To reach Candi Kethek,
+            visitors must take a 300 m footpath from Ceto Temple in the direction of the path
+            leading to Puri Taman Saraswati.</destinesia:abstract>
+        <destinesia:island>Java</destinesia:island>
+        <destinesia:province>Central Java</destinesia:province>
+        <destinesia:location>Mount Lawu, Karanganyar Regency, Central Java</destinesia:location>
+        <destinesia:category>History Tourism</destinesia:category>
+        <destinesia:thumbnail>
+            https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Kethek_temple_mt_lawu.JPG/375px-Kethek_temple_mt_lawu.JPG</destinesia:thumbnail>
+        <foaf:homepage rdf:resource="https://id.wikipedia.org/wiki/Candi_Kethek" />
+    </destinesia:tour>
+
+    <destinesia:tour rdf:about="https://dbpedia.org/page/Pawon">
+        <rdfs:label>Pawon</rdfs:label>
+        <destinesia:abstract>Pawon (known locally as Candi Pawon) is a Buddhist temple in Central
+            Java, Indonesia. It is located between two other Buddhist temples, Borobudur (1.75 km
+            (1.09 mi) to the northeast) and Mendut (1.15 km (0.71 mi) to the southwest), Pawon is
+            connected with the other two temples, all of which were built during the Sailendra
+            dynasty (8th–9th centuries).[1] Examines the detail and style of its carving this temple
+            is slightly older than Borobudur.</destinesia:abstract>
+        <destinesia:island>Java</destinesia:island>
+        <destinesia:province>Central Java</destinesia:province>
+        <destinesia:location>Magelang, Central Java</destinesia:location>
+        <destinesia:category>History Tourism</destinesia:category>
+        <destinesia:thumbnail>
+            https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Pawon.jpg/375px-Pawon.jpg</destinesia:thumbnail>
+        <foaf:homepage rdf:resource="https://id.wikipedia.org/wiki/Candi_Pawon" />
+    </destinesia:tour>
+
+    <destinesia:tour
+        rdf:about="https://dbpedia.org/page/Karmawibhangga_Museum">
+        <rdfs:label>Karmawibhangga Museum</rdfs:label>
+        <destinesia:abstract>Karmawibhangga Museum also known as Borobudur Museum,
+            is an archaeology museum located just several hundred meters north of 8th century
+            Borobudur Buddhist monument,
+            within Borobudur Archaeological Park, Magelang Regency, Central Java, Indonesia.
+            The museum featuring pictures of Karmawibhangga bas reliefs carved on the hidden foot of
+            Borobudur,
+            some disassembled Borobudur stones, archaeological artifacts found around Borobudur and
+            Central Java.
+            The museum also displays the Borobudur architecture and structure,
+            also the documentation of restoration project conducted between 1975 and 1982 under
+            UNESCO guidance.
+            The museum was built in traditional Javanese architecture; the joglo house with pendopo
+            pavilion.
+            The museum is integrated within Borobudur Archaeological Park inaugurated in 1983.</destinesia:abstract>
+        <destinesia:island>Java</destinesia:island>
+        <destinesia:province>Central Java</destinesia:province>
+        <destinesia:location>Magelang</destinesia:location>
+        <destinesia:category>History Tourism</destinesia:category>
+        <destinesia:thumbnail>
+            http://commons.wikimedia.org/wiki/Special:FilePath/Karmawibhangga_Museum_Pendopo_of_Borobudur.jpg</destinesia:thumbnail>
+        <foaf:homepage
+            rdf:resource="https://id.wikipedia.org/wiki/Museum_Karmawibhangga" />
+    </destinesia:tour>
+
+    <destinesia:tour
+        rdf:about="https://dbpedia.org/page/Gunung_Wukir">
+        <rdfs:label>Gunung Wukir</rdfs:label>
+        <destinesia:abstract>Gunung Wukir temple, or Canggal temple, or also known as Shivalinga is
+            a Shivaite Hindu temple dated from the early 8th century,
+            located in Canggal hamlet, Kadiluwih village, Salam subdistrict, Magelang Regency,
+            Central Java, Indonesia.
+            The temple dates to the year 732, making it the first structure attributed to the
+            ancient Mataram kingdom,
+            which ruled Central Java from 732 to around the middle of the tenth century.</destinesia:abstract>
+        <destinesia:island>Java</destinesia:island>
+        <destinesia:province>Central Java</destinesia:province>
+        <destinesia:location>Magelang</destinesia:location>
+        <destinesia:category>History Tourism</destinesia:category>
+        <destinesia:thumbnail>
+            http://commons.wikimedia.org/wiki/Special:FilePath/Gunung_Wukir_Canggal_Main_Temple.jpg</destinesia:thumbnail>
+        <foaf:homepage
+            rdf:resource="https://id.wikipedia.org/wiki/Candi_Gunung_Wukir" />
+    </destinesia:tour>
+
+    <destinesia:tour
+        rdf:about="https://dbpedia.org/page/Sewu">
+        <rdfs:label>Sewu</rdfs:label>
+        <destinesia:abstract>Sewu (Javanese: ꦱꦺꦮꦸ, romanized: Sèwu) is an eighth century Mahayana
+            Buddhist temple located 800 metres north of Prambanan in Central Java, Indonesia.
+            The word for a Hindu or Buddhist temple in Indonesian is "candi," hence the common name
+            is "Candi Sewu."
+            Candi Sewu is the second largest Buddhist temple complex in Indonesia; Borobudur is the
+            largest.
+            Sewu predates nearby "Loro Jonggrang" temple at Prambanan. Although the complex consists
+            of 249 temples,
+            this Javanese name translates to 'a thousand temples,' which originated from popular
+            local folklore (The Legend of Loro Jonggrang).
+            Archaeologists believe the original name for the temple compound to be Manjusrigrha.</destinesia:abstract>
+        <destinesia:island>Java</destinesia:island>
+        <destinesia:province>Central Java</destinesia:province>
+        <destinesia:location>Klaten Regency</destinesia:location>
+        <destinesia:category>History Tourism</destinesia:category>
+        <destinesia:thumbnail>
+            http://commons.wikimedia.org/wiki/Special:FilePath/Candi_Sewu_viewed_from_the_south,_23_November_2013.jpg</destinesia:thumbnail>
+        <foaf:homepage
+            rdf:resource="https://id.wikipedia.org/wiki/Candi_Sewu" />
+    </destinesia:tour>
+
+    <destinesia:tour
+        rdf:about="https://dbpedia.org/page/Merak_Temple">
+        <rdfs:label>Merak_Temple</rdfs:label>
+        <destinesia:abstract>Merak temple, or locally known as Candi Merak, is a 10th-century
+            Javanese Shivaist Hindu temple complex located in Karangnongko village,
+            in Klaten Regency, northwest from Klaten town, Central Java, on southeastern slopes of
+            Mount Merapi.
+            The temple complex consisted of a main building and three perwara (ancillary) temples,
+            dating from the 9th or 10th century,
+            from the Mataram Kingdom. Near Candi Merak there are several temple ruins and
+            archaeological sites,
+            however — unlike Candi Merak — most are in ruins and incomplete, such as , and .</destinesia:abstract>
+        <destinesia:island>Java</destinesia:island>
+        <destinesia:province>Central Java</destinesia:province>
+        <destinesia:location>Klaten Regency</destinesia:location>
+        <destinesia:category>History Tourism</destinesia:category>
+        <destinesia:thumbnail>
+            http://commons.wikimedia.org/wiki/Special:FilePath/Candi_Merak-candi-utama.jpg</destinesia:thumbnail>
+        <foaf:homepage
+            rdf:resource="https://id.wikipedia.org/wiki/Candi_Merak" />
+    </destinesia:tour>
+
+    <destinesia:tour
+        rdf:about="https://dbpedia.org/page/National_Press_Monument">
+        <rdfs:label>National Museum of Indonesia</rdfs:label>
+        <destinesia:abstract>The National Press Monument (Indonesian: Monumen Pers Nasional) is a
+            monument and museum to the national Indonesian press.
+            Formally established in 1978, more than 20 years after it was first proposed, the
+            monument is located in Surakarta, Central Java,
+            and operated by the Ministry of Communications and Informatics. The complex consists of
+            an old society building,
+            which was constructed in 1918 and used for the first meeting of the Indonesian
+            Journalists Association (Persatuan Wartawan Indonesia, or PWI),
+            as well as several subsequent expansions; it is listed as a cultural property of
+            Indonesia.</destinesia:abstract>
+        <destinesia:island>Java</destinesia:island>
+        <destinesia:province>Central Java</destinesia:province>
+        <destinesia:location>Surakarta</destinesia:location>
+        <destinesia:category>History Tourism</destinesia:category>
+        <destinesia:thumbnail>
+            http://commons.wikimedia.org/wiki/Special:FilePath/National_Press_Monument,_Solo_(panorama)_Diliff.jpg</destinesia:thumbnail>
+        <foaf:homepage
+            rdf:resource="https://id.wikipedia.org/wiki/Monumen_Pers_Nasional#:~:text=Monumen%20Pers%20Nasional%20adalah%20museum,%2C%20telepon%2C%20dan%20kentongan%20besar." />
+    </destinesia:tour>
+
+    <destinesia:tour
+        rdf:about="https://dbpedia.org/page/Kalasan">
+        <rdfs:label>Kalasan</rdfs:label>
+        <destinesia:abstract>Kalasan (Indonesian: Candi Kalasan, Javanese: Candhi Kalasan), also
+            known as Candi Kalibening,
+            is an 8th-century Buddhist temple in Java, Indonesia.
+            It is located 13 kilometers (8.1 mi) east of Yogyakarta on the way to Prambanan temple,
+            on the south side of the main road Jalan Solo between Yogyakarta and Surakarta.
+            Administratively, it is located in the Kalasan District (kapanewon) of Sleman Regency.</destinesia:abstract>
+        <destinesia:island>Java</destinesia:island>
+        <destinesia:province>Special Region of Yogyakarta</destinesia:province>
+        <destinesia:location>Sleman Regency</destinesia:location>
+        <destinesia:category>History Tourism</destinesia:category>
+        <destinesia:thumbnail>
+            http://commons.wikimedia.org/wiki/Special:FilePath/Kalasan_Temple_from_the_north-east,_23_November_2013.jpg</destinesia:thumbnail>
+        <foaf:homepage
+            rdf:resource="https://id.wikipedia.org/wiki/Kalasan,_Sleman" />
+    </destinesia:tour>
+
+    <destinesia:tour
+        rdf:about="https://dbpedia.org/page/Sonobudoyo_Museum">
+        <rdfs:label>Sonobudoyo Museum</rdfs:label>
+        <destinesia:abstract>The Sonobudoyo Museum (Javanese: ꦩꦸꦱꦶꦪꦸꦩ꧀ꦱꦤꦧꦸꦢꦪ, romanized: Musiyum
+            Sanabudaya) is a Javanese history
+            and culture museum and library in Yogyakarta, Indonesia.
+            The museum contains the most complete collection of Javanese artifacts, after the
+            National Museum in Jakarta.
+            In addition to ceramics of the Neolithic era and bronze sculptures from the 8th century,
+            the museum also includes collections of wayang (shadow puppets), various ancient weapons
+            (such as keris),
+            and Javanese masks.</destinesia:abstract>
+        <destinesia:island>Java</destinesia:island>
+        <destinesia:province>Special Region of Yogyakarta</destinesia:province>
+        <destinesia:location>Yogyakarta</destinesia:location>
+        <destinesia:category>History Tourism</destinesia:category>
+        <destinesia:thumbnail>
+            http://commons.wikimedia.org/wiki/Special:FilePath/SanabudayaMuseumEntrySign85.jpg</destinesia:thumbnail>
+        <foaf:homepage
+            rdf:resource="https://id.wikipedia.org/wiki/Museum_Sonobudoyo" />
+    </destinesia:tour>
+
+    <destinesia:tour
+        rdf:about="https://dbpedia.org/page/Heroes_Monument">
+        <rdfs:label>Heroes Monument</rdfs:label>
+        <destinesia:abstract>The Heroes Monument (Indonesian: Tugu Pahlawan) is a monument in
+            Surabaya, East Java, Indonesia.
+            It is the main symbol of the city, dedicated to the people who died during the Battle of
+            Surabaya on 10 November 1945.
+            The 10 November Museum is located under the monument. This monument is 41.15 metres tall
+            and is pillar-shaped.
+            It was built to commemorate the events of 10 November 1945 at the Battle of Surabaya.
+            It is the venue every 10 November for the commemoration of the events of 1945, when many
+            heroes died in the war of independence.</destinesia:abstract>
+        <destinesia:island>Java</destinesia:island>
+        <destinesia:province>East Java</destinesia:province>
+        <destinesia:location>Surabaya</destinesia:location>
+        <destinesia:category>History Tourism</destinesia:category>
+        <destinesia:thumbnail>
+            http://commons.wikimedia.org/wiki/Special:FilePath/Heroic_Monument_Surabaya.jpg</destinesia:thumbnail>
+        <foaf:homepage
+            rdf:resource="https://id.wikipedia.org/wiki/Tugu_Pahlawan" />
+    </destinesia:tour>
+
+    <destinesia:tour
+        rdf:about="https://dbpedia.org/page/Trowulan">
+        <rdfs:label>Trowulan</rdfs:label>
+        <destinesia:abstract>Trowulan is an archaeological site in Trowulan Subdistrict, Mojokerto
+            Regency, in the Indonesian province of East Java.
+            It includes approximately 100 square kilometres and has been theorized to be the site of
+            the eponymous capital city of the Majapahit Empire,
+            which is described by Mpu Prapanca in the 14th-century poem Nagarakretagama and in a
+            15th-century Chinese source.
+            When it was the capital of the Majapahit Empire, the city was known as Wilwatikta, which
+            is a name also synonymous with the empire's name.
+            It was razed during the invasion of Girindrawardhana to defeat Kertabhumi in 1478.
+            After this event Majapahit's capital was moved to Daha (Kediri).
+            The Trowulan Museum includes a collection of artifacts.</destinesia:abstract>
+        <destinesia:island>Java</destinesia:island>
+        <destinesia:province>East Java</destinesia:province>
+        <destinesia:location>Mojokerto</destinesia:location>
+        <destinesia:category>History Tourism</destinesia:category>
+        <destinesia:thumbnail>
+            http://commons.wikimedia.org/wiki/Special:FilePath/Bajang_Ratu_Gate_Trowulan.jpg</destinesia:thumbnail>
+        <foaf:homepage
+            rdf:resource="https://id.wikipedia.org/wiki/Situs_Trowulan" />
+    </destinesia:tour>
+
+    <destinesia:tour
+        rdf:about="https://dbpedia.org/page/Suramadu_Bridge">
+        <rdfs:label>Suramadu Bridge</rdfs:label>
+        <destinesia:abstract>The Suramadu Bridge (Indonesian: Jembatan Suramadu), also known as the
+            Surabaya–Madura Bridge,
+            is a cable-stayed bridge between Surabaya on the island of Java and the town of
+            Bangkalan on the island of Madura in Indonesia.
+            Opened in June 2009, the 5.4-kilometre-long (3.4 mi) bridge is the longest in Indonesia
+            and the second longest in southern hemisphere.
+            It is the first bridge to cross the Madura Strait.</destinesia:abstract>
+        <destinesia:island>Java</destinesia:island>
+        <destinesia:province>East Java</destinesia:province>
+        <destinesia:location>Surabaya</destinesia:location>
+        <destinesia:category>History Tourism</destinesia:category>
+        <destinesia:thumbnail>
+            https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/Suramadu_Bridge_5.JPG/1280px-Suramadu_Bridge_5.JPG</destinesia:thumbnail>
+        <foaf:homepage
+            rdf:resource="https://id.wikipedia.org/wiki/Jembatan_Nasional_Suramadu" />
+    </destinesia:tour>
+
+
     <!-- Education Tourism -->
     <destinesia:tour rdf:about="https://dbpedia.org/page/Taman_Mini_Indonesia_Indah">
         <rdfs:label>Taman Mini Indonesia Indah</rdfs:label>
@@ -856,6 +1729,81 @@
         <foaf:homepage rdf:resource="https://id.wikipedia.org/wiki/Sangiran" />
     </destinesia:tour>
 
+    <destinesia:tour rdf:about="https://dbpedia.org/page/National_Museum_of_Indonesia">
+        <rdfs:label>National Museum of Indonesia</rdfs:label>
+        <destinesia:abstract>The National Museum of Indonesia (Indonesian: Museum Nasional) is an
+            archeological, historical, ethnological, and geographical museum located in Jalan Medan
+            Merdeka Barat, Central Jakarta, right on the west side of Merdeka Square. Popularly
+            known as the Elephant Museum (Indonesian: Museum Gajah) after the elephant statue in its
+            forecourt. Its broad collections cover all of Indonesia's territory and almost all of
+            its history. The museum has endeavoured to preserve Indonesia's heritage for two
+            centuries. The museum is regarded as one of the most complete and the best in Indonesia,
+            as well as one of the finest museum in Southeast Asia. The museum has preserved about
+            141,000 objects, ranging from prehistoric artifacts to archeology, numismatics,
+            ceramics, ethnography, history and geography collections. It has comprehensive
+            collections of stone statues of the classical Hindu-Buddhist period of ancient Java and
+            Sumatra as well as quite extensive collections of Asian ceramics.</destinesia:abstract>
+        <destinesia:island>Java</destinesia:island>
+        <destinesia:province>Special Capital District of Jakarta</destinesia:province>
+        <destinesia:location>Central Jakarta City</destinesia:location>
+        <destinesia:category>Education Tourism</destinesia:category>
+        <destinesia:thumbnail>
+            https://upload.wikimedia.org/wikipedia/commons/4/45/Museum_Nasional_Indonesia.jpg</destinesia:thumbnail>
+        <foaf:homepage rdf:resource="https://id.wikipedia.org/wiki/Museum_Nasional_Indonesia" />
+    </destinesia:tour>
+
+    <destinesia:tour rdf:about="https://dbpedia.org/page/Setu_Babakan_Betawi_Cultural_Village">
+        <rdfs:label>Setu Babakan Betawi Cultural Village</rdfs:label>
+        <destinesia:abstract>Setu Babakan Betawi Cultural Village or Setu Babakan is a cultural park
+            of Betawi people, which is located at Srengseng Sawah, Jagakarsa, Jakarta in Indonesia.
+            The village is about 5 kilometers southeast of Ragunan Zoo at the center of the Betawi
+            Cultural Village, a site considered as part of the cultural heritage of Jakarta, which
+            is devoted to the preservation of the indigenous Betawi culture. The location of the
+            Betawi Cultural Village is replacement of the previous Condet (Betawi) Cultural Village
+            which is eroded by the time.</destinesia:abstract>
+        <destinesia:island>Java</destinesia:island>
+        <destinesia:province>Special Capital District of Jakarta</destinesia:province>
+        <destinesia:location>Jagakarsa, Jakarta</destinesia:location>
+        <destinesia:category>Education Tourism</destinesia:category>
+        <destinesia:thumbnail>https://upload.wikimedia.org/wikipedia/commons/2/25/Setu_Babakan.jpg</destinesia:thumbnail>
+        <foaf:homepage rdf:resource="https://id.wikipedia.org/wiki/Setu_Babakan" />
+    </destinesia:tour>
+
+    <destinesia:tour rdf:about="https://dbpedia.org/page/Bogor_Zoology_Museum">
+        <rdfs:label>Bogor Zoology Museum</rdfs:label>
+        <destinesia:abstract>Bogor Zoology Museum is a museum located to the next of the main
+            entrance of the Bogor Botanical Gardens in the city of Bogor, Indonesia. The museum and
+            its laboratory were founded in 1894 by government of Dutch East Indies during the
+            colonial era. It contain one of the largest collection of preserved fauna specimens in
+            Southeast Asia. </destinesia:abstract>
+        <destinesia:island>Java</destinesia:island>
+        <destinesia:province>West Java</destinesia:province>
+        <destinesia:location>Bogor, West Java</destinesia:location>
+        <destinesia:category>Education Tourism</destinesia:category>
+        <destinesia:thumbnail>
+            https://kebudayaan.kemdikbud.go.id/bpcbbanten/wp-content/uploads/sites/35/2018/04/IMG_0074_resize.jpg</destinesia:thumbnail>
+        <foaf:homepage rdf:resource="https://id.wikipedia.org/wiki/Museum_Zoologi_Bogor" />
+    </destinesia:tour>
+
+    <destinesia:tour rdf:about="https://dbpedia.org/page/Gedonh_Kirtya">
+        <rdfs:label>Gedong Kirtya</rdfs:label>
+        <destinesia:abstract>Gedong Kirtya library was founded in 1928 by the Dutch in what was then
+            their colonial capital of the Lesser Sunda Islands, Singaraja, and named for the
+            Sanskrit word 'to try'. It is in the complex of Sasana Budaya, the old palace of the
+            Buleleng Kingdom. In its collection are lontar manuscripts (written on dried leaves of
+            the rontal palm), prasasti (inscribed on copper plates) and manuscripts on paper in
+            Balinese and Roman characters including documents from the colonial period (1901-1953).
+            Ex Bupati of Buleleng Dr Ketut Wirata Sindhu is upgrading the library into a full
+            museum. When completed, the museum will cover the entire Sasana Budaya complex.</destinesia:abstract>
+        <destinesia:island>Bali and Nusa Tenggara</destinesia:island>
+        <destinesia:province>Bali</destinesia:province>
+        <destinesia:location>Buleleng Regency, Bali</destinesia:location>
+        <destinesia:category>Education Tourism</destinesia:category>
+        <destinesia:thumbnail>
+            https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/Gedong_Kirtya.jpg/330px-Gedong_Kirtya.jpg</destinesia:thumbnail>
+        <foaf:homepage rdf:resource="https://id.wikipedia.org/wiki/Gedong_Kirtya" />
+    </destinesia:tour>
+
     <!-- Recreation Tourism -->
     <destinesia:tour rdf:about="https://dbpedia.org/page/Ancol">
         <rdfs:label>Ancol</rdfs:label>
@@ -956,6 +1904,70 @@
         <foaf:homepage rdf:resource="https://id.wikipedia.org/wiki/SeaWorld_Ancol" />
     </destinesia:tour>
 
+    <destinesia:tour rdf:about="https://dbpedia.org/page/Ragunan_Zoo">
+        <rdfs:label>Ragunan Zoo</rdfs:label>
+        <destinesia:abstract>Ragunan Zoo (Indonesian: Kebun Binatang Ragunan) is a zoo located in
+            Pasar Minggu, South Jakarta, Indonesia. The zoo has an area of 140-hectare (350-acre).
+            The zoo has an aviary and a primate centre, and employs over 450 people. Many of the
+            animals in the zoo are endangered and threatened from all parts of Indonesia and the
+            rest of the world. There are a total of 2,288 animals inside the zoo. Laid out in a lush
+            tropical habitat, rare animals such as crocodile, gorilla, orangutan, tapir, anoa,
+            sumatran tiger, babirusa and peacocks are given ample room. The zoo is located in South
+            Jakarta and is easily accessible through the Jakarta Outer Ring Road and TransJakarta
+            Corridor 6 bus (grey color). Ragunan Zoo originally opened on 1864. Therefore, the zoo
+            is 158 years old. It is the oldest zoo in Indonesia.</destinesia:abstract>
+        <destinesia:island>Java</destinesia:island>
+        <destinesia:province>Special Capital District of Jakarta</destinesia:province>
+        <destinesia:location>Pasar Minggu, South Jakarta</destinesia:location>
+        <destinesia:category>Recreation Tourism</destinesia:category>
+        <destinesia:thumbnail>
+            https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Ragunan_Zoo_Gate.jpg/1024px-Ragunan_Zoo_Gate.jpg</destinesia:thumbnail>
+        <foaf:homepage rdf:resource="https://id.wikipedia.org/wiki/Taman_Margasatwa_Ragunan" />
+    </destinesia:tour>
+
+    <destinesia:tour rdf:about="https://dbpedia.org/page/Jakarta_Aquarium">
+        <rdfs:label>Jakarta Aquarium</rdfs:label>
+        <destinesia:abstract>Jakarta Aquarium and Safari is a marine and freshwater aquarium located
+            within a retail and leisure complex Neo Soho in Jakarta, Indonesia. The aquarium is home
+            to hundreds of mammal, reptile, insect and various types of Indonesian marine fish, is
+            to introduce to the next generation the biodiversity of the archipelago starting from
+            islands, forests, and mangroves. Other than Indonesian endemic animals, there are also
+            animals from Africa and South America. The aquarium is a subsidiary of Taman Safari of
+            Indonesia in collaboration with Aquaria KLCC of Malaysia. The Aquarium has received the
+            accolade of Trip Advisor's Certificate of Excellence Destination 2018 and Indonesia
+            Travel Tourism Awards (ITTA). In 2019, Jakarta Aquarium introduces several new species
+            to their collection, such as the giant Pacific octopus, giant isopod, and weedy and
+            leafy seadragon. In 2021, Jakarta Aquarium displayed a pair of spotted wobbegong, the
+            first public aquarium in Indonesia to keep wobbegongs.</destinesia:abstract>
+        <destinesia:island>Java</destinesia:island>
+        <destinesia:province>Special Capital District of Jakarta</destinesia:province>
+        <destinesia:location>Podomoro City</destinesia:location>
+        <destinesia:category>Recreation Tourism</destinesia:category>
+        <destinesia:thumbnail>
+            https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Jakarta_aquarium.jpg/330px-Jakarta_aquarium.jpg</destinesia:thumbnail>
+        <foaf:homepage rdf:resource="https://en.wikipedia.org/wiki/Jakarta_Aquarium" />
+    </destinesia:tour>
+
+    <destinesia:tour rdf:about="https://dbpedia.org/page/Mekarsari_Fruit_and_Recreation_Park">
+        <rdfs:label>Mekarsari Fruit and Recreation Park</rdfs:label>
+        <destinesia:abstract>Mekarsari Fruit and Recreation Park or Taman Wisata Mekarsari is a
+            biodiversity conservation center of tropical fruits, from all regions in Indonesia and
+            other parts of the world. This is as a place of cultivation research, breeding and
+            propagation of superior seeds and then disseminated to farmers and the general public.
+            The park is located at Mekarsari Cileungsi, Bogor, Indonesia. The park is about 25 km
+            south of city center of Jakarta but within Greater Jakarta metropolitan area. Park area
+            is about of 264 hectares, which is equipped tourist facilities for domestic and foreign
+            tourists. The park was temporarily closed for renovation and opened again in February,
+            2014.</destinesia:abstract>
+        <destinesia:island>Java</destinesia:island>
+        <destinesia:province>West Java</destinesia:province>
+        <destinesia:location>Bogor Regency, West Java</destinesia:location>
+        <destinesia:category>Recreation Tourism</destinesia:category>
+        <destinesia:thumbnail>
+            https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Sabut_Kelapa_Outbound.JPG/420px-Sabut_Kelapa_Outbound.JPG</destinesia:thumbnail>
+        <foaf:homepage rdf:resource="https://id.wikipedia.org/wiki/Taman_Wisata_Mekarsari" />
+    </destinesia:tour>
+
     <!-- Art Tourism -->
     <destinesia:tour rdf:about="https://dbpedia.org/page/Wayang_Museum">
         <rdfs:label>Wayang Museum</rdfs:label>
@@ -1045,5 +2057,66 @@
             https://upload.wikimedia.org/wikipedia/commons/1/1f/Museum_Batik_Pekalongan.jpg</destinesia:thumbnail>
         <foaf:homepage rdf:resource="https://id.wikipedia.org/wiki/Museum_Batik_Pekalongan" />
     </destinesia:tour>
+
+    <destinesia:tour
+        rdf:about="https://dbpedia.org/page/The_Museum_of_Modern_and_Contemporary_Art_in_Nusantara">
+        <rdfs:label>The Museum of Modern and Contemporary Art in Nusantara</rdfs:label>
+        <destinesia:abstract>The Museum of Modern and Contemporary Art in Nusantara or Museum MACAN
+            is an art museum at Kebon Jeruk in Jakarta, Indonesia. The museum is the first in
+            Indonesia to have a collection of modern and contemporary Indonesian and international
+            art. It has a floor area of 7,107 square meters with display area of about 4,000 square
+            meters. The museum is included in a list of the World’s 100 Greatest Places 2018
+            released by Time magazine. Museum MACAN opened in November 2017.</destinesia:abstract>
+        <destinesia:island>Java</destinesia:island>
+        <destinesia:province>Special Capital District of Jakarta</destinesia:province>
+        <destinesia:location>Kebon Jeruk, Jakarta</destinesia:location>
+        <destinesia:category>Art Tourism</destinesia:category>
+        <destinesia:thumbnail>
+            https://assets.museummacan.org/2019/09/25/5d8b1e812978964636365074.jpeg</destinesia:thumbnail>
+        <foaf:homepage
+            rdf:resource="https://id.wikipedia.org/wiki/The_Museum_of_Modern_and_Contemporary_Art_in_Nusantara" />
+    </destinesia:tour>
+
+    <destinesia:tour
+        rdf:about="https://dbpedia.org/page/Affandi_Museum">
+        <rdfs:label>Affandi Museum</rdfs:label>
+        <destinesia:abstract>The Affandi Museum is a museum located in Yogyakarta on Java,
+            Indonesia.
+            On the bank of the Gajah Wong River on Laksda Adisucipto Street number 167,
+            in 1953 the painter Affandi designed and constructed a home for himself which also
+            functions as a museum to display his paintings,
+            inaugurated on 15 December 1973. His house complex is consist of his private house on
+            stilts,
+            a gallery with his retrospective works, a gifted gallery from the former president
+            Soeharto
+            in which exhibit his sketches and archives of his voyages throughout india, Europe, and
+            ,
+            a three level Building consists of a family and publicly open for rent gallery, a
+            restoration studios,
+            and a basement storage, a semi-open space for public area and a painting Studio for
+            visitors.
+            All the buildings is uniquely constructed, with a roof that resembles a banana leaf.
+            The museum has around 250 of Affandi's paintings. The high air humidity and temperature
+            are causing concerns about the condition of the paintings.
+            The Affandi Foundation, which manages the museum, finds it difficult to manage the
+            museum properly, due to a lack of funds and revenue.
+            Before dying, Affandi spent a lot of time sitting around in his own museum, observing
+            his paintings. He said once,
+            “I want to die in simplicity without giving anyone unnecessary trouble, so I could go
+            home to Him in peace.”
+            After suffering a complication of illnesses, on Wednesday, the May 23, 1990, Affandi
+            died.
+            He is now buried in the museum complex, as he wished to always be surrounded by his
+            family and his works.</destinesia:abstract>
+        <destinesia:island>Java</destinesia:island>
+        <destinesia:province>Special Region of Yogyakarta</destinesia:province>
+        <destinesia:location>Sleman Regency</destinesia:location>
+        <destinesia:category>Art Tourism</destinesia:category>
+        <destinesia:thumbnail>
+            https://www.yogyes.com/id/yogyakarta-tourism-object/arts-and-culture/affandi/1.jpg</destinesia:thumbnail>
+        <foaf:homepage
+            rdf:resource="https://id.wikipedia.org/wiki/Museum_Affandi" />
+    </destinesia:tour>
+
 
 </rdf:RDF>

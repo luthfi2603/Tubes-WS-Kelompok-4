@@ -31,8 +31,10 @@ if (!empty($result->home)) {
     \EasyRdf\RdfNamespace::setDefault('og');
     $wiki = \EasyRdf\Graph::newAndLoad($result->home);
     $fotoURL = $wiki->image;
-} else {
-    $fotoURL = "./assets/img/3.png";
+
+    if($fotoURL == NULL){
+        $fotoURL = './assets/img/3.png';
+    }
 }
 ?>
 <!-- Header Start -->
@@ -63,7 +65,11 @@ if (!empty($result->home)) {
                         <h2 class="mb-3"><?= $result->name ?></h2>
                         <div><?= $result->abstract ?></div>
                         <div class="mt-4">
-                            <iframe width="100%" height="376.875px" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" src="https://maps.google.com/maps?q=<?= $result2->lat ?>,<?= $result2->long ?>&hl=en&z=14&amp;output=embed"></iframe>
+                            <?php if($result2) : ?>
+                                <iframe width="100%" height="376.875px" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" src="https://maps.google.com/maps?q=<?= $result2->lat ?>,<?= $result2->long ?>&hl=en&z=14&amp;output=embed"></iframe>
+                            <?php else : ?>
+                                <img src="./assets/img/logo-lokasi-tidak-diketahui.png" alt="" width="100px">
+                            <?php endif ?>
                         </div>
                     </div>
                 </div>
